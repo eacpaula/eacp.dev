@@ -40,7 +40,16 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- Feature must prioritize real engineering impact over flashy visuals
+- Avoid generic junior-style portfolio patterns and fake projects
+- Use clean, maintainable React and TypeScript
+- Prefer simple architecture over unnecessary complexity
+- Ensure accessibility, SEO, responsiveness, and performance as baseline
+- Use minimalist, readable, professional UI
+- Follow spec-driven development: specs, plans, tasks before implementation
+- Keep specs small and focused; avoid overengineering
+- Site remains static-first and low-cost/free to host
+- Prepare for future blog integration without backend requirements
 
 ## Project Structure
 

@@ -1,50 +1,92 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report
+Version change: none → 1.0.0
+List of modified principles: none
+Added sections: Core Principles, Technical Direction, Development Workflow, Governance
+Removed sections: none
+Templates requiring updates: ✅ updated plan-template.md Constitution Check
+Follow-up TODOs: none
+-->
+
+# eacp.dev Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Real Engineering Impact
+Prioritize real engineering impact over flashy visuals.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+Rationale: To communicate engineering credibility, architecture thinking, technical leadership, and real-world impact for senior opportunities.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Authentic Content
+Avoid generic junior-style portfolio patterns. Avoid fake projects or inflated claims.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+Rationale: Position for international senior software engineering roles by demonstrating genuine experience and avoiding common pitfalls.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Cost-Effective Hosting
+Keep the site static-first and low-cost/free to host.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+Rationale: Minimize operational costs while maintaining professional presentation and scalability.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### Clean Codebase
+Use clean, maintainable React and TypeScript.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+Rationale: Ensure long-term maintainability and demonstrate engineering best practices in modern web development.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Simple Architecture
+Prefer simple architecture over unnecessary complexity.
+
+Rationale: Focus on delivering value efficiently without overengineering solutions.
+
+### Baseline Quality
+Keep accessibility, SEO, responsiveness, and performance as baseline requirements.
+
+Rationale: Meet professional standards for user experience, discoverability, and technical excellence.
+
+### Minimalist UI
+Use minimalist, readable, professional UI. Use subtle animations only when they improve clarity.
+
+Rationale: Prioritize content readability and professionalism over visual distractions.
+
+### Future Blog Integration
+Prepare for future blog integration with a headless/free platform, but do not require backend infrastructure.
+
+Rationale: Plan for content expansion without introducing immediate complexity or costs.
+
+### Recruiter-Focused Content
+Prefer content that can support recruiters, hiring managers, and technical interviewers.
+
+Rationale: Tailor portfolio content to demonstrate skills and impact relevant to senior-level hiring processes.
+
+### Technical Stack
+Use Vite + React + TypeScript, TailwindCSS for styling, GitHub Pages for hosting, GoDaddy DNS for the eacp.dev custom domain. Plan blog integration for Hashnode or similar free/headless platform.
+
+Rationale: Leverage modern, maintainable technologies with low hosting costs and future extensibility.
+
+### Spec-Driven Development
+Follow Spec-Driven Development. Specs must define user value, constraints, acceptance criteria, and non-goals before implementation. Do not implement features before a spec, plan, and tasks are created. Keep specs small and focused. Avoid overengineering. Require human review before major implementation decisions.
+
+Rationale: Ensure high-quality, focused development with clear requirements and stakeholder alignment.
+
+## Technical Direction
+
+Technology stack: Vite + React + TypeScript for frontend development. TailwindCSS for styling. GitHub Pages for static hosting. GoDaddy DNS for custom domain. Future blog integration via headless platform without backend requirements.
+
+Hosting constraints: Static-first approach, low-cost/free hosting, no server-side infrastructure required.
+
+Performance standards: Baseline accessibility, SEO, responsiveness, and performance requirements for all features.
+
+## Development Workflow
+
+AI workflow principles: Follow Spec-Driven Development process. Create specs with user value and constraints first. Generate plans and tasks before implementation. Keep work focused and avoid overengineering. Require human review for major decisions.
+
+Quality gates: All implementations must comply with constitution principles. Specs, plans, and tasks must be reviewed for alignment.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Constitution supersedes all other practices. Amendments require following the spec-driven development workflow: create spec defining the change, generate plan and tasks, implement with human review.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+Versioning policy: Semantic versioning - MAJOR for backward incompatible governance/principle removals or redefinitions, MINOR for new principle/section added or materially expanded guidance, PATCH for clarifications, wording, typo fixes, non-semantic refinements.
+
+Compliance review expectations: All specs, plans, tasks, and implementations must verify compliance with constitution principles. Complexity must be justified against simplicity principle.
+
+**Version**: 1.0.0 | **Ratified**: 2026-05-12 | **Last Amended**: 2026-05-12
