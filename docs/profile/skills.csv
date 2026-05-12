@@ -1,0 +1,115 @@
+skill,category,years_experience,experience_sources
+JavaScript,Language,12+,AxysWeb; FDD; BG7; Saga; FullSoft; Acuity; MDFCommerce
+TypeScript,Language,8+,AxysWeb; FDD; BG7; Saga; FullSoft; Acuity; MDFCommerce
+Node.js,Backend Runtime,8+,AxysWeb; FDD; BG7; Saga; FullSoft; Acuity; MDFCommerce
+React.js,Frontend Framework,6+,FullSoft; Saga; OxDreams; Acuity
+Next.js,Frontend Framework,4+,Acuity
+Angular,Frontend Framework,5+,FDD; BG7; Saga; MDFCommerce
+AngularJS,Frontend Framework,1+,AxysWeb; FDD
+RxJS,Frontend Library,3+,LogicTake; MDFCommerce
+C#,Language,5+,AxysWeb; Saga; FullSoft; Acuity
+.NET Framework,Backend Framework,5+,AxysWeb; Saga; FullSoft; FDD; Acuity; Masset
+.NET Core,Backend Framework,4+,AxysWeb; Saga; FullSoft; FDD; Acuity; Masset
+Python,Language,2+,AxysWeb; OxDreams; AI Experiments
+Django,Backend Framework,1+,OxDreams
+Flask,Backend Framework,0.5,Personal/learning
+PHP,Language,3+,BG7; Saga; FDD; Fullsoft
+Laravel,Backend Framework,2+,BG7; Saga
+CodeIgniter,Backend Framework,2+,Saga; FDD
+Slim Framework,Backend Framework,1+,BG7; Saga
+Express.js,Backend Framework,6+,FDD; BG7; Saga; Fullsoft; Acuity
+Fastify,Backend Framework,3+,FDD; BG7; Hyper System; Acuity
+Koa.js,Backend Framework,1+,BG7; Hyper System
+Nest.js,Backend Framework,4+,Acuity
+GraphQL,API,3+,FDD; BG7; Freelancer Projects (Hyper System; Masset; Atagon); Kinective
+REST API,API,8+,AxysWeb; FDD; BG7; Saga; FullSoft; Acuity; OxDreams; MDFCommerce; Kinective; FDD; BG7; Freelancer Projects (Hyper System; Masset; Atagon)
+PostgreSQL,Database,8+,AxysWeb; FDD; BG7; Saga; Fullsoft; OxDreams; Acuity; MDFCommerce; Freelancer Projects (Hyper System; Masset; Atagon)
+SQL Server,Database,5+,AxysWeb; Saga; FullSoft; Acuity
+Oracle,Database,2+,Saga; FullSoft
+PL/SQL,Database,2+,Saga; FullSoft
+MySQL,Database,5+,BG7; Saga; FDD; Fullsoft
+MongoDB,Database,2+,FDD; BG7; BG7
+Redis,Cache,2+,Saga; Freelancer Projects (Hyper System; Masset; Atagon)
+Kafka,Messaging,1+,FDD
+Docker,DevOps,8+,FDD; BG7; Saga; FullSoft; Acuity; OxDreams; MDFCommerce; Kinective; FDD; BG7; Freelancer Projects (Hyper System; Masset; Atagon)
+Kubernetes,DevOps,2+,Acuity
+ArgoCD,DevOps,1+,Acuity
+GitHub Actions,CI/CD,4+,MDFCommerce; Freelancer Projects (Hyper System; Masset; Atagon)
+GitLab CI,CI/CD,4+,FDD; Saga; MDFCommerce; Freelancer Projects (Hyper System; Masset; Atagon)
+Azure DevOps,CI/CD,3+,Acuity
+CI/CD Pipelines,DevOps,6+,FDD; BG7; Saga; FullSoft; Acuity; OxDreams; MDFCommerce; Kinective; FDD; BG7; Freelancer Projects (Hyper System; Masset; Atagon)
+AWS,Cloud,4+,BG7; Freelancer Projects (Hyper System; Masset; Atagon); MDFCommerce
+Azure,Cloud,3+,Acuity
+GCP,Cloud,1+,BG7; Freelancer Projects (Hyper System; Masset; Atagon); MDFCommerce
+S3,AWS Service,3+,BG7; Freelancer Projects (Hyper System; Masset; Atagon); MDFCommerce
+EC2,AWS Service,3+,BG7; Freelancer Projects (Hyper System; Masset; Atagon); MDFCommerce
+Lambda,AWS Service,3+,BG7; Freelancer Projects (Hyper System; Masset; Atagon); MDFCommerce
+RDS,AWS Service,2+,BG7; Freelancer Projects (Hyper System; Masset; Atagon); MDFCommerce
+Route53,AWS Service,2+,BG7; Freelancer Projects (Hyper System; Masset; Atagon); MDFCommerce
+LightSail,AWS Service,1+,BG7; Freelancer Projects (Hyper System; Masset; Atagon); MDFCommerce
+Cosmos DB,Cloud Database,2+,Acuity
+Application Insights,Monitoring,2+,Acuity
+Key Vault,Cloud Security,2+,Acuity
+App Services,Cloud Hosting,2+,Acuity
+Active Directory,Identity,2+,Acuity
+Swagger,API Tooling,5+,"FullSoft; Saga; Acuity; OxDreams; MDFCommerce "
+Postman,API Tooling,5+,FDD; BG7; Saga; FullSoft; Acuity; OxDreams; MDFCommerce; Kinective; FDD; BG7; Freelancer Projects (Hyper System; Masset; Atagon)
+Jest,Testing,4+,Acuity; MDFCommerce
+Cypress,Testing,4+,Acuity
+Playwright,Testing,2+,Acuity
+Testing Library,Testing,2+,Acuity
+Unit Testing,Testing,6+,AxysWeb; Saga; Acuity; MDFCommerce
+Integration Testing,Testing,5+,Acuity; MDFCommerce
+E2E Testing,Testing,4+,Acuity; MDFCommerce
+Load Testing,Testing,3+,AxysWeb; Saga; Acuity
+Contract Testing,Testing,2+,Multiple projects
+Storybook,Frontend Tooling,4+,Acuity; MDFCommerce
+Bit.dev,Frontend Architecture,2+,Acuity
+NX,Monorepo Tooling,2+,MDFCommerce
+Webpack,Build Tool,5+,FDD; BG7; Saga; Fullsoft; LogicTake; Acuity; OxDreams
+Babel,Build Tool,4+,FDD; BG7; Saga; Fullsoft; LogicTake; Acuity; OxDreams
+PNPM,Package Manager,2+,Acuity
+NPM,Package Manager,10+,All projects/companies
+ESLint,Code Quality,5+,Acuity; MDfCommerce
+Stylelint,Code Quality,3+,FDD; BG7; Saga; Fullsoft; LogicTake; Acuity; OxDreams
+Prettier,Code Quality,5+,FDD; BG7; Saga; Fullsoft; LogicTake; Acuity; OxDreams
+Husky,Git Hooks,3+,FDD; BG7; Saga; Fullsoft; LogicTake; Acuity; OxDreams
+Commitlint,Code Quality,2+,MDFCommerce
+SonarQube,Code Quality,2+,MDFCommerce
+BlackDuck,Security,2+,Acuity
+Aqua Security,Security,2+,Acuity
+Snyk,Security,2+,Acuity
+Datadog,Monitoring,1+,Acuity
+Git,Version Control,10+,All projects/companies
+Git Flow,Version Control,6+,FDD; BG7; Saga; FullSoft; OxDreams; LogicTake; Acuity
+Scrum,Methodology,8+,All projects/companies
+Agile,Methodology,8+,All projects/companies
+Tailwind CSS,Styling,4+,Acuity; MDFCommerce
+Bootstrap,Styling,5+,AxysWeb; FDD; Saga; FullSoft; Freelancer Projects (Hyper System; Masset; Atagon)
+Material UI,Styling,3+,BG7; Saga; Fullsoft; Acuity; MDFCommerce; OxDreams
+HTML5,Frontend,12+,All projects/companies
+CSS3,Frontend,12+,All projects/companies
+Microservices,Architecture,4+,Acuity; MDFCommerce
+Event-driven Architecture,Architecture,1+,FDD
+TDD,Architecture/Practice,3+,AxysWeb; Acuity
+DDD,Architecture/Practice,2+,AxysWeb; Acuity
+SOLID,Architecture/Practice,5+,AxysWeb; FDD; Saga; FullSoft; Acuity; MDFCommerce
+Design Patterns,Architecture/Practice,5+,General usage
+LangChain,AI,1+,POC at MDFCommerce; Personal/learning
+n8n,Automation,1+,POC at MDFCommerce; Personal/learning
+GitHub Copilot,AI Tooling,4+,FullSoft; Acuity; MDFCommerce
+Cursor IDE,AI Tooling,1+,MDFCommerce
+Codex,AI Tooling,1+,MDFCommerce
+WindSurf,AI Tooling,1+,MDFCommerce
+Prisma,Backend ORM,3+,Freelancer Projects (Hyper System; Masset; Atagon)
+TypeORM,Backend ORM,3+,BG7; Saga; FullSoft; Freelancer Projects (Hyper System; Masset; Atagon)
+Sequelize,Backend ORM,3+,BG7; Saga; FullSoft; Freelancer Projects (Hyper System; Masset; Atagon)
+Redux,Frontend Management State System,3+,Saga; FullSoft; Freelancer Projects (Masset; Atagon); Acuity
+Redux Saga,Frontend Management State System,3+,Saga; FullSoft; Freelancer Projects (Masset; Atagon); Acuity
+Redux Thunk,Frontend Management State System,3+,Saga; FullSoft; Freelancer Projects (Masset; Atagon); Acuity
+Entity Framework,Backend ORM,5+,AxysWeb; FDD; BG7; Saga; FullSoft; Acuity
+Gulp,Javascript Task Runner,2+,FDD
+Grunt,Javascript Task Runner,2+,FDD
+SVN,Version Control,2+,AxysWeb
+Java,Language,2+,MDFCommerce
+Java Springboot,Backend Framework,2+,MDFCommerce
