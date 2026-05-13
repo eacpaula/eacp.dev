@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --page-bg:
+    radial-gradient(circle at top left, rgba(205, 133, 63, 0.12), transparent 32%),
+    radial-gradient(circle at top right, rgba(24, 68, 110, 0.12), transparent 28%),
+    linear-gradient(180deg, #f5f1e8 0%, #f8f7f3 40%, #f2efe7 100%);
+  --surface: rgba(255, 252, 246, 0.88);
+  --surface-soft: rgba(247, 241, 230, 0.78);
+  --surface-overlay: rgba(248, 244, 237, 0.82);
+  --text-strong: #161616;
+  --text-base: #2c2c2c;
+  --text-muted: #5c5f5a;
+  --accent: #dea66a;
+  --accent-strong: #c16835;
+  --accent-soft: rgba(222, 166, 106, 0.16);
+  --accent-ink: #2d1708;
+  --border: rgba(67, 63, 55, 0.12);
+  --border-strong: rgba(67, 63, 55, 0.2);
+  --shadow-soft: 0 24px 60px rgba(64, 54, 42, 0.08);
+  --font-body: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg:
+      radial-gradient(circle at top left, rgba(193, 104, 53, 0.2), transparent 30%),
+      radial-gradient(circle at top right, rgba(80, 123, 171, 0.16), transparent 28%),
+      linear-gradient(180deg, #0f1113 0%, #14171a 48%, #0f1113 100%);
+    --surface: rgba(20, 24, 28, 0.82);
+    --surface-soft: rgba(30, 35, 40, 0.72);
+    --surface-overlay: rgba(18, 22, 26, 0.82);
+    --text-strong: #f4efe8;
+    --text-base: #ded6ca;
+    --text-muted: #b0a89d;
+    --accent: #efb97e;
+    --accent-strong: #f0a45f;
+    --accent-soft: rgba(240, 164, 95, 0.16);
+    --accent-ink: #1f1308;
+    --border: rgba(227, 215, 198, 0.1);
+    --border-strong: rgba(227, 215, 198, 0.2);
+    --shadow-soft: 0 30px 60px rgba(0, 0, 0, 0.28);
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    background: var(--page-bg);
+    color: var(--text-base);
+    font-family: var(--font-body);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--accent-ink);
+  }
+}

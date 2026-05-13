@@ -23,10 +23,10 @@
 
 **Purpose**: Replace starter assumptions and prepare the requested frontend stack
 
-- [ ] T001 Add Tailwind CSS dependencies and update scripts in package.json
-- [ ] T002 Configure Tailwind CSS and Vite integration in vite.config.ts
-- [ ] T003 [P] Remove starter-only styling assumptions and establish global style entry in src/main.tsx and src/styles/globals.css
-- [ ] T004 [P] Clean the starter app shell and route rendering through src/App.tsx and src/app/AppShell.tsx
+- [X] T001 Add Tailwind CSS dependencies and update scripts in package.json
+- [X] T002 Configure Tailwind CSS and Vite integration in vite.config.ts
+- [X] T003 [P] Remove starter-only styling assumptions and establish global style entry in src/main.tsx and src/styles/globals.css
+- [X] T004 [P] Clean the starter app shell and route rendering through src/App.tsx and src/app/AppShell.tsx
 
 ---
 
@@ -36,15 +36,15 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T005 Define shared portfolio content types in src/types/content.ts
-- [ ] T006 [P] Create site metadata and navigation content in src/content/site-metadata.ts
-- [ ] T007 [P] Create profile and contact content sources in src/content/profile.ts and src/content/contact.ts
-- [ ] T008 [P] Create achievements, experience, skills, case-study, and blog placeholder content in src/content/achievements.ts, src/content/experience.ts, src/content/skills.ts, src/content/case-studies.ts, and src/content/blog-topics.ts
-- [ ] T009 Create content access helpers and content mapping utilities in src/lib/content/index.ts
-- [ ] T010 [P] Create reusable section and CTA primitives in src/components/ui/SectionHeading.tsx and src/components/ui/CtaLink.tsx
-- [ ] T011 [P] Create shared page chrome components in src/components/layout/SiteHeader.tsx and src/components/layout/SiteFooter.tsx
-- [ ] T012 Configure GitHub Pages-compatible metadata and asset handling in vite.config.ts and src/lib/seo/metadata.ts
-- [ ] T013 Compose the base homepage structure with semantic landmarks in src/app/AppShell.tsx
+- [X] T005 Define shared portfolio content types in src/types/content.ts
+- [X] T006 [P] Create site metadata and navigation content in src/content/site-metadata.ts
+- [X] T007 [P] Create profile and contact content sources in src/content/profile.ts and src/content/contact.ts
+- [X] T008 [P] Create achievements, experience, skills, case-study, and blog placeholder content in src/content/achievements.ts, src/content/experience.ts, src/content/skills.ts, src/content/case-studies.ts, and src/content/blog-topics.ts
+- [X] T009 Create content access helpers and content mapping utilities in src/lib/content/index.ts
+- [X] T010 [P] Create reusable section and CTA primitives in src/components/ui/SectionHeading.tsx and src/components/ui/CtaLink.tsx
+- [X] T011 [P] Create shared page chrome components in src/components/layout/SiteHeader.tsx and src/components/layout/SiteFooter.tsx
+- [X] T012 Configure GitHub Pages-compatible metadata and asset handling in vite.config.ts and src/lib/seo/metadata.ts
+- [X] T013 Compose the base homepage structure with semantic landmarks in src/app/AppShell.tsx
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
@@ -58,11 +58,11 @@
 
 ### Implementation for User Story 1
 
-- [ ] T014 [P] [US1] Implement the hero section in src/components/sections/HeroSection.tsx
-- [ ] T015 [P] [US1] Implement the professional summary section in src/components/sections/ProfessionalSummarySection.tsx
-- [ ] T016 [US1] Integrate the hero and summary sections into the page flow in src/app/AppShell.tsx
-- [ ] T017 [US1] Refine homepage copy hierarchy, anchor navigation, and primary CTA placement in src/components/layout/SiteHeader.tsx and src/components/sections/HeroSection.tsx
-- [ ] T018 [US1] Apply responsive and dark-mode-friendly presentation for hero and summary content in src/styles/globals.css
+- [X] T014 [P] [US1] Implement the hero section in src/components/sections/HeroSection.tsx
+- [X] T015 [P] [US1] Implement the professional summary section in src/components/sections/ProfessionalSummarySection.tsx
+- [X] T016 [US1] Integrate the hero and summary sections into the page flow in src/app/AppShell.tsx
+- [X] T017 [US1] Refine homepage copy hierarchy, anchor navigation, and primary CTA placement in src/components/layout/SiteHeader.tsx and src/components/sections/HeroSection.tsx
+- [X] T018 [US1] Apply responsive and dark-mode-friendly presentation for hero and summary content in src/styles/globals.css
 
 **Checkpoint**: User Story 1 should be fully functional and independently testable
 
@@ -76,12 +76,12 @@
 
 ### Implementation for User Story 2
 
-- [ ] T019 [P] [US2] Implement the engineering impact section in src/components/sections/EngineeringImpactSection.tsx
-- [ ] T020 [P] [US2] Implement the skills and technology section in src/components/sections/SkillsSection.tsx
-- [ ] T021 [P] [US2] Implement the experience overview section in src/components/sections/ExperienceSection.tsx
-- [ ] T022 [US2] Integrate the engineering impact, skills, and experience sections into the homepage in src/app/AppShell.tsx
-- [ ] T023 [US2] Tune content emphasis and scanning behavior for achievements, skills, and experience in src/content/achievements.ts, src/content/skills.ts, and src/content/experience.ts
-- [ ] T024 [US2] Refine layout density and responsive presentation for impact, skills, and experience sections in src/styles/globals.css
+- [X] T019 [P] [US2] Implement the engineering impact section in src/components/sections/EngineeringImpactSection.tsx
+- [X] T020 [P] [US2] Implement the skills and technology section in src/components/sections/SkillsSection.tsx
+- [X] T021 [P] [US2] Implement the experience overview section in src/components/sections/ExperienceSection.tsx
+- [X] T022 [US2] Integrate the engineering impact, skills, and experience sections into the homepage in src/app/AppShell.tsx
+- [X] T023 [US2] Tune content emphasis and scanning behavior for achievements, skills, and experience in src/content/achievements.ts, src/content/skills.ts, and src/content/experience.ts
+- [X] T024 [US2] Refine layout density and responsive presentation for impact, skills, and experience sections in src/styles/globals.css
 
 **Checkpoint**: User Stories 1 and 2 should both work independently
 
@@ -95,12 +95,12 @@
 
 ### Implementation for User Story 3
 
-- [ ] T025 [P] [US3] Implement the featured case studies preview section in src/components/sections/CaseStudiesSection.tsx
-- [ ] T026 [P] [US3] Implement the blog preview placeholder section in src/components/sections/BlogPreviewSection.tsx
-- [ ] T027 [P] [US3] Implement the contact section in src/components/sections/ContactSection.tsx
-- [ ] T028 [US3] Integrate the case studies, blog preview, and contact sections into the homepage in src/app/AppShell.tsx
-- [ ] T029 [US3] Ensure placeholder labeling and future-content messaging stay accurate in src/content/case-studies.ts and src/content/blog-topics.ts
-- [ ] T030 [US3] Verify public action targets and resume asset usage in src/content/contact.ts, src/content/profile.ts, and public/resume/resume.pdf
+- [X] T025 [P] [US3] Implement the featured case studies preview section in src/components/sections/CaseStudiesSection.tsx
+- [X] T026 [P] [US3] Implement the blog preview placeholder section in src/components/sections/BlogPreviewSection.tsx
+- [X] T027 [P] [US3] Implement the contact section in src/components/sections/ContactSection.tsx
+- [X] T028 [US3] Integrate the case studies, blog preview, and contact sections into the homepage in src/app/AppShell.tsx
+- [X] T029 [US3] Ensure placeholder labeling and future-content messaging stay accurate in src/content/case-studies.ts and src/content/blog-topics.ts
+- [X] T030 [US3] Verify public action targets and resume asset usage in src/content/contact.ts, src/content/profile.ts, and public/resume/resume.pdf
 
 **Checkpoint**: All user stories should now be independently functional
 
@@ -110,10 +110,10 @@
 
 **Purpose**: Finish accessibility, deployment, and verification work across the whole MVP
 
-- [ ] T031 [P] Add document title, meta description, and canonical metadata wiring in index.html and src/lib/seo/metadata.ts
-- [ ] T032 Improve accessibility details for landmarks, focus states, and link labels in src/app/AppShell.tsx, src/components/layout/SiteHeader.tsx, and src/styles/globals.css
-- [ ] T033 Validate GitHub Pages static deployment behavior and asset paths in vite.config.ts and package.json
-- [ ] T034 Run quality verification for the MVP with npm run lint and npm run build
+- [X] T031 [P] Add document title, meta description, and canonical metadata wiring in index.html and src/lib/seo/metadata.ts
+- [X] T032 Improve accessibility details for landmarks, focus states, and link labels in src/app/AppShell.tsx, src/components/layout/SiteHeader.tsx, and src/styles/globals.css
+- [X] T033 Validate GitHub Pages static deployment behavior and asset paths in vite.config.ts and package.json
+- [X] T034 Run quality verification for the MVP with npm run lint and npm run build
 - [ ] T035 Run manual quickstart validation against specs/001-senior-portfolio-mvp/quickstart.md and record any follow-up fixes in specs/001-senior-portfolio-mvp/tasks.md
 
 ---
