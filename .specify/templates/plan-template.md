@@ -46,6 +46,9 @@
 - Prefer simple architecture over unnecessary complexity
 - Ensure accessibility, SEO, responsiveness, and performance as baseline
 - Use minimalist, readable, professional UI
+- Maintain a distinct visual identity and avoid close imitation of any single reference portfolio
+- Use the existing TailwindCSS theme configuration as the source of truth for colors, spacing, typography, and design tokens
+- Use a direct professional voice and avoid third-person biography-style narration
 - Follow spec-driven development: specs, plans, tasks before implementation
 - Keep specs small and focused; avoid overengineering
 - Site remains static-first and low-cost/free to host

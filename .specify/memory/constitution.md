@@ -1,10 +1,14 @@
 <!--
 Sync Impact Report
-Version change: none → 1.0.0
-List of modified principles: none
-Added sections: Core Principles, Technical Direction, Development Workflow, Governance
+Version change: 1.0.0 → 1.1.0
+List of modified principles: added Distinct Visual Identity; added Direct Professional Voice
+Added sections: none
 Removed sections: none
-Templates requiring updates: ✅ updated plan-template.md Constitution Check
+Templates requiring updates:
+✅ updated `.specify/templates/plan-template.md`
+✅ verified no change required `.specify/templates/spec-template.md`
+✅ verified no change required `.specify/templates/tasks-template.md`
+✅ no `.specify/templates/commands/` directory present to update
 Follow-up TODOs: none
 -->
 
@@ -47,6 +51,21 @@ Use minimalist, readable, professional UI. Use subtle animations only when they 
 
 Rationale: Prioritize content readability and professionalism over visual distractions.
 
+### Distinct Visual Identity
+The website MUST have its own distinct identity and MUST NOT closely imitate any
+single portfolio reference. Portfolio references may inform structure, clarity,
+and interaction quality, but layout, colors, spacing, and visual language must
+be adapted to Evandro's own brand. Prefer the existing TailwindCSS palette and
+theme configuration in the project as the source of truth for visual direction.
+The design must feel closer to a confident technology or software engineering
+brand than a warm editorial personal blog. Avoid beige-heavy palettes, weak
+contrast, or visual choices that make the site feel too similar to any
+reference website.
+
+Rationale: The portfolio must communicate a recognizable engineering brand
+instead of derivative design taste, and the existing theme configuration is the
+most reliable source of consistent visual decisions.
+
 ### Future Blog Integration
 Prepare for future blog integration with a headless/free platform, but do not require backend infrastructure.
 
@@ -56,6 +75,17 @@ Rationale: Plan for content expansion without introducing immediate complexity o
 Prefer content that can support recruiters, hiring managers, and technical interviewers.
 
 Rationale: Tailor portfolio content to demonstrate skills and impact relevant to senior-level hiring processes.
+
+### Direct Professional Voice
+Content MUST avoid third-person narration that reads like an external biographer
+describing Evandro. Prefer direct, confident, concise professional language. Use
+first-person selectively when it sounds natural, especially in introduction or
+About sections. Use neutral, impact-oriented phrasing for achievements,
+experience, and case studies. Avoid exaggerated marketing language, generic
+biography-style copy, buzzword-heavy claims, and unsupported statements.
+
+Rationale: The site should sound like a credible senior engineer presenting real
+work, not a detached profile summary or inflated marketing page.
 
 ### Technical Stack
 Use Vite + React + TypeScript, TailwindCSS for styling, GitHub Pages for hosting, GoDaddy DNS for the eacp.dev custom domain. Plan blog integration for Hashnode or similar free/headless platform.
@@ -69,17 +99,30 @@ Rationale: Ensure high-quality, focused development with clear requirements and 
 
 ## Technical Direction
 
-Technology stack: Vite + React + TypeScript for frontend development. TailwindCSS for styling. GitHub Pages for static hosting. GoDaddy DNS for custom domain. Future blog integration via headless platform without backend requirements.
+Technology stack: Vite + React + TypeScript for frontend development.
+TailwindCSS for styling. GitHub Pages for static hosting. GoDaddy DNS for
+custom domain. Future blog integration via headless platform without backend
+requirements.
 
 Hosting constraints: Static-first approach, low-cost/free hosting, no server-side infrastructure required.
 
 Performance standards: Baseline accessibility, SEO, responsiveness, and performance requirements for all features.
+
+Design system direction: Use the existing TailwindCSS theme configuration as the
+primary source of truth for brand colors, spacing, typography, and design
+tokens. The visual style must be minimalist, modern, technical, and distinct
+from any single reference portfolio.
 
 ## Development Workflow
 
 AI workflow principles: Follow Spec-Driven Development process. Create specs with user value and constraints first. Generate plans and tasks before implementation. Keep work focused and avoid overengineering. Require human review for major decisions.
 
 Quality gates: All implementations must comply with constitution principles. Specs, plans, and tasks must be reviewed for alignment.
+
+Acceptance review: Before accepting implementation, review whether the design
+has a distinct identity, uses the project's TailwindCSS palette appropriately,
+avoids copying reference websites, and uses a direct professional voice instead
+of third-person narration.
 
 ## Governance
 
@@ -89,4 +132,4 @@ Versioning policy: Semantic versioning - MAJOR for backward incompatible governa
 
 Compliance review expectations: All specs, plans, tasks, and implementations must verify compliance with constitution principles. Complexity must be justified against simplicity principle.
 
-**Version**: 1.0.0 | **Ratified**: 2026-05-12 | **Last Amended**: 2026-05-12
+**Version**: 1.1.0 | **Ratified**: 2026-05-12 | **Last Amended**: 2026-05-14
