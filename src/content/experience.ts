@@ -9,12 +9,12 @@ export const experienceItems: ExperienceItem[] = [
     period: '2021 to 2026',
     contributions: [
       'Led enterprise Angular upgrade work across large applications.',
-      'Helped build shared component library foundations for multiple teams.',
+      'Built shared component library foundations for multiple teams.',
       'Improved dependency governance, CI/CD practices, and code quality standards.',
     ],
     technologies: ['Angular', 'React.js', 'TypeScript', 'Azure DevOps', 'Bit.dev', 'Nest.js'],
     impact:
-      'Reduced upgrade timelines, expanded reusable frontend architecture, and supported more consistent engineering delivery across many projects.',
+      'Reduced upgrade timelines, expanded reusable frontend architecture, and supported more consistent delivery across many projects.',
   },
   {
     id: 'oxdreams',
@@ -39,7 +39,7 @@ export const experienceItems: ExperienceItem[] = [
     period: '2020 to 2021',
     contributions: [
       'Helped rebuild core platform features on a fixed timeline.',
-      'Introduced React.js workflows into the company’s development process.',
+      'Introduced React.js workflows into the development process.',
       'Worked on requirements discovery, documentation, and UAT support.',
     ],
     technologies: ['React.js', 'C#', '.NET', 'Electron'],
@@ -53,7 +53,7 @@ export const experienceItems: ExperienceItem[] = [
     role: 'Sr. FullStack Developer',
     period: '2019 to 2020',
     contributions: [
-      'Improved Laravel base-project architecture.',
+      'Improved the Laravel base-project architecture.',
       'Refined release and branching strategy for customized client portals.',
       'Introduced React.js as part of a modernization initiative.',
     ],

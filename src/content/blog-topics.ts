@@ -5,7 +5,7 @@ export const blogTopicPreviews: BlogTopicPreview[] = [
     slug: 'angular-8-to-18-upgrade-lessons',
     title: 'Lessons learned upgrading Angular 8 to Angular 18',
     summary:
-      'What actually matters when planning large framework upgrades in long-lived enterprise applications.',
+      'A practical breakdown of what actually matters when planning large framework upgrades in long-lived enterprise applications.',
     status: 'Coming soon',
     origin: 'local-placeholder',
   },
@@ -13,7 +13,7 @@ export const blogTopicPreviews: BlogTopicPreview[] = [
     slug: 'reusable-component-libraries-across-projects',
     title: 'Building reusable component libraries across multiple projects',
     summary:
-      'Tradeoffs, adoption patterns, and documentation practices behind shared UI foundations.',
+      'Tradeoffs, adoption patterns, and documentation practices behind shared UI foundations that need to survive real product pressure.',
     status: 'Coming soon',
     origin: 'local-placeholder',
   },
@@ -21,7 +21,7 @@ export const blogTopicPreviews: BlogTopicPreview[] = [
     slug: 'practical-enterprise-cicd-improvements',
     title: 'Practical CI/CD quality improvements for enterprise teams',
     summary:
-      'A grounded look at package governance, pipeline quality, and delivery confidence at scale.',
+      'A grounded look at package governance, pipeline quality, and delivery confidence across large project portfolios.',
     status: 'Coming soon',
     origin: 'local-placeholder',
   },
@@ -29,7 +29,7 @@ export const blogTopicPreviews: BlogTopicPreview[] = [
     slug: 'ai-assisted-spec-driven-development',
     title: 'How senior engineers can use AI-assisted Spec-Driven Development',
     summary:
-      'Where structured planning helps and where engineering judgment still matters most.',
+      'Where structured planning helps, where it does not, and where engineering judgment still matters most.',
     status: 'Coming soon',
     origin: 'local-placeholder',
   },
@@ -37,7 +37,7 @@ export const blogTopicPreviews: BlogTopicPreview[] = [
     slug: 'real-world-performance-optimization',
     title: 'Real-world performance optimization lessons',
     summary:
-      'Patterns that repeatedly matter when debugging bottlenecks across backend and frontend systems.',
+      'Patterns that repeatedly matter when debugging bottlenecks across backend and frontend systems under delivery pressure.',
     status: 'Coming soon',
     origin: 'local-placeholder',
   },

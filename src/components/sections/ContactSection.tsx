@@ -14,18 +14,18 @@ export function ContactSection({
     <section id="contact" className="space-y-10">
       <SectionHeading
         eyebrow="Contact"
-        title="Clear next steps for recruiters, hiring managers, and technical teams."
-        description="The page keeps the contact surface professional: email, profiles, and the resume are easy to reach without exposing unnecessary personal details."
+        title="The next step should be obvious if the work looks relevant."
+        description="Email, profile links, and the resume stay easy to reach. The contact area is direct, professional, and intentionally low-friction."
       />
 
-      <div className="grid gap-6 rounded-[1.75rem] border border-[var(--border)] bg-[var(--surface)] p-8 shadow-[var(--shadow-soft)] lg:grid-cols-[1.15fr_1fr]">
+      <div className="grid gap-6 rounded-[1.75rem] border border-[var(--border)] bg-[var(--surface)] p-8 shadow-[var(--shadow-soft)] lg:grid-cols-[1.1fr_1fr]">
         <div className="space-y-4">
-          <p className="text-lg leading-8 text-[var(--text-muted)]">
+          <p className="text-lg leading-8 text-[var(--text-base)]">
             {availabilityNote}
           </p>
           <p className="text-sm leading-7 text-[var(--text-muted)]">
-            The best fit is work that values practical full stack engineering,
-            modernization, reusable systems, and delivery quality.
+            The strongest fit is work that values modernization, reusable
+            systems, delivery quality, and steady engineering judgment.
           </p>
         </div>
 

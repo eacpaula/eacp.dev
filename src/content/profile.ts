@@ -6,18 +6,18 @@ export const profile: Profile = {
   name: 'Evandro Antonio da Costa de Paula',
   headline: 'Senior Full Stack Software Engineer',
   subheadline:
-    'Modernizing enterprise products, improving delivery systems, and building reusable engineering foundations.',
+    'I modernize enterprise products, build reusable frontend systems, and improve delivery quality across complex web platforms.',
   locationLabel: 'Caxias do Sul, Brazil',
   yearsLabel: '11+ years',
   summary:
-    'Senior full stack software engineer with 11+ years of experience building and modernizing complex web applications. Strong across Node.js, TypeScript, React, Angular, C#/.NET, SQL, REST APIs, GraphQL, AWS, Azure, and CI/CD improvement work, with a track record of delivery acceleration, shared frontend architecture, and code quality at scale.',
+    'I am a senior full stack software engineer with 11+ years of experience across React, Angular, Node.js, C#/.NET, SQL, APIs, cloud platforms, and CI/CD improvement work. My focus is practical: modernize complex products, reduce delivery friction, and leave reusable systems behind.',
   availabilityNote:
-    'Open to senior full stack, frontend platform, backend/API, and product engineering opportunities, including remote and international roles.',
+    'I am open to senior full stack, frontend platform, backend/API, and product engineering roles, including remote and international teams.',
   focusAreas: [
-    'Enterprise modernization and large-scale upgrades',
-    'Reusable frontend architecture and component libraries',
-    'Backend/API design and SQL-heavy product systems',
-    'CI/CD quality, dependency governance, and security automation',
+    'Enterprise modernization with lower delivery risk',
+    'Reusable frontend architecture and component systems',
+    'Backend/API design for product and platform teams',
+    'CI/CD quality, dependency governance, and engineering standards',
   ],
   languages: ['Portuguese (Native)', 'English (Fluent)', 'Spanish (Advanced)'],
   highlightMetrics: [
@@ -28,7 +28,7 @@ export const profile: Profile = {
   ],
   primaryLinks: [
     {
-      label: 'View Resume',
+      label: 'Resume',
       href: resumeHref,
       kind: 'asset',
       prominence: 'primary',

@@ -44,7 +44,7 @@ export function AppShell() {
 
       <main
         id="main-content"
-        className="mx-auto flex w-full max-w-6xl flex-col gap-24 px-5 py-8 sm:px-8 sm:py-12"
+        className="mx-auto flex w-full max-w-7xl flex-col gap-28 px-5 py-8 sm:px-8 sm:py-12 lg:gap-32"
       >
         <HeroSection profile={profile} />
         <ProfessionalSummarySection profile={profile} />

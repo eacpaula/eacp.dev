@@ -5,7 +5,7 @@ export const caseStudyPreviews: CaseStudyPreview[] = [
     slug: 'enterprise-angular-modernization',
     title: 'Enterprise Angular Modernization',
     summary:
-      'Breaking down how large Angular upgrades were planned and delivered across multiple marketplace applications.',
+      'Planned deep dive into how large Angular upgrades were scoped, sequenced, and delivered across multiple marketplace applications.',
     status: 'Coming soon',
     relatedThemes: ['Modernization', 'Angular', 'Delivery Strategy'],
   },
@@ -13,7 +13,7 @@ export const caseStudyPreviews: CaseStudyPreview[] = [
     slug: 'react-component-library-at-scale',
     title: 'React Component Library at Scale',
     summary:
-      'Reusable frontend systems, cross-team consistency, and the tradeoffs behind component adoption across many projects.',
+      'Planned deep dive into reusable frontend systems, cross-team consistency, and the tradeoffs behind component adoption across many projects.',
     status: 'Coming soon',
     relatedThemes: ['React.js', 'Bit.dev', 'Frontend Architecture'],
   },
@@ -21,7 +21,7 @@ export const caseStudyPreviews: CaseStudyPreview[] = [
     slug: 'cicd-security-automation',
     title: 'CI/CD and Security Automation',
     summary:
-      'Dependency governance, security review tooling, and the practical side of keeping project fleets healthier.',
+      'Planned deep dive into dependency governance, security review tooling, and the practical side of keeping project fleets healthier.',
     status: 'Coming soon',
     relatedThemes: ['CI/CD', 'Azure DevOps', 'Security'],
   },
@@ -29,7 +29,7 @@ export const caseStudyPreviews: CaseStudyPreview[] = [
     slug: 'performance-optimization-product-systems',
     title: 'Performance Optimization in Product Systems',
     summary:
-      'Query tuning, indexing, and performance troubleshooting lessons from real product bottlenecks.',
+      'Planned deep dive into query tuning, indexing, and performance troubleshooting lessons from real product bottlenecks.',
     status: 'Coming soon',
     relatedThemes: ['SQL', 'Performance', 'Backend Systems'],
   },
@@ -37,7 +37,7 @@ export const caseStudyPreviews: CaseStudyPreview[] = [
     slug: 'scalable-full-stack-architecture',
     title: 'Scalable Full Stack Architecture',
     summary:
-      'A practical look at cleaner project structures, API patterns, and maintainability across growing product teams.',
+      'Planned deep dive into cleaner project structures, API patterns, and maintainability across growing product teams.',
     status: 'Coming soon',
     relatedThemes: ['Architecture', 'APIs', 'Maintainability'],
   },

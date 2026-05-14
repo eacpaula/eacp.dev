@@ -12,8 +12,8 @@ export function EngineeringImpactSection({
     <section id="impact" className="space-y-10">
       <SectionHeading
         eyebrow="Engineering Impact"
-        title="Concrete outcomes instead of generic portfolio claims."
-        description="Each item keeps the same shape: what the context was, how Evandro contributed, what changed, and which technologies were involved."
+        title="The strongest signal is concrete delivery, not vague portfolio language."
+        description="Each impact entry separates the context, contribution, and outcome so technical reviewers can scan what changed without reading a wall of copy."
       />
 
       <div className="grid gap-6 lg:grid-cols-2">
@@ -22,36 +22,36 @@ export function EngineeringImpactSection({
             key={achievement.id}
             className="rounded-[1.75rem] border border-[var(--border)] bg-[var(--surface)] p-7 shadow-[var(--shadow-soft)]"
           >
-            <div className="space-y-5">
-              <div className="space-y-3">
-                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--accent-strong)]">
+            <div className="space-y-6">
+              <div className="space-y-4 border-b border-[var(--border)] pb-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent-strong)]">
                   Featured impact
                 </p>
-                <h3 className="font-[var(--font-display)] text-2xl leading-tight text-[var(--text-strong)]">
+                <h3 className="font-[var(--font-display)] text-2xl font-semibold leading-tight text-[var(--text-strong)]">
                   {achievement.title}
                 </h3>
               </div>
 
-              <dl className="space-y-4">
-                <div>
+              <dl className="grid gap-4">
+                <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-soft)] p-4">
                   <dt className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]">
-                    Problem / context
+                    Context
                   </dt>
                   <dd className="mt-2 text-sm leading-7 text-[var(--text-muted)]">
                     {achievement.context}
                   </dd>
                 </div>
-                <div>
+                <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-soft)] p-4">
                   <dt className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]">
-                    Action / contribution
+                    Contribution
                   </dt>
                   <dd className="mt-2 text-sm leading-7 text-[var(--text-muted)]">
                     {achievement.contribution}
                   </dd>
                 </div>
-                <div>
+                <div className="rounded-2xl border border-[var(--border-strong)] bg-[var(--surface-strong)] p-4">
                   <dt className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]">
-                    Result / impact
+                    Outcome
                   </dt>
                   <dd className="mt-2 text-sm leading-7 text-[var(--text-strong)]">
                     {achievement.impact}
@@ -65,7 +65,7 @@ export function EngineeringImpactSection({
                     {achievement.technologies.map((technology) => (
                       <span
                         key={technology}
-                        className="rounded-full border border-[var(--border-strong)] bg-[var(--surface-soft)] px-3 py-1 text-xs font-medium text-[var(--text-strong)]"
+                        className="rounded-xl border border-[var(--border-strong)] bg-[var(--surface-soft)] px-3 py-1.5 text-xs font-medium text-[var(--text-strong)]"
                       >
                         {technology}
                       </span>

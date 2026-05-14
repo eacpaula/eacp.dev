@@ -15,6 +15,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'Backend',
+    priorityNote: 'Product engineering and API delivery foundations',
     skills: [
       { name: 'Node.js', yearsLabel: '8+', emphasis: 'core', sourceRefs: ['docs/profile/skills.csv'] },
       { name: 'Nest.js', yearsLabel: '4+', emphasis: 'core', sourceRefs: ['docs/profile/skills.csv'] },
@@ -27,6 +28,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'Cloud',
+    priorityNote: 'Practical platform exposure across production environments',
     skills: [
       { name: 'AWS', yearsLabel: '4+', emphasis: 'core', sourceRefs: ['docs/profile/skills.csv'] },
       { name: 'Azure', yearsLabel: '3+', emphasis: 'core', sourceRefs: ['docs/profile/skills.csv'] },
@@ -37,6 +39,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'DevOps/CI/CD',
+    priorityNote: 'Delivery quality, governance, and release confidence',
     skills: [
       { name: 'CI/CD Pipelines', yearsLabel: '6+', emphasis: 'core', sourceRefs: ['docs/profile/skills.csv'] },
       { name: 'Azure DevOps', yearsLabel: '3+', emphasis: 'core', sourceRefs: ['docs/profile/skills.csv'] },
@@ -48,6 +51,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'Databases',
+    priorityNote: 'SQL-heavy systems and performance-sensitive product work',
     skills: [
       { name: 'PostgreSQL', yearsLabel: '8+', emphasis: 'core', sourceRefs: ['docs/profile/skills.csv'] },
       { name: 'SQL Server', yearsLabel: '5+', emphasis: 'core', sourceRefs: ['docs/profile/skills.csv'] },
@@ -59,6 +63,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'Testing/Quality',
+    priorityNote: 'Engineering standards that keep delivery reliable at scale',
     skills: [
       { name: 'Unit Testing', yearsLabel: '6+', emphasis: 'core', sourceRefs: ['docs/profile/skills.csv'] },
       { name: 'Integration Testing', yearsLabel: '5+', emphasis: 'supporting', sourceRefs: ['docs/profile/skills.csv'] },
@@ -71,6 +76,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'APIs',
+    priorityNote: 'Design, documentation, and integration support across teams',
     skills: [
       { name: 'REST API', yearsLabel: '8+', emphasis: 'core', sourceRefs: ['docs/profile/skills.csv'] },
       { name: 'GraphQL', yearsLabel: '3+', emphasis: 'supporting', sourceRefs: ['docs/profile/skills.csv'] },
@@ -80,6 +86,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'AI/Automation',
+    priorityNote: 'Current tooling used to increase leverage without replacing judgment',
     skills: [
       { name: 'GitHub Copilot', yearsLabel: '4+', emphasis: 'core', sourceRefs: ['docs/profile/skills.csv'] },
       { name: 'LangChain', yearsLabel: '1+', emphasis: 'secondary', sourceRefs: ['docs/profile/skills.csv'] },

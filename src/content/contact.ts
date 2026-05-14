@@ -7,24 +7,24 @@ export const contactMethods: ContactMethod[] = [
     label: 'Email',
     href: 'mailto:eacpaula@outlook.com',
     kind: 'email',
-    description: 'Direct contact for role discussions and project conversations.',
+    description: 'Best path for role discussions, project conversations, and direct follow-up.',
   },
   {
     label: 'LinkedIn',
     href: 'https://www.linkedin.com/in/eacpaula/',
     kind: 'profile',
-    description: 'Professional profile and background overview.',
+    description: 'Profile, background, and current positioning.',
   },
   {
     label: 'GitHub',
     href: 'https://github.com/eacpaula',
     kind: 'profile',
-    description: 'Code samples, experiments, and public repositories.',
+    description: 'Code samples, public repositories, and technical experiments.',
   },
   {
     label: 'Resume',
     href: resumeHref,
     kind: 'asset',
-    description: 'Printable PDF version of the current resume.',
+    description: 'Current PDF resume for recruiters and hiring teams.',
   },
 ]

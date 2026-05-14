@@ -27,9 +27,9 @@ description: "Task list for Portfolio Visual Identity and Content Voice Refineme
 
 **Purpose**: Capture the current implementation baseline and align the feature workspace with the new refinement scope
 
-- [ ] T001 Review current token usage and section styling in `src/styles/globals.css`, `src/app/AppShell.tsx`, and `src/components/ui/`
-- [ ] T002 Review existing homepage copy sources in `src/content/profile.ts`, `src/content/site-metadata.ts`, `src/content/achievements.ts`, `src/content/experience.ts`, `src/content/case-studies.ts`, `src/content/blog-topics.ts`, `src/content/contact.ts`, and `src/content/skills.ts`
-- [ ] T003 Review current section composition in `src/components/sections/` and `src/components/layout/` against `specs/002-portfolio-identity-voice/contracts/ui-contract.md`
+- [X] T001 Review current token usage and section styling in `src/styles/globals.css`, `src/app/AppShell.tsx`, and `src/components/ui/`
+- [X] T002 Review existing homepage copy sources in `src/content/profile.ts`, `src/content/site-metadata.ts`, `src/content/achievements.ts`, `src/content/experience.ts`, `src/content/case-studies.ts`, `src/content/blog-topics.ts`, `src/content/contact.ts`, and `src/content/skills.ts`
+- [X] T003 Review current section composition in `src/components/sections/` and `src/components/layout/` against `specs/002-portfolio-identity-voice/contracts/ui-contract.md`
 
 ---
 
@@ -39,11 +39,11 @@ description: "Task list for Portfolio Visual Identity and Content Voice Refineme
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T004 Update the global theme token set in `src/styles/globals.css` to replace the beige/editorial baseline with the refined technical palette, typography stacks, surfaces, borders, and background rhythm
-- [ ] T005 [P] Refine shared section heading hierarchy in `src/components/ui/SectionHeading.tsx` to support stronger technical presentation and clearer section rhythm
-- [ ] T006 [P] Refine shared CTA styling in `src/components/ui/CtaLink.tsx` to align actions with the updated token system and stronger brand identity
-- [ ] T007 Update sticky header/navigation presentation in `src/components/layout/SiteHeader.tsx` to match the new token system, maintain readability, and preserve focus visibility
-- [ ] T008 Update page-level spacing and section flow in `src/app/AppShell.tsx` to improve overall layout rhythm while preserving the existing section order
+- [X] T004 Update the global theme token set in `src/styles/globals.css` to replace the beige/editorial baseline with the refined technical palette, typography stacks, surfaces, borders, and background rhythm
+- [X] T005 [P] Refine shared section heading hierarchy in `src/components/ui/SectionHeading.tsx` to support stronger technical presentation and clearer section rhythm
+- [X] T006 [P] Refine shared CTA styling in `src/components/ui/CtaLink.tsx` to align actions with the updated token system and stronger brand identity
+- [X] T007 Update sticky header/navigation presentation in `src/components/layout/SiteHeader.tsx` to match the new token system, maintain readability, and preserve focus visibility
+- [X] T008 Update page-level spacing and section flow in `src/app/AppShell.tsx` to improve overall layout rhythm while preserving the existing section order
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
@@ -57,11 +57,11 @@ description: "Task list for Portfolio Visual Identity and Content Voice Refineme
 
 ### Implementation for User Story 1
 
-- [ ] T009 [P] [US1] Rewrite core positioning copy in `src/content/profile.ts` for sharper headline, subheadline, summary, focus areas, availability note, and hero metric framing
-- [ ] T010 [P] [US1] Update metadata and navigation labels in `src/content/site-metadata.ts` to match the refined identity and positioning
-- [ ] T011 [US1] Refine hero layout, hierarchy, quick-read panel, and CTA composition in `src/components/sections/HeroSection.tsx`
-- [ ] T012 [US1] Refine professional summary layout, hierarchy, and supporting surfaces in `src/components/sections/ProfessionalSummarySection.tsx`
-- [ ] T013 [US1] Align shell-level brand framing and footer tone in `src/components/layout/SiteFooter.tsx` and `src/App.tsx`
+- [X] T009 [P] [US1] Rewrite core positioning copy in `src/content/profile.ts` for sharper headline, subheadline, summary, focus areas, availability note, and hero metric framing
+- [X] T010 [P] [US1] Update metadata and navigation labels in `src/content/site-metadata.ts` to match the refined identity and positioning
+- [X] T011 [US1] Refine hero layout, hierarchy, quick-read panel, and CTA composition in `src/components/sections/HeroSection.tsx`
+- [X] T012 [US1] Refine professional summary layout, hierarchy, and supporting surfaces in `src/components/sections/ProfessionalSummarySection.tsx`
+- [X] T013 [US1] Align shell-level brand framing and footer tone in `src/components/layout/SiteFooter.tsx`
 
 **Checkpoint**: User Story 1 should now deliver a distinct first impression and stronger senior brand positioning on its own
 
@@ -75,11 +75,11 @@ description: "Task list for Portfolio Visual Identity and Content Voice Refineme
 
 ### Implementation for User Story 2
 
-- [ ] T014 [P] [US2] Rewrite engineering impact content for direct voice and tighter scan phrasing in `src/content/achievements.ts`
-- [ ] T015 [P] [US2] Rewrite experience timeline content for direct professional tone in `src/content/experience.ts`
-- [ ] T016 [P] [US2] Rewrite case study and blog placeholder summaries for future-facing professional tone in `src/content/case-studies.ts` and `src/content/blog-topics.ts`
-- [ ] T017 [P] [US2] Refine contact and supporting recruiter-facing copy in `src/content/contact.ts` and `src/content/skills.ts`
-- [ ] T018 [US2] Update static helper text and section framing copy in `src/components/sections/ProfessionalSummarySection.tsx`, `src/components/sections/EngineeringImpactSection.tsx`, `src/components/sections/SkillsSection.tsx`, `src/components/sections/ExperienceSection.tsx`, `src/components/sections/CaseStudiesSection.tsx`, `src/components/sections/BlogPreviewSection.tsx`, and `src/components/sections/ContactSection.tsx`
+- [X] T014 [P] [US2] Rewrite engineering impact content for direct voice and tighter scan phrasing in `src/content/achievements.ts`
+- [X] T015 [P] [US2] Rewrite experience timeline content for direct professional tone in `src/content/experience.ts`
+- [X] T016 [P] [US2] Rewrite case study and blog placeholder summaries for future-facing professional tone in `src/content/case-studies.ts` and `src/content/blog-topics.ts`
+- [X] T017 [P] [US2] Refine contact and supporting recruiter-facing copy in `src/content/contact.ts` and `src/content/skills.ts`
+- [X] T018 [US2] Update static helper text and section framing copy in `src/components/sections/ProfessionalSummarySection.tsx`, `src/components/sections/EngineeringImpactSection.tsx`, `src/components/sections/SkillsSection.tsx`, `src/components/sections/ExperienceSection.tsx`, `src/components/sections/CaseStudiesSection.tsx`, `src/components/sections/BlogPreviewSection.tsx`, and `src/components/sections/ContactSection.tsx`
 
 **Checkpoint**: User Stories 1 and 2 should now communicate a distinct identity and a direct professional voice independently of further layout polish
 
@@ -93,11 +93,11 @@ description: "Task list for Portfolio Visual Identity and Content Voice Refineme
 
 ### Implementation for User Story 3
 
-- [ ] T019 [P] [US3] Refine engineering impact card hierarchy, density, and technology tag treatment in `src/components/sections/EngineeringImpactSection.tsx`
-- [ ] T020 [P] [US3] Refine skills group layout, emphasis treatment, and wrap behavior in `src/components/sections/SkillsSection.tsx`
-- [ ] T021 [P] [US3] Refine experience timeline spacing, entry hierarchy, and supporting metadata treatment in `src/components/sections/ExperienceSection.tsx`
-- [ ] T022 [P] [US3] Refine placeholder card styling and status visibility in `src/components/sections/CaseStudiesSection.tsx` and `src/components/sections/BlogPreviewSection.tsx`
-- [ ] T023 [US3] Refine contact section layout and follow-up scan behavior in `src/components/sections/ContactSection.tsx`
+- [X] T019 [P] [US3] Refine engineering impact card hierarchy, density, and technology tag treatment in `src/components/sections/EngineeringImpactSection.tsx`
+- [X] T020 [P] [US3] Refine skills group layout, emphasis treatment, and wrap behavior in `src/components/sections/SkillsSection.tsx`
+- [X] T021 [P] [US3] Refine experience timeline spacing, entry hierarchy, and supporting metadata treatment in `src/components/sections/ExperienceSection.tsx`
+- [X] T022 [P] [US3] Refine placeholder card styling and status visibility in `src/components/sections/CaseStudiesSection.tsx` and `src/components/sections/BlogPreviewSection.tsx`
+- [X] T023 [US3] Refine contact section layout and follow-up scan behavior in `src/components/sections/ContactSection.tsx`
 
 **Checkpoint**: All user stories should now be independently functional and the full homepage should feel sharper, more scannable, and more intentional
 
@@ -107,9 +107,9 @@ description: "Task list for Portfolio Visual Identity and Content Voice Refineme
 
 **Purpose**: Final verification and small cross-story adjustments
 
-- [ ] T024 [P] Run final source-backed copy review against `docs/profile/evandro-resume-summary.md`, `docs/profile/skills.csv`, and `src/content/`
+- [X] T024 [P] Run final source-backed copy review against `docs/profile/evandro-resume-summary.md`, `docs/profile/skills.csv`, and `src/content/`
 - [ ] T025 [P] Run accessibility and responsive review across `src/app/AppShell.tsx`, `src/components/layout/`, and `src/components/sections/`
-- [ ] T026 Run build validation with `npm run lint` and `npm run build`
+- [X] T026 Run build validation with `npm run lint` and `npm run build`
 
 ---
 

@@ -10,8 +10,8 @@ export function CaseStudiesSection({ caseStudies }: CaseStudiesSectionProps) {
     <section id="case-studies" className="space-y-10">
       <SectionHeading
         eyebrow="Featured Case Studies"
-        title="Detailed engineering writeups are planned, but not faked."
-        description="The MVP previews the themes that deserve deeper treatment later without pretending those case studies already exist."
+        title="These are planned deep dives, not filler cards pretending to be finished work."
+        description="Each preview points to a real engineering theme worth unpacking later, while staying explicit that the long-form writeup is still upcoming."
       />
 
       <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
@@ -22,11 +22,11 @@ export function CaseStudiesSection({ caseStudies }: CaseStudiesSectionProps) {
           >
             <div className="space-y-4">
               <div className="flex items-center justify-between gap-4">
-                <span className="rounded-full border border-[var(--accent-strong)] bg-[var(--accent-soft)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--text-strong)]">
+                <span className="rounded-xl border border-[var(--accent-strong)] bg-[var(--accent-soft)] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--accent-contrast)]">
                   {caseStudy.status}
                 </span>
               </div>
-              <h3 className="font-[var(--font-display)] text-2xl text-[var(--text-strong)]">
+              <h3 className="font-[var(--font-display)] text-2xl font-semibold text-[var(--text-strong)]">
                 {caseStudy.title}
               </h3>
               <p className="text-sm leading-7 text-[var(--text-muted)]">
@@ -36,7 +36,7 @@ export function CaseStudiesSection({ caseStudies }: CaseStudiesSectionProps) {
                 {caseStudy.relatedThemes.map((theme) => (
                   <span
                     key={`${caseStudy.slug}-${theme}`}
-                    className="rounded-full border border-[var(--border-strong)] px-3 py-1 text-xs text-[var(--text-muted)]"
+                    className="rounded-xl border border-[var(--border-strong)] bg-[var(--surface-soft)] px-3 py-1.5 text-xs text-[var(--text-muted)]"
                   >
                     {theme}
                   </span>
