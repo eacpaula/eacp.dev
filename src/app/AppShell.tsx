@@ -14,6 +14,7 @@ import {
   blogTopicPreviews,
   caseStudyPreviews,
   contactMethods,
+  contactSectionContent,
   experienceItems,
   profile,
   siteMetadata,
@@ -56,6 +57,8 @@ export function AppShell() {
         <ContactSection
           availabilityNote={profile.availabilityNote}
           contactMethods={contactMethods}
+          schedulingCta={contactSectionContent.schedulingCta}
+          supportingText={contactSectionContent.supportingText}
         />
       </main>
 

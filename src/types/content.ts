@@ -96,3 +96,16 @@ export interface ContactMethod {
   kind: 'email' | 'profile' | 'asset'
   description?: string
 }
+
+export interface SchedulingCta {
+  label: string
+  url: string
+  description: string
+  intent: string
+  kind: 'scheduling'
+}
+
+export interface ContactSectionContent {
+  supportingText: string
+  schedulingCta: SchedulingCta
+}

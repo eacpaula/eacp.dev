@@ -1,6 +1,7 @@
 export { achievements } from '../../content/achievements'
 export { blogTopicPreviews } from '../../content/blog-topics'
 export { caseStudyPreviews } from '../../content/case-studies'
+export { contactSectionContent } from '../../content/contact'
 export { contactMethods } from '../../content/contact'
 export { experienceItems } from '../../content/experience'
 export { profile } from '../../content/profile'
