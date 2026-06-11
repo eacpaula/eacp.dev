@@ -20,52 +20,52 @@ export function EngineeringImpactSection({
         {achievements.map((achievement) => (
           <article
             key={achievement.id}
-            className="rounded-[1.75rem] border border-[var(--border)] bg-[var(--surface)] p-7 shadow-[var(--shadow-soft)]"
+            className="rounded-card border border-border bg-surface p-7 shadow-card"
           >
             <div className="space-y-6">
-              <div className="space-y-4 border-b border-[var(--border)] pb-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent-strong)]">
+              <div className="space-y-4 border-b border-border pb-5">
+                <p className="font-mono text-xs font-semibold uppercase tracking-[0.24em] text-accent">
                   Featured impact
                 </p>
-                <h3 className="font-[var(--font-display)] text-2xl font-semibold leading-tight text-[var(--text-strong)]">
+                <h3 className="font-display text-2xl font-semibold leading-tight text-foreground">
                   {achievement.title}
                 </h3>
               </div>
 
               <dl className="grid gap-4">
-                <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-soft)] p-4">
-                  <dt className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]">
+                <div className="rounded-control border border-border bg-surface-muted p-4">
+                  <dt className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-foreground-dim">
                     Context
                   </dt>
-                  <dd className="mt-2 text-sm leading-7 text-[var(--text-muted)]">
+                  <dd className="mt-2 text-sm leading-7 text-foreground-muted">
                     {achievement.context}
                   </dd>
                 </div>
-                <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-soft)] p-4">
-                  <dt className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]">
+                <div className="rounded-control border border-border bg-surface-muted p-4">
+                  <dt className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-foreground-dim">
                     Contribution
                   </dt>
-                  <dd className="mt-2 text-sm leading-7 text-[var(--text-muted)]">
+                  <dd className="mt-2 text-sm leading-7 text-foreground-muted">
                     {achievement.contribution}
                   </dd>
                 </div>
-                <div className="rounded-2xl border border-[var(--border-strong)] bg-[var(--surface-strong)] p-4">
-                  <dt className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]">
+                <div className="rounded-control border border-accent bg-surface-strong p-4">
+                  <dt className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-foreground-dim">
                     Outcome
                   </dt>
-                  <dd className="mt-2 text-sm leading-7 text-[var(--text-strong)]">
+                  <dd className="mt-2 text-sm leading-7 text-foreground">
                     {achievement.impact}
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]">
+                  <dt className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-foreground-dim">
                     Related technologies
                   </dt>
                   <dd className="mt-3 flex flex-wrap gap-2">
                     {achievement.technologies.map((technology) => (
                       <span
                         key={technology}
-                        className="rounded-xl border border-[var(--border-strong)] bg-[var(--surface-soft)] px-3 py-1.5 text-xs font-medium text-[var(--text-strong)]"
+                        className="rounded-tag border border-border bg-surface-muted px-3 py-1.5 font-mono text-xs font-medium uppercase tracking-[0.14em] text-foreground-muted"
                       >
                         {technology}
                       </span>

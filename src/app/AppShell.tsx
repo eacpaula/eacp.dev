@@ -33,10 +33,10 @@ export function AppShell() {
     profile.primaryLinks[0]
 
   return (
-    <div className="min-h-screen bg-[var(--page-bg)] text-[var(--text-base)]">
+    <div className="min-h-screen text-foreground">
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-[var(--surface)] focus:px-4 focus:py-2 focus:text-sm focus:text-[var(--text-strong)]"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-control focus:border focus:border-border focus:bg-surface focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-foreground focus:shadow-card focus:outline-none"
       >
         Skip to content
       </a>
@@ -45,7 +45,7 @@ export function AppShell() {
 
       <main
         id="main-content"
-        className="mx-auto flex w-full max-w-7xl flex-col gap-28 px-5 py-8 sm:px-8 sm:py-12 lg:gap-32"
+        className="mx-auto flex w-full max-w-[68.75rem] flex-col gap-20 px-4 py-8 sm:px-6 sm:py-12 lg:gap-24"
       >
         <HeroSection profile={profile} />
         <ProfessionalSummarySection profile={profile} />

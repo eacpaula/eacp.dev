@@ -18,17 +18,17 @@ export function BlogPreviewSection({ blogTopics }: BlogPreviewSectionProps) {
         {blogTopics.map((topic) => (
           <article
             key={topic.slug}
-            className="flex flex-col gap-4 rounded-[1.4rem] border border-[var(--border)] bg-[var(--surface)] p-5 shadow-[var(--shadow-soft)] md:flex-row md:items-start md:justify-between"
+            className="flex flex-col gap-4 rounded-card border border-border bg-surface p-5 shadow-card md:flex-row md:items-start md:justify-between"
           >
             <div className="space-y-2">
-              <h3 className="font-[var(--font-display)] text-2xl font-semibold text-[var(--text-strong)]">
+              <h3 className="font-display text-2xl font-semibold text-foreground">
                 {topic.title}
               </h3>
-              <p className="max-w-3xl text-sm leading-7 text-[var(--text-muted)]">
+              <p className="max-w-3xl text-sm leading-7 text-foreground-muted">
                 {topic.summary}
               </p>
             </div>
-            <span className="shrink-0 rounded-xl border border-[var(--border-strong)] bg-[var(--surface-soft)] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--text-muted)]">
+            <span className="shrink-0 rounded-tag border border-border bg-surface-muted px-3 py-1.5 font-mono text-xs font-semibold uppercase tracking-[0.18em] text-foreground-muted">
               {topic.status}
             </span>
           </article>

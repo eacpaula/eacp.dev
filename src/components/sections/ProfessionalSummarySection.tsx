@@ -16,9 +16,9 @@ export function ProfessionalSummarySection({
         description="The summary keeps the focus on modernization, reusable systems, backend depth, and delivery quality without sliding into biography-style filler."
       />
 
-      <div className="rounded-[1.75rem] border border-[var(--border)] bg-[var(--surface)] p-8 shadow-[var(--shadow-soft)]">
+      <div className="rounded-card border border-border bg-surface p-8 shadow-card">
         <div className="space-y-7">
-          <p className="text-lg leading-8 text-[var(--text-base)]">
+          <p className="text-lg leading-8 text-foreground-muted">
             {profile.summary}
           </p>
 
@@ -26,18 +26,18 @@ export function ProfessionalSummarySection({
             {profile.focusAreas.map((area) => (
               <li
                 key={area}
-                className="rounded-2xl border border-[var(--border)] bg-[var(--surface-soft)] px-4 py-4 text-sm font-medium leading-6 text-[var(--text-strong)]"
+                className="rounded-control border border-border bg-surface-muted px-4 py-4 text-sm font-medium leading-6 text-foreground"
               >
                 {area}
               </li>
             ))}
           </ul>
 
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-strong)] p-5">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--accent-strong)]">
+          <div className="rounded-card border border-border bg-surface-strong p-5">
+            <p className="font-mono text-xs font-semibold uppercase tracking-[0.22em] text-accent">
               Languages
             </p>
-            <p className="mt-3 text-sm leading-7 text-[var(--text-strong)]">
+            <p className="mt-3 text-sm leading-7 text-foreground">
               {profile.languages.join(' · ')}
             </p>
           </div>

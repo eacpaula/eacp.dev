@@ -18,25 +18,25 @@ export function ExperienceSection({ experienceItems }: ExperienceSectionProps) {
         {experienceItems.map((item) => (
           <article
             key={item.id}
-            className="grid gap-6 rounded-[1.6rem] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[var(--shadow-soft)] lg:grid-cols-[240px_1fr]"
+            className="grid gap-6 rounded-card border border-border bg-surface p-6 shadow-card lg:grid-cols-[240px_1fr]"
           >
             <div className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--accent-strong)]">
+              <p className="font-mono text-xs font-semibold uppercase tracking-[0.24em] text-accent">
                 {item.period}
               </p>
-              <h3 className="font-[var(--font-display)] text-2xl font-semibold text-[var(--text-strong)]">
+              <h3 className="font-display text-2xl font-semibold text-foreground">
                 {item.organization}
               </h3>
-              <p className="text-sm leading-6 text-[var(--text-muted)]">{item.role}</p>
+              <p className="text-sm leading-6 text-foreground-muted">{item.role}</p>
             </div>
 
             <div className="space-y-5">
-              <p className="text-sm leading-7 text-[var(--text-muted)]">{item.context}</p>
+              <p className="text-sm leading-7 text-foreground-muted">{item.context}</p>
               <ul className="grid gap-3 md:grid-cols-2">
                 {item.contributions.map((contribution) => (
                   <li
                     key={contribution}
-                    className="rounded-2xl border border-[var(--border)] bg-[var(--surface-soft)] px-4 py-4 text-sm leading-7 text-[var(--text-strong)]"
+                    className="rounded-control border border-border bg-surface-muted px-4 py-4 text-sm leading-7 text-foreground"
                   >
                     {contribution}
                   </li>
@@ -46,13 +46,13 @@ export function ExperienceSection({ experienceItems }: ExperienceSectionProps) {
                 {item.technologies.map((technology) => (
                   <span
                     key={`${item.id}-${technology}`}
-                    className="rounded-xl border border-[var(--border-strong)] px-3 py-1.5 text-xs font-medium text-[var(--text-muted)]"
+                    className="rounded-tag border border-border bg-surface-muted px-3 py-1.5 font-mono text-xs font-medium uppercase tracking-[0.14em] text-foreground-muted"
                   >
                     {technology}
                   </span>
                 ))}
               </div>
-              <p className="rounded-2xl border border-[var(--border-strong)] bg-[var(--surface-strong)] px-4 py-4 text-sm leading-7 text-[var(--text-strong)]">
+              <p className="rounded-card border border-accent bg-surface-strong px-4 py-4 text-sm leading-7 text-foreground">
                 {item.impact}
               </p>
             </div>

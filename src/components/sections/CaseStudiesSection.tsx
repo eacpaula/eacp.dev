@@ -18,25 +18,25 @@ export function CaseStudiesSection({ caseStudies }: CaseStudiesSectionProps) {
         {caseStudies.map((caseStudy) => (
           <article
             key={caseStudy.slug}
-            className="rounded-[1.6rem] border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[var(--shadow-soft)]"
+            className="rounded-card border border-border bg-surface p-6 shadow-card"
           >
             <div className="space-y-4">
               <div className="flex items-center justify-between gap-4">
-                <span className="rounded-xl border border-[var(--accent-strong)] bg-[var(--accent-soft)] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--accent-contrast)]">
+                <span className="rounded-tag border border-accent bg-accent-soft px-3 py-1.5 font-mono text-xs font-semibold uppercase tracking-[0.18em] text-accent-muted">
                   {caseStudy.status}
                 </span>
               </div>
-              <h3 className="font-[var(--font-display)] text-2xl font-semibold text-[var(--text-strong)]">
+              <h3 className="font-display text-2xl font-semibold text-foreground">
                 {caseStudy.title}
               </h3>
-              <p className="text-sm leading-7 text-[var(--text-muted)]">
+              <p className="text-sm leading-7 text-foreground-muted">
                 {caseStudy.summary}
               </p>
               <div className="flex flex-wrap gap-2">
                 {caseStudy.relatedThemes.map((theme) => (
                   <span
                     key={`${caseStudy.slug}-${theme}`}
-                    className="rounded-xl border border-[var(--border-strong)] bg-[var(--surface-soft)] px-3 py-1.5 text-xs text-[var(--text-muted)]"
+                    className="rounded-tag border border-border bg-surface-muted px-3 py-1.5 font-mono text-xs uppercase tracking-[0.14em] text-foreground-muted"
                   >
                     {theme}
                   </span>

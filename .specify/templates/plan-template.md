@@ -47,7 +47,7 @@
 - Ensure accessibility, SEO, responsiveness, and performance as baseline
 - Use minimalist, readable, professional UI
 - Maintain a distinct visual identity and avoid close imitation of any single reference portfolio
-- Use the existing TailwindCSS theme configuration as the source of truth for colors, spacing, typography, and design tokens
+- Follow `DESIGN.md` at the project root as the design-system source of truth, and keep TailwindCSS theme/configuration aligned with it
 - Use a direct professional voice and avoid third-person biography-style narration
 - Follow spec-driven development: specs, plans, tasks before implementation
 - Keep specs small and focused; avoid overengineering

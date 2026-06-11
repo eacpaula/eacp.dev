@@ -9,33 +9,33 @@ export function HeroSection({ profile }: HeroSectionProps) {
   return (
     <section
       id="hero"
-      className="grid gap-10 overflow-hidden rounded-[2rem] border border-[var(--border-strong)] bg-[var(--surface)] p-8 shadow-[var(--shadow-soft)] lg:grid-cols-[1.4fr_0.9fr] lg:p-10"
+      className="grid gap-10 overflow-hidden rounded-card border border-border bg-surface p-8 shadow-card lg:grid-cols-[1.4fr_0.9fr] lg:p-10"
     >
       <div className="space-y-10">
         <div className="space-y-6">
-          <div className="flex flex-wrap gap-3 text-sm text-[var(--text-muted)]">
-            <span className="rounded-xl border border-[var(--border-strong)] bg-[var(--surface-soft)] px-3 py-1.5">
+          <div className="flex flex-wrap gap-3 text-sm text-foreground-muted">
+            <span className="rounded-tag border border-border bg-surface-muted px-3 py-1.5 font-mono text-xs uppercase tracking-[0.18em]">
               {profile.locationLabel}
             </span>
-            <span className="rounded-xl border border-[var(--border-strong)] bg-[var(--surface-soft)] px-3 py-1.5">
+            <span className="rounded-tag border border-border bg-surface-muted px-3 py-1.5 font-mono text-xs uppercase tracking-[0.18em]">
               {profile.yearsLabel} of engineering experience
             </span>
-            <span className="rounded-xl border border-[var(--border-strong)] bg-[var(--surface-soft)] px-3 py-1.5">
+            <span className="rounded-tag border border-border bg-surface-muted px-3 py-1.5 font-mono text-xs uppercase tracking-[0.18em]">
               Fluent English
             </span>
           </div>
 
           <div className="space-y-5">
-            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.34em] text-[var(--accent-strong)]">
+            <p className="font-mono text-[0.72rem] font-semibold uppercase tracking-[0.34em] text-accent">
               Senior full stack engineering
             </p>
-            <h1 className="max-w-4xl font-[var(--font-display)] text-5xl font-semibold leading-[0.98] text-[var(--text-strong)] sm:text-6xl lg:text-[4.6rem]">
+            <h1 className="max-w-4xl font-display text-5xl font-semibold leading-[0.98] text-foreground sm:text-6xl lg:text-[4.6rem]">
               {profile.name}
             </h1>
-            <p className="max-w-3xl text-2xl font-medium leading-tight text-[var(--text-strong)] sm:text-3xl lg:text-[2.15rem]">
+            <p className="max-w-3xl text-2xl font-medium leading-tight text-foreground sm:text-3xl lg:text-[2.15rem]">
               {profile.headline}
             </p>
-            <p className="max-w-3xl text-lg leading-8 text-[var(--text-muted)] sm:text-xl">
+            <p className="max-w-3xl text-lg leading-8 text-foreground-muted sm:text-xl">
               {profile.subheadline}
             </p>
           </div>
@@ -48,13 +48,13 @@ export function HeroSection({ profile }: HeroSectionProps) {
         </div>
       </div>
 
-      <aside className="rounded-[1.75rem] border border-[var(--border)] bg-[var(--surface-strong)] p-6">
+      <aside className="rounded-card border border-border bg-surface-strong p-6">
         <div className="space-y-6">
           <div>
-            <p className="text-[0.72rem] font-semibold uppercase tracking-[0.3em] text-[var(--accent-strong)]">
+            <p className="font-mono text-[0.72rem] font-semibold uppercase tracking-[0.3em] text-accent">
               Quick read
             </p>
-            <p className="mt-4 text-base leading-7 text-[var(--text-base)]">
+            <p className="mt-4 text-base leading-7 text-foreground-muted">
               {profile.summary}
             </p>
           </div>
@@ -63,12 +63,12 @@ export function HeroSection({ profile }: HeroSectionProps) {
             {profile.highlightMetrics.map((item) => (
               <div
                 key={item.label}
-                className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4"
+                className="rounded-control border border-border bg-background p-4"
               >
-                <dt className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--text-muted)]">
+                <dt className="font-mono text-xs font-semibold uppercase tracking-[0.22em] text-foreground-dim">
                   {item.label}
                 </dt>
-                <dd className="mt-2 font-[var(--font-display)] text-3xl font-semibold text-[var(--text-strong)]">
+                <dd className="mt-2 font-display text-3xl font-semibold text-foreground">
                   {item.value}
                 </dd>
               </div>
