@@ -46,7 +46,7 @@ export function ContactSection({
         description="Email, profile links, and the resume stay easy to reach. The contact area is direct, professional, and intentionally low-friction."
       />
 
-      <div className="grid gap-6 rounded-card border border-border bg-surface p-8 shadow-card lg:grid-cols-[1.1fr_1fr]">
+      <div className="sketch-shell grid gap-6 rounded-card p-8 lg:grid-cols-[1.1fr_1fr]">
         <div className="space-y-6">
           <div className="space-y-4">
             <p className="text-lg leading-8 text-foreground-muted">
@@ -57,9 +57,9 @@ export function ContactSection({
             </p>
           </div>
 
-          <div className="rounded-card border border-border bg-surface-muted p-5">
+          <div className="sketch-surface-muted rounded-card p-5">
             <div className="space-y-3">
-              <p className="font-mono text-xs font-semibold uppercase tracking-[0.24em] text-accent">
+              <p className="sketch-badge sketch-badge-accent w-fit text-[0.64rem]">
                 Professional Scheduling
               </p>
               <div className="space-y-2">
@@ -77,7 +77,7 @@ export function ContactSection({
                 type="button"
                 onClick={handleSchedulingActivation}
                 disabled={isScheduling}
-                className="inline-flex min-h-12 items-center justify-center rounded-control border border-primary bg-primary px-5 py-3 text-sm font-semibold text-primary-ink shadow-press transition hover:-translate-y-px hover:bg-foreground disabled:cursor-wait disabled:opacity-70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                className="sketch-button-primary inline-flex min-h-12 items-center justify-center rounded-control px-5 py-3 text-sm font-semibold transition hover:-translate-y-px disabled:cursor-wait disabled:opacity-70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
               >
                 {isScheduling ? 'Opening scheduler...' : schedulingCta.label}
               </button>
@@ -99,7 +99,7 @@ export function ContactSection({
                 href={method.href}
                 target={method.kind === 'email' ? undefined : '_blank'}
                 rel={method.kind === 'email' ? undefined : 'noreferrer'}
-                className="block rounded-control border border-border bg-surface-muted px-5 py-4 transition hover:border-accent hover:bg-surface-interactive focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                className="sketch-surface-muted block rounded-control px-5 py-4 transition hover:border-accent hover:bg-surface-interactive focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
               >
                 <span className="block text-sm font-semibold text-foreground">
                   {method.label}

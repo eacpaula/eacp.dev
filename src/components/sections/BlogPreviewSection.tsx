@@ -18,7 +18,7 @@ export function BlogPreviewSection({ blogTopics }: BlogPreviewSectionProps) {
         {blogTopics.map((topic) => (
           <article
             key={topic.slug}
-            className="flex flex-col gap-4 rounded-card border border-border bg-surface p-5 shadow-card md:flex-row md:items-start md:justify-between"
+            className="sketch-surface flex flex-col gap-4 rounded-card p-5 md:flex-row md:items-start md:justify-between"
           >
             <div className="space-y-2">
               <h3 className="font-display text-2xl font-semibold text-foreground">
@@ -28,7 +28,7 @@ export function BlogPreviewSection({ blogTopics }: BlogPreviewSectionProps) {
                 {topic.summary}
               </p>
             </div>
-            <span className="shrink-0 rounded-tag border border-border bg-surface-muted px-3 py-1.5 font-mono text-xs font-semibold uppercase tracking-[0.18em] text-foreground-muted">
+            <span className="sketch-badge sketch-badge-muted shrink-0 text-[0.64rem]">
               {topic.status}
             </span>
           </article>

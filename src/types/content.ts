@@ -12,9 +12,11 @@ export interface PrimaryLink {
   prominence: 'primary' | 'secondary'
 }
 
-export interface HighlightMetric {
+export interface AchievementEmblem {
+  id: string
   label: string
-  value: string
+  metric: string
+  description: string
 }
 
 export interface SiteMetadata {
@@ -27,21 +29,21 @@ export interface SiteMetadata {
 
 export interface Profile {
   name: string
-  headline: string
+  role: string
   subheadline: string
-  locationLabel?: string
-  yearsLabel: string
   summary: string
   availabilityNote: string
-  focusAreas: string[]
-  languages: string[]
-  highlightMetrics: HighlightMetric[]
+  achievementEmblems: AchievementEmblem[]
   primaryLinks: PrimaryLink[]
 }
 
 export interface Achievement {
   id: string
   title: string
+  proofLabel: string
+  proofMetric: string
+  proofQualifier: string
+  detailHref?: string
   context: string
   contribution: string
   impact: string
@@ -72,14 +74,6 @@ export interface ExperienceItem {
   contributions: string[]
   technologies: string[]
   impact: string
-}
-
-export interface CaseStudyPreview {
-  slug: string
-  title: string
-  summary: string
-  status: 'Coming soon' | 'Preview'
-  relatedThemes: string[]
 }
 
 export interface BlogTopicPreview {

@@ -2,17 +2,14 @@ import { useEffect } from 'react'
 import { SiteFooter } from '../components/layout/SiteFooter'
 import { SiteHeader } from '../components/layout/SiteHeader'
 import { BlogPreviewSection } from '../components/sections/BlogPreviewSection'
-import { CaseStudiesSection } from '../components/sections/CaseStudiesSection'
 import { ContactSection } from '../components/sections/ContactSection'
 import { EngineeringImpactSection } from '../components/sections/EngineeringImpactSection'
 import { ExperienceSection } from '../components/sections/ExperienceSection'
 import { HeroSection } from '../components/sections/HeroSection'
-import { ProfessionalSummarySection } from '../components/sections/ProfessionalSummarySection'
 import { SkillsSection } from '../components/sections/SkillsSection'
 import {
   achievements,
   blogTopicPreviews,
-  caseStudyPreviews,
   contactMethods,
   contactSectionContent,
   experienceItems,
@@ -29,7 +26,7 @@ export function AppShell() {
 
   const featuredAchievements = achievements.filter((item) => item.featured)
   const resumeLink =
-    profile.primaryLinks.find((item) => item.label === 'View Resume') ??
+    profile.primaryLinks.find((item) => item.label === 'Resume') ??
     profile.primaryLinks[0]
 
   return (
@@ -48,11 +45,9 @@ export function AppShell() {
         className="mx-auto flex w-full max-w-[68.75rem] flex-col gap-20 px-4 py-8 sm:px-6 sm:py-12 lg:gap-24"
       >
         <HeroSection profile={profile} />
-        <ProfessionalSummarySection profile={profile} />
         <EngineeringImpactSection achievements={featuredAchievements} />
         <SkillsSection skillGroups={skillGroups} />
         <ExperienceSection experienceItems={experienceItems} />
-        <CaseStudiesSection caseStudies={caseStudyPreviews} />
         <BlogPreviewSection blogTopics={blogTopicPreviews} />
         <ContactSection
           availabilityNote={profile.availabilityNote}

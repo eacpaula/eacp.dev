@@ -18,10 +18,10 @@ export function ExperienceSection({ experienceItems }: ExperienceSectionProps) {
         {experienceItems.map((item) => (
           <article
             key={item.id}
-            className="grid gap-6 rounded-card border border-border bg-surface p-6 shadow-card lg:grid-cols-[240px_1fr]"
+            className="sketch-surface grid gap-6 rounded-card p-6 lg:grid-cols-[240px_1fr]"
           >
-            <div className="space-y-3">
-              <p className="font-mono text-xs font-semibold uppercase tracking-[0.24em] text-accent">
+            <div className="space-y-3 border-b border-border pb-4 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-6">
+              <p className="sketch-badge sketch-badge-accent w-fit text-[0.64rem]">
                 {item.period}
               </p>
               <h3 className="font-display text-2xl font-semibold text-foreground">
@@ -36,7 +36,7 @@ export function ExperienceSection({ experienceItems }: ExperienceSectionProps) {
                 {item.contributions.map((contribution) => (
                   <li
                     key={contribution}
-                    className="rounded-control border border-border bg-surface-muted px-4 py-4 text-sm leading-7 text-foreground"
+                    className="sketch-surface-muted rounded-control px-4 py-4 text-sm leading-7 text-foreground"
                   >
                     {contribution}
                   </li>
@@ -46,13 +46,13 @@ export function ExperienceSection({ experienceItems }: ExperienceSectionProps) {
                 {item.technologies.map((technology) => (
                   <span
                     key={`${item.id}-${technology}`}
-                    className="rounded-tag border border-border bg-surface-muted px-3 py-1.5 font-mono text-xs font-medium uppercase tracking-[0.14em] text-foreground-muted"
+                    className="sketch-badge sketch-badge-muted text-[0.68rem]"
                   >
                     {technology}
                   </span>
                 ))}
               </div>
-              <p className="rounded-card border border-accent bg-surface-strong px-4 py-4 text-sm leading-7 text-foreground">
+              <p className="sketch-surface-strong rounded-card border border-accent px-4 py-4 text-sm leading-7 text-foreground">
                 {item.impact}
               </p>
             </div>

@@ -1,4 +1,5 @@
 import { SectionHeading } from '../ui/SectionHeading'
+import { TiltCard } from '../ui/TiltCard'
 import type { Achievement } from '../../types/content'
 
 interface EngineeringImpactSectionProps {
@@ -12,69 +13,75 @@ export function EngineeringImpactSection({
     <section id="impact" className="space-y-10">
       <SectionHeading
         eyebrow="Engineering Impact"
-        title="The strongest signal is concrete delivery, not vague portfolio language."
-        description="Each impact entry separates the context, contribution, and outcome so technical reviewers can scan what changed without reading a wall of copy."
+        title=""
+        description=""
       />
 
       <div className="grid gap-6 lg:grid-cols-2">
         {achievements.map((achievement) => (
+          <TiltCard key={achievement.id} maxTilt={8}>
           <article
-            key={achievement.id}
-            className="rounded-card border border-border bg-surface p-7 shadow-card"
+            className="sketch-metric-card rounded-[1rem] p-5"
           >
-            <div className="space-y-6">
-              <div className="space-y-4 border-b border-border pb-5">
-                <p className="font-mono text-xs font-semibold uppercase tracking-[0.24em] text-accent">
-                  Featured impact
-                </p>
-                <h3 className="font-display text-2xl font-semibold leading-tight text-foreground">
-                  {achievement.title}
-                </h3>
+            <div className="space-y-4">
+              <div className="flex items-start justify-between gap-4 border-b border-border pb-4">
+                <div>
+                  <p className="font-mono text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-accent">
+                    {achievement.proofLabel}
+                  </p>
+                  <h3 className="mt-2 font-display text-4xl font-semibold leading-none text-foreground">
+                    {achievement.proofMetric}
+                  </h3>
+                </div>
+                <span className="sketch-badge sketch-badge-muted text-[0.64rem]">
+                  Impact
+                </span>
               </div>
 
-              <dl className="grid gap-4">
-                <div className="rounded-control border border-border bg-surface-muted p-4">
-                  <dt className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-foreground-dim">
-                    Context
-                  </dt>
-                  <dd className="mt-2 text-sm leading-7 text-foreground-muted">
-                    {achievement.context}
-                  </dd>
+              <div className="space-y-3">
+                {achievement.detailHref ? (
+                  <a
+                    href={achievement.detailHref}
+                    className="inline-block text-base font-semibold leading-7 text-foreground transition-colors hover:text-accent focus-visible:text-accent focus-visible:outline-none"
+                  >
+                    {achievement.title}
+                  </a>
+                ) : (
+                  <p className="text-base font-semibold leading-7 text-foreground">
+                    {achievement.title}
+                  </p>
+                )}
+                <p className="text-sm leading-7 text-foreground-muted">
+                  {achievement.proofQualifier}
+                </p>
+              </div>
+
+              <div className="border-t border-border pt-4">
+                <p className="font-mono text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-foreground-dim">
+                  Related technologies
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {achievement.technologies.map((technology) => (
+                    <span
+                      key={technology}
+                      className="sketch-badge sketch-badge-muted text-[0.68rem]"
+                    >
+                      {technology}
+                    </span>
+                  ))}
                 </div>
-                <div className="rounded-control border border-border bg-surface-muted p-4">
-                  <dt className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-foreground-dim">
-                    Contribution
-                  </dt>
-                  <dd className="mt-2 text-sm leading-7 text-foreground-muted">
-                    {achievement.contribution}
-                  </dd>
-                </div>
-                <div className="rounded-control border border-accent bg-surface-strong p-4">
-                  <dt className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-foreground-dim">
-                    Outcome
-                  </dt>
-                  <dd className="mt-2 text-sm leading-7 text-foreground">
-                    {achievement.impact}
-                  </dd>
-                </div>
-                <div>
-                  <dt className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-foreground-dim">
-                    Related technologies
-                  </dt>
-                  <dd className="mt-3 flex flex-wrap gap-2">
-                    {achievement.technologies.map((technology) => (
-                      <span
-                        key={technology}
-                        className="rounded-tag border border-border bg-surface-muted px-3 py-1.5 font-mono text-xs font-medium uppercase tracking-[0.14em] text-foreground-muted"
-                      >
-                        {technology}
-                      </span>
-                    ))}
-                  </dd>
-                </div>
-              </dl>
+                {achievement.detailHref ? (
+                  <a
+                    href={achievement.detailHref}
+                    className="mt-4 inline-flex text-sm font-medium text-accent transition-colors hover:text-accent-strong focus-visible:text-accent-strong focus-visible:outline-none"
+                  >
+                    View detail
+                  </a>
+                ) : null}
+              </div>
             </div>
           </article>
+          </TiltCard>
         ))}
       </div>
     </section>
