@@ -1,4 +1,6 @@
 import { Link, useLocation } from '@tanstack/react-router'
+import { useRef, useState } from 'react'
+import { ResumeViewerModal } from '../../features/contact/components/ResumeViewerModal'
 import type { NavItem, PrimaryLink } from '../../types/content'
 
 interface SiteHeaderProps {
@@ -8,10 +10,13 @@ interface SiteHeaderProps {
 
 export function SiteHeader({ navItems, resumeLink }: SiteHeaderProps) {
   const { pathname } = useLocation()
+  const [isResumeOpen, setIsResumeOpen] = useState(false)
+  const resumeTriggerRef = useRef<HTMLButtonElement>(null)
 
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-surface-overlay/95 backdrop-blur-xl">
-      <div className="mx-auto flex w-full max-w-[80rem] flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6">
+    <>
+      <header className="sticky top-0 z-40 border-b border-border bg-surface-overlay/95 backdrop-blur-xl">
+        <div className="mx-auto flex w-full max-w-[80rem] flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6">
         <Link
           to="/"
           hash="hero"
@@ -47,15 +52,37 @@ export function SiteHeader({ navItems, resumeLink }: SiteHeaderProps) {
           ))}
         </nav>
 
-        <a
-          href={resumeLink.href}
-          target="_blank"
-          rel="noreferrer"
-          className="sketch-button-secondary inline-flex items-center justify-center rounded-control px-4 py-2 text-sm font-semibold tracking-[0.03em] transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-        >
-          {resumeLink.label}
-        </a>
-      </div>
-    </header>
+          {resumeLink.kind === 'asset' ? (
+            <button
+              ref={resumeTriggerRef}
+              type="button"
+              onClick={() => setIsResumeOpen(true)}
+              aria-label="Open resume viewer"
+              className="sketch-button-primary inline-flex items-center justify-center rounded-control px-4 py-2 text-sm font-semibold tracking-[0.03em] transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+            >
+              {resumeLink.label}
+            </button>
+          ) : (
+            <a
+              href={resumeLink.href}
+              target="_blank"
+              rel="noreferrer"
+              className="sketch-button-primary inline-flex items-center justify-center rounded-control px-4 py-2 text-sm font-semibold tracking-[0.03em] transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+            >
+              {resumeLink.label}
+            </a>
+          )}
+        </div>
+      </header>
+
+      {resumeLink.kind === 'asset' ? (
+        <ResumeViewerModal
+          isOpen={isResumeOpen}
+          onClose={() => setIsResumeOpen(false)}
+          resumeHref={resumeLink.href}
+          returnFocusRef={resumeTriggerRef}
+        />
+      ) : null}
+    </>
   )
 }

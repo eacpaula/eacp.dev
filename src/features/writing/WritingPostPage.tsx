@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useLayoutEffect } from 'react'
 import { Link } from '@tanstack/react-router'
 import { SiteFooter } from '../../components/layout/SiteFooter'
 import { SiteHeader } from '../../components/layout/SiteHeader'
@@ -50,12 +50,25 @@ export function WritingPostPage({ slug }: WritingPostPageProps) {
     profile.primaryLinks.find((item) => item.label === 'Resume') ??
     profile.primaryLinks[0]
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (typeof window === 'undefined' || window.location.hash) {
       return
     }
 
-    window.scrollTo(0, 0)
+    const root = document.documentElement
+    const previousScrollBehavior = root.style.scrollBehavior
+
+    root.style.scrollBehavior = 'auto'
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+
+    const animationFrameId = window.requestAnimationFrame(() => {
+      root.style.scrollBehavior = previousScrollBehavior
+    })
+
+    return () => {
+      window.cancelAnimationFrame(animationFrameId)
+      root.style.scrollBehavior = previousScrollBehavior
+    }
   }, [slug])
 
   useEffect(() => {

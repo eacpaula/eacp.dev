@@ -2,15 +2,14 @@ import { useEffect } from 'react'
 import { useLocation } from '@tanstack/react-router'
 import { SiteFooter } from '../components/layout/SiteFooter'
 import { SiteHeader } from '../components/layout/SiteHeader'
-import { ContactSection } from '../components/sections/ContactSection'
 import { EngineeringImpactSection } from '../components/sections/EngineeringImpactSection'
 import { HeroSection } from '../components/sections/HeroSection'
 import { TestimonialsSection } from '../components/sections/TestimonialsSection'
+import { ContactSection } from '../features/contact/ContactSection'
 import { SkillsExplorerSection } from '../features/skills/SkillsExplorerSection'
 import { WritingSection } from '../features/writing/WritingSection'
 import {
   achievements,
-  contactMethods,
   contactSectionContent,
   profile,
   siteMetadata,
@@ -67,12 +66,7 @@ export function AppShell() {
         <TestimonialsSection testimonials={testimonials} />
         <SkillsExplorerSection />
         <WritingSection />
-        <ContactSection
-          availabilityNote={profile.availabilityNote}
-          contactMethods={contactMethods}
-          schedulingCta={contactSectionContent.schedulingCta}
-          supportingText={contactSectionContent.supportingText}
-        />
+        <ContactSection content={contactSectionContent} />
       </main>
 
       <SiteFooter name={profile.name} />

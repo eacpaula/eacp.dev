@@ -103,7 +103,7 @@ export function SkillsExplorerSection() {
       setPendingSkillId(null)
       setIsUsageTransitioning(false)
       skillTransitionTimeoutRef.current = null
-    }, reducedMotion ? 0 : 3000)
+    }, reducedMotion ? 0 : 1000)
   }
 
   return (

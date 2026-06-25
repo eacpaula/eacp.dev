@@ -76,24 +76,27 @@ export interface ExperienceItem {
   impact: string
 }
 
-export interface ContactMethod {
+export interface DirectContactDetail {
   label: string
+  value: string
   href: string
-  kind: 'email' | 'profile' | 'asset'
-  description?: string
+  kind: 'email' | 'phone'
+  placement: 'left' | 'right'
 }
 
-export interface SchedulingCta {
+export interface ContactAction {
   label: string
-  url: string
-  description: string
-  intent: string
-  kind: 'scheduling'
+  href: string
+  kind: 'profile' | 'scheduling' | 'resume'
+  opensInNewContext?: boolean
 }
 
 export interface ContactSectionContent {
-  supportingText: string
-  schedulingCta: SchedulingCta
+  eyebrow: string
+  heading: string
+  directContacts: DirectContactDetail[]
+  actions: ContactAction[]
+  portraitAlt: string
 }
 
 export interface Testimonial {

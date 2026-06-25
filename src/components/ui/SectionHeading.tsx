@@ -1,7 +1,7 @@
 interface SectionHeadingProps {
   eyebrow: string
   title: string
-  description: string
+  description?: string
 }
 
 export function SectionHeading({
@@ -21,9 +21,11 @@ export function SectionHeading({
         <h2 className="max-w-2xl font-display text-3xl font-semibold leading-[1.06] text-foreground sm:text-4xl lg:text-[2.65rem]">
           {title}
         </h2>
-        <p className="max-w-2xl text-base leading-7 text-foreground-muted sm:text-[1.05rem]">
-          {description}
-        </p>
+        {description ? (
+          <p className="max-w-2xl text-base leading-7 text-foreground-muted sm:text-[1.05rem]">
+            {description}
+          </p>
+        ) : null}
       </div>
     </div>
   )

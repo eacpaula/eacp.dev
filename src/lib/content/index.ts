@@ -1,6 +1,5 @@
 export { achievements } from '../../content/achievements'
 export { contactSectionContent } from '../../content/contact'
-export { contactMethods } from '../../content/contact'
 export { profile } from '../../content/profile'
 export { siteMetadata } from '../../content/site-metadata'
 export { testimonials } from '../../content/testimonials'

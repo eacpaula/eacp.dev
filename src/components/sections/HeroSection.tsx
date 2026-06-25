@@ -64,7 +64,7 @@ export function HeroSection({ profile }: HeroSectionProps) {
               <p className="max-w-3xl text-lg leading-8 text-foreground sm:text-[1.28rem]">
                 {profile.subheadline}
               </p>
-              <div className="max-w-2xl lg:ml-auto lg:text-right">
+              <div className="max-w-2xl">
                 <p className="text-base leading-7 text-foreground-muted sm:text-lg">
                   {profile.summary}
                 </p>
