@@ -22,6 +22,37 @@ export function WritingPostDetail({ post }: WritingPostDetailProps) {
       label: section.tocLabel ?? section.heading,
     }))
 
+  const summaryCard = tableOfContentsItems.length ? (
+    <section
+      aria-label="Table of contents"
+      className="sketch-surface-muted rounded-card p-5"
+    >
+      <div className="space-y-4">
+        <div className="space-y-2">
+          <p className="sketch-badge sketch-badge-muted w-fit text-[0.64rem]">
+            Summary
+          </p>
+          <h2 className="font-display text-xl font-semibold text-foreground">
+            {post.tableOfContentsTitle ?? 'On this page'}
+          </h2>
+        </div>
+
+        <ol className="space-y-3 text-sm leading-7 text-foreground-muted">
+          {tableOfContentsItems.map((item) => (
+            <li key={item.href}>
+              <a
+                href={item.href}
+                className="inline-flex rounded-control transition hover:text-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  ) : null
+
   return (
     <article className="writing-detail space-y-8">
       <div className="flex flex-wrap items-center justify-between gap-4">
@@ -69,6 +100,8 @@ export function WritingPostDetail({ post }: WritingPostDetailProps) {
           </p>
         </div>
       </div>
+
+      {summaryCard ? <div className="xl:hidden">{summaryCard}</div> : null}
 
       <div className="writing-detail-layout">
         <div className="space-y-6">
@@ -204,36 +237,7 @@ export function WritingPostDetail({ post }: WritingPostDetailProps) {
         </div>
 
         <aside className="space-y-6">
-          {tableOfContentsItems.length ? (
-            <section
-              aria-label="Table of contents"
-              className="sketch-surface-muted rounded-card p-5"
-            >
-              <div className="space-y-4">
-                <div className="space-y-2">
-                  <p className="sketch-badge sketch-badge-muted w-fit text-[0.64rem]">
-                    Summary
-                  </p>
-                  <h2 className="font-display text-xl font-semibold text-foreground">
-                    {post.tableOfContentsTitle ?? 'On this page'}
-                  </h2>
-                </div>
-
-                <ol className="space-y-3 text-sm leading-7 text-foreground-muted">
-                  {tableOfContentsItems.map((item) => (
-                    <li key={item.href}>
-                      <a
-                        href={item.href}
-                        className="inline-flex rounded-control transition hover:text-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-                      >
-                        {item.label}
-                      </a>
-                    </li>
-                  ))}
-                </ol>
-              </div>
-            </section>
-          ) : null}
+          {summaryCard ? <div className="hidden xl:block">{summaryCard}</div> : null}
 
           <WritingShareActions post={post} />
 
