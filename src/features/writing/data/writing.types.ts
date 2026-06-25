@@ -1,6 +1,7 @@
 export interface WritingCoverImage {
   src: string
   alt: string
+  socialSrc?: string
 }
 
 export interface WritingComparisonItem {

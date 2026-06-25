@@ -4,41 +4,10 @@ import { SiteFooter } from '../../components/layout/SiteFooter'
 import { SiteHeader } from '../../components/layout/SiteHeader'
 import { profile, siteMetadata } from '../../lib/content'
 import { applyDocumentMetadata } from '../../lib/seo/metadata'
-import type { SiteMetadata } from '../../types/content'
 import { getWritingPostBySlug } from './data/posts.index'
 import { WritingEmptyState } from './components/WritingEmptyState'
 import { WritingPostDetail } from './components/WritingPostDetail'
-
-function buildWritingPostMetadata(
-  postTitle: string,
-  summary: string,
-  slug: string,
-  socialImage?: string,
-): SiteMetadata {
-  const canonicalUrl = new URL(
-    `blog/${slug}`,
-    siteMetadata.canonicalUrl.endsWith('/')
-      ? siteMetadata.canonicalUrl
-      : `${siteMetadata.canonicalUrl}/`,
-  ).toString()
-
-  const resolvedSocialImage = socialImage
-    ? new URL(
-        socialImage,
-        siteMetadata.canonicalUrl.endsWith('/')
-          ? siteMetadata.canonicalUrl
-          : `${siteMetadata.canonicalUrl}/`,
-      ).toString()
-    : siteMetadata.socialImage
-
-  return {
-    ...siteMetadata,
-    title: `${postTitle} | Evandro Antônio da Costa de Paula`,
-    description: summary,
-    canonicalUrl,
-    socialImage: resolvedSocialImage,
-  }
-}
+import { buildWritingPostMetadata } from './seo'
 
 interface WritingPostPageProps {
   slug?: string
@@ -73,14 +42,7 @@ export function WritingPostPage({ slug }: WritingPostPageProps) {
 
   useEffect(() => {
     if (activePost) {
-      applyDocumentMetadata(
-        buildWritingPostMetadata(
-          activePost.title,
-          activePost.summary,
-          activePost.slug,
-          activePost.coverImage.src,
-        ),
-      )
+      applyDocumentMetadata(buildWritingPostMetadata(activePost))
       return
     }
 

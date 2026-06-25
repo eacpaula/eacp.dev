@@ -15,6 +15,9 @@ function normalizePost(post: WritingPost): WritingPost {
     coverImage: {
       ...post.coverImage,
       src: resolveAssetPath(post.coverImage.src),
+      socialSrc: post.coverImage.socialSrc
+        ? resolveAssetPath(post.coverImage.socialSrc)
+        : undefined,
     },
   }
 }

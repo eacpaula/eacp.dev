@@ -14,6 +14,7 @@
   ],
   "coverImage": {
     "src": "blog/spec-driven-development-cover.svg",
+    "socialSrc": "blog/spec-driven-development-cover.png",
     "alt": "Editorial technical illustration showing a structured specification flow with branching tool paths and restrained gold highlights."
   },
   "sections": [

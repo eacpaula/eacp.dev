@@ -24,6 +24,9 @@ export interface SiteMetadata {
   description: string
   canonicalUrl: string
   socialImage?: string
+  socialImageAlt?: string
+  openGraphType?: 'website' | 'article'
+  twitterCard?: 'summary' | 'summary_large_image'
   navItems: NavItem[]
 }
 

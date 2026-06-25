@@ -1,13 +1,13 @@
 import type { WritingPost } from '../data/writing.types'
+import { siteMetadata } from '../../../lib/content'
+import { buildSiteUrl } from '../../../lib/seo/url'
 import { getBlogPostPath } from './writingUrlState'
 
 function getBlogDetailUrl(slug: string) {
-  const baseUrl =
-    typeof window === 'undefined'
-      ? new URL(import.meta.env.BASE_URL, 'https://eacp.dev')
-      : new URL(import.meta.env.BASE_URL, window.location.origin)
-
-  return new URL(getBlogPostPath(slug).replace(/^\//, ''), baseUrl).toString()
+  return buildSiteUrl(getBlogPostPath(slug), {
+    canonicalOrigin: siteMetadata.canonicalUrl,
+    basePath: import.meta.env.BASE_URL,
+  })
 }
 
 function getShareText(post: WritingPost) {
