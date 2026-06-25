@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting…</title>
+    <script>
+      (function () {
+        const basePath = '%BASE_URL%'
+        const normalizedBase = basePath.endsWith('/') ? basePath : basePath + '/'
+        const redirectPath =
+          window.location.pathname +
+          window.location.search +
+          window.location.hash
+
+        window.sessionStorage.setItem('spa-redirect', redirectPath)
+        window.location.replace(normalizedBase)
+      })()
+    </script>
+  </head>
+  <body></body>
+</html>

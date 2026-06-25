@@ -1,15 +1,15 @@
 import { useEffect } from 'react'
+import { useLocation } from '@tanstack/react-router'
 import { SiteFooter } from '../components/layout/SiteFooter'
 import { SiteHeader } from '../components/layout/SiteHeader'
-import { BlogPreviewSection } from '../components/sections/BlogPreviewSection'
 import { ContactSection } from '../components/sections/ContactSection'
 import { EngineeringImpactSection } from '../components/sections/EngineeringImpactSection'
 import { HeroSection } from '../components/sections/HeroSection'
 import { TestimonialsSection } from '../components/sections/TestimonialsSection'
 import { SkillsExplorerSection } from '../features/skills/SkillsExplorerSection'
+import { WritingSection } from '../features/writing/WritingSection'
 import {
   achievements,
-  blogTopicPreviews,
   contactMethods,
   contactSectionContent,
   profile,
@@ -19,9 +19,28 @@ import {
 import { applyDocumentMetadata } from '../lib/seo/metadata'
 
 export function AppShell() {
+  const location = useLocation()
+
   useEffect(() => {
     applyDocumentMetadata(siteMetadata)
   }, [])
+
+  useEffect(() => {
+    if (location.pathname !== '/' || !location.hash) {
+      return
+    }
+
+    const element = document.getElementById(location.hash)
+    if (!element) {
+      return
+    }
+
+    const animationFrameId = window.requestAnimationFrame(() => {
+      element.scrollIntoView({ block: 'start' })
+    })
+
+    return () => window.cancelAnimationFrame(animationFrameId)
+  }, [location.hash, location.pathname])
 
   const featuredAchievements = achievements.filter((item) => item.featured)
   const resumeLink =
@@ -47,7 +66,7 @@ export function AppShell() {
         <EngineeringImpactSection achievements={featuredAchievements} />
         <TestimonialsSection testimonials={testimonials} />
         <SkillsExplorerSection />
-        <BlogPreviewSection blogTopics={blogTopicPreviews} />
+        <WritingSection />
         <ContactSection
           availabilityNote={profile.availabilityNote}
           contactMethods={contactMethods}

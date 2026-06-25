@@ -1,0 +1,103 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Spec-Driven Development editorial cover</title>
+  <desc id="desc">Dark technical illustration showing structured specification flow, branching tool comparisons, and AI-assisted engineering motifs with subtle gold accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="140" y1="80" x2="1460" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171614"/>
+      <stop offset="0.52" stop-color="#10100F"/>
+      <stop offset="1" stop-color="#080808"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1140 210) rotate(128) scale(680 420)">
+      <stop stop-color="#C8A66B" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#C8A66B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldLine" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E8D8B0"/>
+      <stop offset="1" stop-color="#C8A66B"/>
+    </linearGradient>
+    <filter id="shadow" x="-30" y="-30" width="1660" height="960" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="900" rx="28" fill="url(#glow)"/>
+  <path d="M93 138C482 67 1086 56 1476 153" stroke="rgba(244,241,234,0.08)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M126 802C470 742 1128 732 1460 820" stroke="rgba(244,241,234,0.06)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M120 204L1480 204" stroke="rgba(244,241,234,0.08)" stroke-dasharray="8 12"/>
+  <path d="M120 708L1480 708" stroke="rgba(244,241,234,0.06)" stroke-dasharray="8 12"/>
+
+  <g filter="url(#shadow)">
+    <rect x="96" y="108" width="1408" height="684" rx="26" fill="rgba(17,17,15,0.78)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="114" y="126" width="1372" height="648" rx="22" fill="rgba(255,255,255,0.015)" stroke="rgba(255,255,255,0.05)"/>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="168" y="176" width="198" height="40" rx="8" fill="rgba(200,166,107,0.14)" stroke="rgba(200,166,107,0.46)"/>
+    <text x="196" y="202" fill="#E8D8B0" font-family="JetBrains Mono, monospace" font-size="18" font-weight="700" letter-spacing="0.18em">SPEC FLOW</text>
+  </g>
+
+  <text x="170" y="316" fill="#F4F1EA" font-family="Geist, Inter, sans-serif" font-size="88" font-weight="700">Spec-Driven</text>
+  <text x="170" y="396" fill="#F4F1EA" font-family="Geist, Inter, sans-serif" font-size="88" font-weight="700">Development</text>
+  <text x="174" y="470" fill="#C7C1B5" font-family="Inter, sans-serif" font-size="28" font-weight="400">
+    Structured workflow. AI-assisted engineering. Tool comparison with real constraints.
+  </text>
+
+  <g opacity="0.9">
+    <path d="M208 592H628" stroke="url(#goldLine)" stroke-width="3"/>
+    <path d="M208 622H510" stroke="rgba(244,241,234,0.18)" stroke-width="2"/>
+    <path d="M208 650H558" stroke="rgba(244,241,234,0.18)" stroke-width="2"/>
+  </g>
+
+  <g>
+    <rect x="894" y="184" width="390" height="126" rx="20" fill="rgba(20,20,18,0.88)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="912" y="202" width="354" height="90" rx="14" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)"/>
+    <text x="940" y="236" fill="#C8A66B" font-family="JetBrains Mono, monospace" font-size="18" font-weight="700" letter-spacing="0.16em">START</text>
+    <text x="940" y="272" fill="#F4F1EA" font-family="Inter, sans-serif" font-size="30" font-weight="600">Goal, scope, constraints</text>
+  </g>
+
+  <g>
+    <path d="M1088 312V372" stroke="url(#goldLine)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="1088" cy="392" r="14" fill="#C8A66B"/>
+    <circle cx="1088" cy="392" r="28" stroke="rgba(200,166,107,0.18)" stroke-width="2"/>
+  </g>
+
+  <g>
+    <path d="M1088 408L974 492" stroke="rgba(244,241,234,0.16)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M1088 408L1200 492" stroke="rgba(244,241,234,0.16)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M1088 408L1088 520" stroke="url(#goldLine)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="826" y="510" width="246" height="136" rx="18" fill="rgba(19,19,17,0.9)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="856" y="548" fill="#E8D8B0" font-family="JetBrains Mono, monospace" font-size="17" font-weight="700" letter-spacing="0.14em">OPENSPEC</text>
+    <text x="856" y="584" fill="#F4F1EA" font-family="Inter, sans-serif" font-size="22" font-weight="600">Simple start</text>
+    <text x="856" y="616" fill="#C7C1B5" font-family="Inter, sans-serif" font-size="18">Useful, flexible, more permissive</text>
+  </g>
+
+  <g>
+    <rect x="966" y="566" width="246" height="136" rx="18" fill="rgba(19,19,17,0.92)" stroke="rgba(200,166,107,0.42)"/>
+    <text x="996" y="604" fill="#E8D8B0" font-family="JetBrains Mono, monospace" font-size="17" font-weight="700" letter-spacing="0.14em">SPEC KIT</text>
+    <text x="996" y="640" fill="#F4F1EA" font-family="Inter, sans-serif" font-size="22" font-weight="600">Preferred workflow</text>
+    <text x="996" y="672" fill="#C7C1B5" font-family="Inter, sans-serif" font-size="18">Verbose, clearer, better structured</text>
+  </g>
+
+  <g>
+    <rect x="1108" y="510" width="246" height="136" rx="18" fill="rgba(19,19,17,0.9)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="1138" y="548" fill="#E8D8B0" font-family="JetBrains Mono, monospace" font-size="17" font-weight="700" letter-spacing="0.14em">KIRO</text>
+    <text x="1138" y="584" fill="#F4F1EA" font-family="Inter, sans-serif" font-size="22" font-weight="600">IDE-native SDD</text>
+    <text x="1138" y="616" fill="#C7C1B5" font-family="Inter, sans-serif" font-size="18">Interesting, coherent, less explored</text>
+  </g>
+
+  <g opacity="0.82">
+    <circle cx="1294" cy="248" r="56" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
+    <path d="M1264 248H1324" stroke="url(#goldLine)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M1294 218V278" stroke="url(#goldLine)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="1294" cy="248" r="14" fill="#C8A66B"/>
+  </g>
+
+  <g opacity="0.78">
+    <rect x="1252" y="354" width="172" height="52" rx="10" fill="rgba(200,166,107,0.1)" stroke="rgba(200,166,107,0.32)"/>
+    <text x="1280" y="388" fill="#E8D8B0" font-family="JetBrains Mono, monospace" font-size="16" font-weight="700" letter-spacing="0.16em">AI ASSIST</text>
+  </g>
+</svg>

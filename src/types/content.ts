@@ -76,14 +76,6 @@ export interface ExperienceItem {
   impact: string
 }
 
-export interface BlogTopicPreview {
-  slug: string
-  title: string
-  summary: string
-  status: 'Coming soon' | 'Preview'
-  origin: 'local-placeholder' | 'future-remote'
-}
-
 export interface ContactMethod {
   label: string
   href: string

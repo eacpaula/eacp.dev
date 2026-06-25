@@ -61,7 +61,11 @@ export function HorizontalSkillBarChart({
       }
     }
 
-    setLabelOverflowBySkillId(nextOverflowBySkillId)
+    const animationFrameId = window.requestAnimationFrame(() => {
+      setLabelOverflowBySkillId(nextOverflowBySkillId)
+    })
+
+    return () => window.cancelAnimationFrame(animationFrameId)
   }, [labelViewportWidth, skills])
 
   return (

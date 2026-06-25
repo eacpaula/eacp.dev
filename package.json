@@ -12,6 +12,7 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@tanstack/react-router": "^1.170.16",
     "d3": "^7.9.0",
     "motion": "^11.18.2",
     "react": "^19.2.6",

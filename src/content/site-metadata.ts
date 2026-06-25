@@ -9,7 +9,7 @@ export const siteMetadata: SiteMetadata = {
   navItems: [
     { label: 'Impact', href: '#impact' },
     { label: 'Skills', href: '#skills' },
-    { label: 'Writing', href: '#blog' },
+    { label: 'Blog', href: '#blog' },
     { label: 'Contact', href: '#contact' },
   ],
 }

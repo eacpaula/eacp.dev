@@ -8,6 +8,14 @@
       name="description"
       content="Senior full stack software engineer portfolio for Evandro Antonio da Costa de Paula."
     />
+    <script>
+      (function () {
+        const redirect = window.sessionStorage.getItem('spa-redirect')
+        if (!redirect) return
+        window.sessionStorage.removeItem('spa-redirect')
+        window.history.replaceState(null, '', redirect)
+      })()
+    </script>
     <title>Evandro Antonio da Costa de Paula | Senior Full Stack Software Engineer</title>
   </head>
   <body>

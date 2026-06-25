@@ -1,0 +1,172 @@
+{
+  "slug": "spec-driven-development-open-spec-spec-kit-kiro",
+  "title": "Spec-Driven Development in practice: OpenSpec vs Spec Kit vs Kiro",
+  "shortDescription": "A practical comparison of three SDD workflows based on real usage, where each one helps, and where pure vibe coding still falls short.",
+  "summary": "Spec-Driven Development became more useful to me when I stopped treating it like hype and started looking at how each workflow actually shapes planning quality, constraints, and execution. This article compares OpenSpec, Spec Kit, and Kiro from practical usage, and explains why structure still matters when AI is involved.",
+  "publishDate": "2026-06-25",
+  "tableOfContentsTitle": "On this page",
+  "tags": [
+    "Spec-Driven Development",
+    "AI-Assisted Engineering",
+    "OpenSpec",
+    "Spec Kit",
+    "Kiro"
+  ],
+  "coverImage": {
+    "src": "blog/spec-driven-development-cover.svg",
+    "alt": "Editorial technical illustration showing a structured specification flow with branching tool paths and restrained gold highlights."
+  },
+  "sections": [
+    {
+      "id": "why-i-started",
+      "heading": "Why I started taking Spec-Driven Development seriously",
+      "tocLabel": "Why I took SDD seriously",
+      "paragraphs": [
+        "What pushed me toward Spec-Driven Development was not the idea of adding more ceremony. It was the repeated gap between a general AI-generated result and the level of control needed for a serious product decision. When the goal is broad, pure prompting can get you surprisingly far. When the goal is specific, layered, and constrained by real tradeoffs, the lack of structure starts to show very quickly.",
+        "In practice, a good specification reduces rework because it forces the important decisions into the open early. It clarifies scope, exposes missing assumptions, and gives the model less room to improvise in directions that look plausible but do not actually fit the product. That does not remove the need for engineering judgment, but it gives that judgment a much better frame to operate inside."
+      ],
+      "callout": "The value for me was never 'AI can do everything now'. The value was 'a stronger planning structure makes AI output more reliable'."
+    },
+    {
+      "id": "what-sdd-changes",
+      "heading": "What structured specification work changes in practice",
+      "tocLabel": "What structured specs change",
+      "paragraphs": [
+        "The practical difference is that the conversation stops being only about implementation ideas and starts earlier with user value, constraints, assumptions, non-goals, validation, and sequencing. That sounds obvious, but it changes the quality of everything that follows because the generated work now has a clearer contract.",
+        "That also makes it easier to review. A loose prompt can produce something impressive-looking but hard to challenge because the reasoning is spread across many hidden assumptions. A spec-driven flow gives you artifacts you can inspect line by line. That matters a lot when the target is a real project and not just a fast demo."
+      ]
+    },
+    {
+      "id": "open-spec",
+      "heading": "How OpenSpec felt in practice",
+      "tocLabel": "OpenSpec",
+      "paragraphs": [
+        "OpenSpec felt useful because it was simple to get started with and did not feel heavy. That lower friction is a real advantage. It gives you a straightforward way to begin structuring work without forcing a long setup process before you see value.",
+        "At the same time, that simplicity also means it gives you more freedom. Freedom is not automatically a benefit. If the person writing the spec is already disciplined, that flexibility can work well. If the specification is still vague, that same freedom can lead to weaker results because the model has too much space to fill the gaps on its own."
+      ],
+      "pros": [
+        "Simple entry point for structured work",
+        "Useful when you already know how strict you want the specification to be",
+        "Low friction compared with heavier workflows"
+      ],
+      "cons": [
+        "More permissive structure can leave important decisions under-specified",
+        "Weak specs can still look acceptable while missing real constraints",
+        "Requires more self-discipline from the author to avoid drift"
+      ]
+    },
+    {
+      "id": "spec-kit",
+      "heading": "Why Spec Kit became my preferred workflow so far",
+      "tocLabel": "Spec Kit",
+      "paragraphs": [
+        "Spec Kit was the clearest experience for me because it was more verbose in the places where verbosity actually helped. It pushed the workflow into smaller decisions, made the sequencing more explicit, and gave a stronger structure for creating each spec, plan, and task breakdown.",
+        "That stronger structure reduced ambiguity during execution. I did not have to keep translating a loose idea into the next artifact in my head because the workflow itself already carried more of that burden. In practice, that means less guessing, fewer hidden steps, and a better chance of keeping the implementation aligned with the original goal."
+      ],
+      "pros": [
+        "More verbose guidance where the detail is actually useful",
+        "Clearer workflow from specification to planning to tasks",
+        "Stronger structure for breaking work into reviewable steps"
+      ],
+      "cons": [
+        "More process can feel heavier if the problem is genuinely trivial",
+        "The workflow asks for more patience upfront before coding starts"
+      ],
+      "callout": "Spec Kit felt strongest not because it was more complicated, but because the structure made the next decision easier to defend."
+    },
+    {
+      "id": "kiro",
+      "heading": "What I liked about Kiro",
+      "tocLabel": "Kiro",
+      "paragraphs": [
+        "Kiro was interesting for a different reason. The whole IDE experience felt oriented around the Spec-Driven Development flow instead of treating it like an optional side exercise. That coherence matters because the environment reinforces the process rather than asking you to keep rebuilding it manually.",
+        "My evaluation there is more limited, and I want to be explicit about that. I did not fully explore it because I did not adopt the paid plan, which limited the freedom to choose models during the development flow. So my impression was positive, but I would not overstate the depth of my hands-on comparison yet."
+      ],
+      "pros": [
+        "The IDE feels intentionally built around the SDD workflow",
+        "The experience is coherent rather than bolted together from separate steps",
+        "Interesting direction for people who want the workflow embedded in the tool itself"
+      ],
+      "cons": [
+        "My exploration was limited and not broad enough for a definitive judgment",
+        "Not using the paid plan reduced flexibility around model choice"
+      ]
+    },
+    {
+      "id": "comparison",
+      "heading": "Direct comparison: where each approach helped most",
+      "tocLabel": "Direct comparison",
+      "paragraphs": [
+        "All three approaches were useful, but they helped in different ways. OpenSpec made it easy to start. Spec Kit made it easier to stay rigorous. Kiro made the IDE experience feel aligned with the workflow itself.",
+        "If I had to summarize the practical difference, I would say OpenSpec gives you room, Spec Kit gives you guardrails, and Kiro gives you an environment shaped around the process. For my current preference, the guardrails mattered most because they improved output quality earlier in the cycle."
+      ],
+      "comparisonItems": [
+        {
+          "label": "OpenSpec",
+          "summary": "Useful and approachable, but more permissive when the specification still needs stronger constraints.",
+          "strengths": [
+            "Simple to start using",
+            "Flexible when the author already has a strong planning habit"
+          ],
+          "cautions": [
+            "Extra freedom can produce weaker outcomes if the spec is not restrictive enough"
+          ]
+        },
+        {
+          "label": "Spec Kit",
+          "summary": "The most complete workflow for me so far because the added structure improved clarity and execution quality.",
+          "strengths": [
+            "More verbose guidance",
+            "Clear workflow progression",
+            "Better structure for creating specs and tasks"
+          ],
+          "cautions": [
+            "Heavier than a minimal workflow for very small problems"
+          ]
+        },
+        {
+          "label": "Kiro",
+          "summary": "An interesting IDE-centric experience that felt coherent, but one I still explored with meaningful limitations.",
+          "strengths": [
+            "Workflow feels native to the environment",
+            "Strong sense of process cohesion"
+          ],
+          "cautions": [
+            "My usage was limited because I did not use the paid plan and therefore did not test the model-choice flexibility deeply"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "heading": "Where pure vibe coding helps and where it breaks down",
+      "tocLabel": "Vibe coding tradeoffs",
+      "paragraphs": [
+        "Pure vibe coding can help when the goal is general and the cost of being slightly wrong is low. It is fast, it can unblock exploration, and it is often enough to get a first shape on the screen or a first technical direction in motion.",
+        "The problem shows up when the goal becomes detailed. If the person behind the prompt does not understand what should or should not be used, the model can happily generate something that looks complete but quietly moves away from the real target. That is where the headache starts: not because the model refused to help, but because it optimized for a vague brief.",
+        "If someone wants to rely on pure vibe coding without constant corrections, prompt quality has to be strong enough to describe the target completely. That means scope, constraints, expected behavior, visual direction, tradeoffs, and non-goals need to be explicit. Without that, speed often becomes rework."
+      ]
+    },
+    {
+      "id": "assistants-and-specs",
+      "heading": "Using ChatGPT or other assistants to help write specifications",
+      "tocLabel": "Assistants and specs",
+      "paragraphs": [
+        "I do not see a problem with using ChatGPT or other assistants to help elaborate prompts or specifications. In many cases, that is a practical way to pressure-test ideas, expose missing assumptions, or improve the structure of the request before implementation starts.",
+        "What matters is the human context behind the prompt. If the person guiding the process has enough experience, they can use the assistant to sharpen the spec without outsourcing judgment. If that experience is missing, the assistant can still help, but it cannot replace the need to research the domain deeply before trying to build a serious product or project in that area."
+      ],
+      "callout": "Assistants can improve a specification, but they cannot supply real context you never acquired."
+    }
+  ],
+  "keyTakeaways": [
+    "Structured specification work matters most when the target has real constraints and not just a general direction.",
+    "OpenSpec was useful and simple, but its flexibility can weaken outcomes when the specification is still too loose.",
+    "Spec Kit gave me the clearest workflow so far because its verbosity and structure reduced ambiguity during execution.",
+    "Kiro felt coherent as an IDE-centered SDD experience, but my hands-on evaluation is still limited.",
+    "Pure vibe coding is useful for broad exploration, but detailed goals still depend on strong prompts and real engineering judgment."
+  ],
+  "shareMetadata": {
+    "title": "Spec-Driven Development in practice: OpenSpec vs Spec Kit vs Kiro",
+    "text": "A grounded comparison of OpenSpec, Spec Kit, and Kiro, plus where pure vibe coding and assistant-written specs help or hurt."
+  }
+}

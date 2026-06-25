@@ -1,5 +1,4 @@
 export { achievements } from '../../content/achievements'
-export { blogTopicPreviews } from '../../content/blog-topics'
 export { contactSectionContent } from '../../content/contact'
 export { contactMethods } from '../../content/contact'
 export { profile } from '../../content/profile'
