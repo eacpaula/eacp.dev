@@ -664,6 +664,240 @@
       radial-gradient(circle at 78% 14%, rgba(200, 166, 107, 0.06), transparent 18%),
       radial-gradient(circle at 16% 84%, rgba(255, 255, 255, 0.018), transparent 24%);
   }
+
+  .skills-chart-card {
+    position: relative;
+    overflow: clip;
+    isolation: isolate;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.016), transparent 18%),
+      radial-gradient(circle at 84% 14%, rgba(200, 166, 107, 0.05), transparent 22%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.1) 100%),
+      var(--ds-surface);
+  }
+
+  .skills-chart-frame {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.018), transparent 18%),
+      radial-gradient(circle at 18% 84%, rgba(255, 255, 255, 0.016), transparent 22%),
+      radial-gradient(circle at 80% 16%, rgba(200, 166, 107, 0.04), transparent 18%),
+      var(--ds-surface);
+  }
+
+  .skills-detail-scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 0.5rem;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(200, 166, 107, 0.52) rgba(255, 255, 255, 0.04);
+  }
+
+  @media (max-width: 79.9375rem) {
+    .skills-detail-scroll {
+      max-height: clamp(25rem, 58vh, 39rem);
+    }
+  }
+
+  .skills-detail-scroll::-webkit-scrollbar {
+    width: 0.62rem;
+  }
+
+  .skills-detail-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 999px;
+  }
+
+  .skills-detail-scroll::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(200, 166, 107, 0.3)),
+      rgba(200, 166, 107, 0.24);
+  }
+
+  .skills-detail-scroll::-webkit-scrollbar-thumb:hover {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(200, 166, 107, 0.4)),
+      rgba(200, 166, 107, 0.32);
+  }
+
+  .skills-context-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(200, 166, 107, 0.42) rgba(255, 255, 255, 0.04);
+  }
+
+  .skills-context-scroll::-webkit-scrollbar {
+    width: 0.54rem;
+  }
+
+  .skills-context-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 999px;
+  }
+
+  .skills-context-scroll::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(200, 166, 107, 0.28)),
+      rgba(200, 166, 107, 0.22);
+  }
+
+  .skills-context-scroll::-webkit-scrollbar-thumb:hover {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(200, 166, 107, 0.38)),
+      rgba(200, 166, 107, 0.28);
+  }
+
+  .testimonial-quote-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(200, 166, 107, 0.48) rgba(255, 255, 255, 0.04);
+  }
+
+  .testimonial-quote-scroll::-webkit-scrollbar {
+    width: 0.58rem;
+  }
+
+  .testimonial-quote-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 999px;
+  }
+
+  .testimonial-quote-scroll::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(200, 166, 107, 0.24)),
+      rgba(200, 166, 107, 0.22);
+  }
+
+  .testimonial-quote-scroll::-webkit-scrollbar-thumb:hover {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(200, 166, 107, 0.36)),
+      rgba(200, 166, 107, 0.28);
+  }
+
+  .testimonial-plane-stage {
+    perspective: 2200px;
+    perspective-origin: 50% 46%;
+    transform-style: preserve-3d;
+  }
+
+  .testimonial-plane {
+    transform-style: preserve-3d;
+    transform-origin: center center;
+  }
+
+  @keyframes skills-label-marquee {
+    0%,
+    12% {
+      transform: translateX(0);
+    }
+
+    55%,
+    80% {
+      transform: translateX(var(--skill-label-shift, 0));
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .skills-label-marquee {
+    animation: skills-label-marquee var(--skill-label-duration, 4.8s) ease-in-out infinite;
+    will-change: transform;
+  }
+
+  .skills-control {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--ds-radius-control);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 18%),
+      var(--ds-surface-muted);
+    color: var(--ds-foreground-muted);
+    padding: 0.75rem 1rem;
+    transition:
+      border-color 160ms ease,
+      color 160ms ease,
+      background-color 160ms ease,
+      transform 160ms ease;
+  }
+
+  .skills-control:hover {
+    border-color: rgba(200, 166, 107, 0.36);
+    color: var(--ds-foreground);
+    transform: translateY(-1px);
+  }
+
+  .skills-control:focus-visible {
+    outline: 2px solid var(--ds-accent);
+    outline-offset: 2px;
+  }
+
+  .skills-control-active {
+    border-color: rgba(200, 166, 107, 0.56);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.028), transparent 18%),
+      rgba(200, 166, 107, 0.12);
+    color: var(--ds-foreground);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.05),
+      1px 1px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .skills-info-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 18%),
+      var(--ds-surface-muted);
+    color: var(--ds-foreground-muted);
+    font-family: var(--font-mono, monospace);
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1;
+    transition:
+      border-color 160ms ease,
+      color 160ms ease,
+      transform 160ms ease,
+      background-color 160ms ease;
+  }
+
+  .skills-info-button:hover {
+    border-color: rgba(200, 166, 107, 0.38);
+    color: var(--ds-foreground);
+    transform: translateY(-1px);
+  }
+
+  .skills-info-button:focus-visible {
+    outline: 2px solid var(--ds-accent);
+    outline-offset: 2px;
+  }
+
+  .skills-info-popover {
+    position: absolute;
+    top: calc(100% + 0.75rem);
+    right: 0;
+    z-index: 20;
+    width: min(18rem, calc(100vw - 4rem));
+    border: 1px solid rgba(200, 166, 107, 0.18);
+    border-radius: calc(var(--ds-radius-card) - 0.1rem);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.022), transparent 18%),
+      radial-gradient(circle at 85% 12%, rgba(200, 166, 107, 0.06), transparent 24%),
+      var(--ds-surface);
+    padding: 0.95rem 1rem 1rem;
+    box-shadow:
+      0 20px 32px rgba(0, 0, 0, 0.32),
+      inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -696,6 +930,10 @@
   .sketch-metric-card::after,
   .sketch-nav-link::after {
     animation: none;
+  }
+
+  .skills-control {
+    transition: none;
   }
 }
 

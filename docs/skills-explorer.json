@@ -1,0 +1,3581 @@
+{
+  "usageSeeds": [
+    {
+    "id": "mdfcommerce",
+    "name": "MDFCommerce",
+    "kind": "client",
+    "periodLabel": "09/2024 - 05/2026",
+    "logoPath": "docs/assets/company-logos/mdfcommerce.png",
+    "websiteUrl": "https://www.mdfcommerce.com/",
+    "headline": "Multi-application Angular modernization, component-library architecture, and accessibility delivery",
+      "description": "Defined and executed the upgrade strategy for three large Angular marketplace applications, completing Angular 8-to-18 modernization in roughly eight months instead of a longer original timeline. Helped architect a shared component library with senior engineers, shipped Storybook-documented components with test coverage, and used AI-assisted workflows to speed up accessibility remediation in legacy surfaces.",
+      "relatedTechnologies": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "Storybook",
+        "Tailwind CSS",
+        "NX",
+        "Jest",
+        "Cypress",
+        "GitHub Copilot",
+        "Codex",
+        "Cursor IDE"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "POC at MDFCommerce",
+        "MDfCommerce"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "docs/profile/evandro-source-of-true.md",
+        "docs/profile/evandro-resume-summary.md",
+        "docs/profile/evandro-source-of-truth-draft.md"
+      ],
+      "priority": 1,
+      "isHighlight": true
+    },
+    {
+    "id": "acuity-brands",
+    "name": "Acuity Brands",
+    "kind": "client",
+    "periodLabel": "05/2021 - 09/2024",
+    "logoPath": "docs/assets/company-logos/acuity-brands.png",
+    "websiteUrl": "https://www.acuitybrands.com/",
+    "headline": "Enterprise full stack delivery with platform architecture, CI/CD hardening, and reusable systems",
+      "description": "Built and maintained enterprise applications across React, Next.js, Node.js, NestJS, and .NET/C#, contributing to both frontend and backend architecture in a large multi-project environment. Led Bit.dev Harmony adoption for a 65+ component library used across 20+ projects, rolled out Dependabot in Azure DevOps pipelines, strengthened vulnerability management with BlackDuck, Aqua, and Snyk, and kept coverage above 95% while supporting REST and GraphQL-oriented platform work.",
+      "relatedTechnologies": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Nest.js",
+        "C#",
+        ".NET Core",
+        "Azure DevOps",
+        "Docker",
+        "Kubernetes",
+        "Bit.dev",
+        "Jest",
+        "Playwright",
+        "Cypress",
+        "Swagger",
+        "Postman"
+      ],
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "docs/profile/evandro-source-of-true.md",
+        "docs/profile/evandro-resume-summary.md",
+        "docs/profile/evandro-source-of-truth-draft.md"
+      ],
+      "priority": 2,
+      "isHighlight": true
+    },
+    {
+    "id": "oxdreams",
+    "name": "OxDreams",
+    "kind": "company",
+    "periodLabel": "09/2021 - 04/2022",
+    "logoPath": "docs/assets/company-logos/oxdreams.jpg",
+    "headline": "Startup delivery under investor pressure with measurable feed-performance recovery",
+      "description": "Improved social feed performance by 40% through SQL optimization, table restructuring, targeted indexes, and load-test-driven bottleneck fixes in a private social network startup. Delivered urgent investor-facing features such as like, share, friend search, and follow flows while also contributing to maintenance work, performance tuning, and junior developer mentoring.",
+      "relatedTechnologies": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "React.js"
+      ],
+      "sourceAliases": [
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "docs/profile/evandro-source-of-true.md",
+        "docs/profile/evandro-resume-summary.md",
+        "docs/profile/evandro-source-of-truth-draft.md"
+      ],
+      "priority": 3,
+      "isHighlight": true
+    },
+    {
+    "id": "logictake-parachut360",
+    "name": "LogicTake / Parachut360",
+    "kind": "project",
+    "periodLabel": "06/2021 - 09/2021",
+    "logoPath": "docs/assets/company-logos/logictake.png",
+    "websiteUrl": "https://www.logictake.com/",
+    "headline": "Freelance delivery for a temporary life-insurance platform with deadline-bound feature work",
+      "description": "Maintained and enhanced features for the Parachut360 temporary life-insurance platform in a freelance delivery context with short deadlines. Implemented new interface flows, fixed bugs, and validated data against documented business rules so required functionality could ship on time.",
+      "relatedTechnologies": [
+        "Angular",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "sourceAliases": [
+        "LogicTake"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "docs/profile/evandro-source-of-true.md",
+        "docs/profile/evandro-resume-summary.md",
+        "docs/profile/evandro-source-of-truth-draft.md"
+      ],
+      "priority": 4,
+      "isHighlight": false
+    },
+    {
+    "id": "fullsoft",
+    "name": "FullSoft",
+    "kind": "company",
+    "periodLabel": "01/2020 - 01/2021",
+    "logoPath": "docs/assets/company-logos/fullsoft-mobile-solutions.png",
+    "websiteUrl": "https://www.fullsoft.com.br/",
+    "headline": "WMS platform reconstruction with modernization, discovery, and release-readiness work",
+      "description": "Rebuilt core features of a WMS platform within 10 months during the pandemic, enabling two months of UAT before release. Introduced React and more modern development practices into an older .NET and ActionScript environment, interviewed clients and internal developers to map requirements, documented modules, ran tests, and generated desktop-style UAT binaries with pkg and Electron.",
+      "relatedTechnologies": [
+        "React.js",
+        "Node.js",
+        "C#",
+        ".NET Core",
+        "PostgreSQL",
+        "Oracle",
+        "PL/SQL"
+      ],
+      "sourceAliases": [
+        "FullSoft",
+        "Fullsoft"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "docs/profile/evandro-source-of-true.md",
+        "docs/profile/evandro-resume-summary.md",
+        "docs/profile/evandro-source-of-truth-draft.md"
+      ],
+      "priority": 5,
+      "isHighlight": true
+    },
+    {
+    "id": "saga-sistemas",
+    "name": "Saga Sistemas",
+    "kind": "company",
+    "periodLabel": "01/2019 - 01/2020",
+    "logoPath": "docs/assets/company-logos/saga-sistemas-personalizados-ltda.png",
+    "headline": "ERP-integrated portal delivery with reusable base-project strategy and modernization work",
+      "description": "Improved Laravel base-project architecture by better leveraging framework capabilities and by creating a more reusable delivery foundation for customized client portals. Designed a Git branch and tag strategy to unify client-specific versions into a base project, significantly reduced duplicate effort, introduced React for a new frontend base, and supported integrations with PL/SQL-backed modules.",
+      "relatedTechnologies": [
+        "Laravel",
+        "PHP",
+        "React.js",
+        "PL/SQL",
+        "Node.js"
+      ],
+      "sourceAliases": [
+        "Saga"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "docs/profile/evandro-source-of-true.md",
+        "docs/profile/evandro-resume-summary.md",
+        "docs/profile/evandro-source-of-truth-draft.md"
+      ],
+      "priority": 6,
+      "isHighlight": true
+    },
+    {
+    "id": "fdd",
+    "name": "FDD",
+    "kind": "company",
+    "periodLabel": "01/2018 - 12/2018",
+    "logoPath": "docs/assets/company-logos/fdd.jpg",
+    "websiteUrl": "https://fdd.com.br/",
+    "headline": "Digital transformation delivery across performance debugging, API integration, and MVP execution",
+      "description": "Improved application efficiency by identifying bottlenecks and debugging AngularJS components with Chrome DevTools across digital transformation projects. Delivered a commercial MVP in two months with CodeIgniter-based blockchain integrations, while also maintaining features, integrating APIs, troubleshooting production issues, and contributing to frontend and UI improvements in billing and event-oriented systems.",
+      "relatedTechnologies": [
+        "AngularJS",
+        "CodeIgniter",
+        "Node.js",
+        "C#",
+        ".NET Core",
+        "PHP"
+      ],
+      "sourceAliases": [
+        "FDD"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "docs/profile/evandro-source-of-true.md",
+        "docs/profile/evandro-resume-summary.md",
+        "docs/profile/evandro-source-of-truth-draft.md"
+      ],
+      "priority": 7,
+      "isHighlight": false
+    },
+    {
+    "id": "axysweb",
+    "name": "AxysWeb",
+    "kind": "company",
+    "periodLabel": "01/2016 - 12/2017",
+    "logoPath": "docs/assets/company-logos/axysweb.svg",
+    "websiteUrl": "https://www.axysweb.com.br/",
+    "headline": "Early .NET Core adoption, RESTful API transition, and legacy-platform performance work",
+      "description": "Developed a new project model during the early adoption of .NET Core for a gas-station-network client and proposed the architectural transition from monolithic structure to RESTful APIs. Improved third-party integrations and SQL-query performance, maintained legacy systems, delivered new features, and supported analysis, troubleshooting, code review, and Scrum ceremonies across web, portal, and hybrid-app contexts.",
+      "relatedTechnologies": [
+        "Node.js",
+        "C#",
+        ".NET Core",
+        "REST API",
+        "SQL Server"
+      ],
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "docs/profile/evandro-source-of-true.md",
+        "docs/profile/evandro-resume-summary.md",
+        "docs/profile/evandro-source-of-truth-draft.md"
+      ],
+      "priority": 8,
+      "isHighlight": true
+    }
+  ],
+  "skillSeeds": [
+    {
+      "id": "typescript",
+      "label": "TypeScript",
+      "groupId": "frontend",
+      "sourceCategory": "Language",
+      "yearsLabel": "8+",
+      "order": 1,
+      "relatedSkillIds": [
+        "react-js",
+        "angular",
+        "node-js"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb",
+        "BG7"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "react-js",
+      "label": "React.js",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend Framework",
+      "yearsLabel": "6+",
+      "order": 2,
+      "relatedSkillIds": [
+        "next-js",
+        "typescript",
+        "storybook"
+      ],
+      "sourceAliases": [
+        "Acuity",
+        "OxDreams",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "angular",
+      "label": "Angular",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend Framework",
+      "yearsLabel": "5+",
+      "order": 3,
+      "relatedSkillIds": [
+        "rxjs",
+        "storybook",
+        "tailwind-css"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "LogicTake",
+        "Saga",
+        "FDD",
+        "BG7"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "next-js",
+      "label": "Next.js",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend Framework",
+      "yearsLabel": "4+",
+      "order": 4,
+      "relatedSkillIds": [
+        "react-js",
+        "typescript"
+      ],
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "storybook",
+      "label": "Storybook",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend Tooling",
+      "yearsLabel": "4+",
+      "order": 5,
+      "relatedSkillIds": [
+        "angular",
+        "react-js",
+        "tailwind-css"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "tailwind-css",
+      "label": "Tailwind CSS",
+      "groupId": "frontend",
+      "sourceCategory": "Styling",
+      "yearsLabel": "4+",
+      "order": 6,
+      "relatedSkillIds": [
+        "angular",
+        "storybook",
+        "nx"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "rxjs",
+      "label": "RxJS",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend Library",
+      "yearsLabel": "3+",
+      "order": 7,
+      "relatedSkillIds": [
+        "angular",
+        "typescript"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "LogicTake"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "node-js",
+      "label": "Node.js",
+      "groupId": "backend",
+      "sourceCategory": "Backend Runtime",
+      "yearsLabel": "8+",
+      "order": 1,
+      "relatedSkillIds": [
+        "nest-js",
+        "express-js",
+        "fastify"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb",
+        "BG7"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "nest-js",
+      "label": "Nest.js",
+      "groupId": "backend",
+      "sourceCategory": "Backend Framework",
+      "yearsLabel": "4+",
+      "order": 2,
+      "relatedSkillIds": [
+        "node-js",
+        "typescript",
+        "rest-api"
+      ],
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "express-js",
+      "label": "Express.js",
+      "groupId": "backend",
+      "sourceCategory": "Backend Framework",
+      "yearsLabel": "6+",
+      "order": 3,
+      "relatedSkillIds": [
+        "node-js",
+        "rest-api"
+      ],
+      "sourceAliases": [
+        "Acuity",
+        "Fullsoft",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "BG7"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "fastify",
+      "label": "Fastify",
+      "groupId": "backend",
+      "sourceCategory": "Backend Framework",
+      "yearsLabel": "3+",
+      "order": 4,
+      "relatedSkillIds": [
+        "node-js",
+        "rest-api"
+      ],
+      "sourceAliases": [
+        "FDD",
+        "BG7",
+        "Hyper System",
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv"
+      ]
+    },
+    {
+      "id": "csharp",
+      "label": "C#",
+      "groupId": "backend",
+      "sourceCategory": "Language",
+      "yearsLabel": "5+",
+      "order": 5,
+      "relatedSkillIds": [
+        "dotnet-core",
+        "sql-server"
+      ],
+      "sourceAliases": [
+        "Acuity",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "dotnet-core",
+      "label": ".NET Core",
+      "groupId": "backend",
+      "sourceCategory": "Backend Framework",
+      "yearsLabel": "4+",
+      "order": 6,
+      "relatedSkillIds": [
+        "csharp",
+        "rest-api",
+        "sql-server"
+      ],
+      "sourceAliases": [
+        "Acuity",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb",
+        "Masset"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "php",
+      "label": "PHP",
+      "groupId": "backend",
+      "sourceCategory": "Language",
+      "yearsLabel": "3+",
+      "order": 7,
+      "relatedSkillIds": [
+        "laravel"
+      ],
+      "sourceAliases": [
+        "OxDreams",
+        "Fullsoft",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb",
+        "BG7"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "laravel",
+      "label": "Laravel",
+      "groupId": "backend",
+      "sourceCategory": "Backend Framework",
+      "yearsLabel": "2+",
+      "order": 8,
+      "relatedSkillIds": [
+        "php",
+        "pl-sql"
+      ],
+      "sourceAliases": [
+        "BG7",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv"
+      ]
+    },
+    {
+      "id": "rest-api",
+      "label": "REST API",
+      "groupId": "apis",
+      "sourceCategory": "API",
+      "yearsLabel": "10+",
+      "order": 1,
+      "relatedSkillIds": [
+        "swagger",
+        "postman",
+        "node-js"
+      ],
+      "sourceAliases": [
+        "AxysWeb",
+        "FDD",
+        "BG7",
+        "Saga",
+        "FullSoft",
+        "LogicTake",
+        "Acuity",
+        "OxDreams",
+        "MDFCommerce",
+        "Kinective",
+        "Freelancer Projects (Hyper System",
+        "Masset",
+        "Atagon)"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-api-adjustments-2026-06-24"
+      ]
+    },
+    {
+      "id": "graph-ql",
+      "label": "GraphQL",
+      "groupId": "apis",
+      "sourceCategory": "API",
+      "yearsLabel": "4+",
+      "order": 2,
+      "relatedSkillIds": [
+        "rest-api",
+        "postman"
+      ],
+      "sourceAliases": [
+        "FDD",
+        "Acuity",
+        "BG7",
+        "Freelancer Projects (Hyper System",
+        "Masset",
+        "Atagon)",
+        "Kinective"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-api-adjustments-2026-06-24"
+      ]
+    },
+    {
+      "id": "soap",
+      "label": "SOAP",
+      "groupId": "apis",
+      "sourceCategory": "API",
+      "yearsLabel": "2+",
+      "order": 3,
+      "relatedSkillIds": [
+        "rest-api",
+        "swagger"
+      ],
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-api-adjustments-2026-06-24"
+      ]
+    },
+    {
+      "id": "microservices",
+      "label": "Microservices",
+      "groupId": "apis",
+      "sourceCategory": "API",
+      "yearsLabel": "5+",
+      "order": 4,
+      "relatedSkillIds": [
+        "rest-api",
+        "graph-ql"
+      ],
+      "sourceAliases": [
+        "Acuity",
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "manual-api-adjustments-2026-06-24"
+      ]
+    },
+    {
+      "id": "swagger",
+      "label": "Swagger",
+      "groupId": "api-tooling",
+      "sourceCategory": "API Tooling",
+      "yearsLabel": "5+",
+      "order": 3,
+      "relatedSkillIds": [
+        "rest-api",
+        "postman"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "FullSoft",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "postman",
+      "label": "Postman",
+      "groupId": "api-tooling",
+      "sourceCategory": "API Tooling",
+      "yearsLabel": "5+",
+      "order": 4,
+      "relatedSkillIds": [
+        "rest-api",
+        "swagger"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "Atagon)",
+        "BG7",
+        "Freelancer Projects (Hyper System",
+        "Kinective",
+        "Masset"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "insomnia",
+      "label": "Insomnia",
+      "groupId": "api-tooling",
+      "sourceCategory": "API Tooling",
+      "yearsLabel": "2+",
+      "order": 5,
+      "relatedSkillIds": [
+        "rest-api",
+        "postman"
+      ],
+      "sourceAliases": [
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "manual-api-adjustments-2026-06-24"
+      ]
+    },
+    {
+      "id": "postgresql",
+      "label": "PostgreSQL",
+      "groupId": "databases",
+      "sourceCategory": "Database",
+      "yearsLabel": "8+",
+      "order": 5,
+      "relatedSkillIds": [
+        "sql-server",
+        "mysql"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "Fullsoft",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb",
+        "Atagon)",
+        "BG7",
+        "Freelancer Projects (Hyper System",
+        "Masset"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "sql-server",
+      "label": "SQL Server",
+      "groupId": "databases",
+      "sourceCategory": "Database",
+      "yearsLabel": "5+",
+      "order": 6,
+      "relatedSkillIds": [
+        "postgresql",
+        "dotnet-core"
+      ],
+      "sourceAliases": [
+        "Acuity",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "mysql",
+      "label": "MySQL",
+      "groupId": "databases",
+      "sourceCategory": "Database",
+      "yearsLabel": "5+",
+      "order": 7,
+      "relatedSkillIds": [
+        "postgresql",
+        "php"
+      ],
+      "sourceAliases": [
+        "Fullsoft",
+        "Saga",
+        "FDD",
+        "AxysWeb",
+        "BG7"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "docker",
+      "label": "Docker",
+      "groupId": "devops",
+      "sourceCategory": "DevOps",
+      "yearsLabel": "8+",
+      "order": 1,
+      "relatedSkillIds": [
+        "azure-devops",
+        "gitlab-ci",
+        "github-actions"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "Atagon)",
+        "BG7",
+        "Freelancer Projects (Hyper System",
+        "Kinective",
+        "Masset"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure-devops",
+      "label": "Azure DevOps",
+      "groupId": "ci-cd",
+      "sourceCategory": "CI/CD",
+      "yearsLabel": "3+",
+      "order": 2,
+      "relatedSkillIds": [
+        "docker",
+        "kubernetes"
+      ],
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "gitlab-ci",
+      "label": "GitLab CI",
+      "groupId": "ci-cd",
+      "sourceCategory": "CI/CD",
+      "yearsLabel": "4+",
+      "order": 3,
+      "relatedSkillIds": [
+        "docker",
+        "github-actions"
+      ],
+      "sourceAliases": [
+        "FDD",
+        "Saga",
+        "MDFCommerce",
+        "Freelancer Projects (Hyper System",
+        "Masset",
+        "Atagon)"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv"
+      ]
+    },
+    {
+      "id": "github-actions",
+      "label": "GitHub Actions",
+      "groupId": "ci-cd",
+      "sourceCategory": "CI/CD",
+      "yearsLabel": "4+",
+      "order": 4,
+      "relatedSkillIds": [
+        "gitlab-ci",
+        "docker"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Freelancer Projects (Hyper System",
+        "Masset",
+        "Atagon)"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv"
+      ]
+    },
+    {
+      "id": "aws",
+      "label": "AWS",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "4+",
+      "order": 5,
+      "relatedSkillIds": [
+        "docker"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "Atagon)",
+        "BG7",
+        "Freelancer Projects (Hyper System",
+        "Masset"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure",
+      "label": "Azure",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 6,
+      "relatedSkillIds": [
+        "azure-devops",
+        "kubernetes"
+      ],
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "label": "Kubernetes",
+      "groupId": "devops",
+      "sourceCategory": "DevOps",
+      "yearsLabel": "2+",
+      "order": 7,
+      "relatedSkillIds": [
+        "docker",
+        "azure-devops"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "unit-testing",
+      "label": "Unit Testing",
+      "groupId": "testing-quality",
+      "sourceCategory": "Testing",
+      "yearsLabel": "6+",
+      "order": 1,
+      "relatedSkillIds": [
+        "integration-testing",
+        "jest"
+      ],
+      "sourceAliases": [
+        "AxysWeb",
+        "Saga",
+        "Acuity",
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv"
+      ]
+    },
+    {
+      "id": "integration-testing",
+      "label": "Integration Testing",
+      "groupId": "testing-quality",
+      "sourceCategory": "Testing",
+      "yearsLabel": "5+",
+      "order": 2,
+      "relatedSkillIds": [
+        "unit-testing",
+        "e2e-testing"
+      ],
+      "sourceAliases": [
+        "Acuity",
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv"
+      ]
+    },
+    {
+      "id": "e2e-testing",
+      "label": "E2E Testing",
+      "groupId": "testing-quality",
+      "sourceCategory": "Testing",
+      "yearsLabel": "4+",
+      "order": 3,
+      "relatedSkillIds": [
+        "integration-testing",
+        "playwright"
+      ],
+      "sourceAliases": [
+        "Acuity",
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv"
+      ]
+    },
+    {
+      "id": "jest",
+      "label": "Jest",
+      "groupId": "testing-quality",
+      "sourceCategory": "Testing",
+      "yearsLabel": "4+",
+      "order": 4,
+      "relatedSkillIds": [
+        "unit-testing",
+        "storybook"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "cypress",
+      "label": "Cypress",
+      "groupId": "testing-quality",
+      "sourceCategory": "Testing",
+      "yearsLabel": "4+",
+      "order": 5,
+      "relatedSkillIds": [
+        "e2e-testing",
+        "jest"
+      ],
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "playwright",
+      "label": "Playwright",
+      "groupId": "testing-quality",
+      "sourceCategory": "Testing",
+      "yearsLabel": "2+",
+      "order": 6,
+      "relatedSkillIds": [
+        "e2e-testing",
+        "cypress"
+      ],
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "eslint",
+      "label": "ESLint",
+      "groupId": "testing-quality",
+      "sourceCategory": "Code Quality",
+      "yearsLabel": "5+",
+      "order": 7,
+      "relatedSkillIds": [
+        "jest",
+        "unit-testing"
+      ],
+      "sourceAliases": [
+        "MDfCommerce",
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "bit-dev",
+      "label": "Bit.dev",
+      "groupId": "tooling",
+      "sourceCategory": "Frontend Architecture",
+      "yearsLabel": "2+",
+      "order": 1,
+      "relatedSkillIds": [
+        "react-js",
+        "storybook"
+      ],
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "nx",
+      "label": "NX",
+      "groupId": "tooling",
+      "sourceCategory": "Monorepo Tooling",
+      "yearsLabel": "2+",
+      "order": 2,
+      "relatedSkillIds": [
+        "tailwind-css",
+        "angular"
+      ],
+      "sourceAliases": [
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "label": "GitHub Copilot",
+      "groupId": "ai-assisted",
+      "sourceCategory": "AI Tooling",
+      "yearsLabel": "4+",
+      "order": 3,
+      "relatedSkillIds": [
+        "codex",
+        "cursor-ide"
+      ],
+      "sourceAliases": [
+        "FullSoft",
+        "Acuity",
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "codeium",
+      "label": "Codeium",
+      "groupId": "ai-assisted",
+      "sourceCategory": "AI Tooling",
+      "yearsLabel": "5+",
+      "order": 4,
+      "relatedSkillIds": [
+        "github-copilot",
+        "windsurf"
+      ],
+      "sourceAliases": [
+        "Acuity",
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "windsurf",
+      "label": "Windsurf",
+      "groupId": "ai-assisted",
+      "sourceCategory": "AI Tooling",
+      "yearsLabel": "5+",
+      "order": 5,
+      "relatedSkillIds": [
+        "github-copilot",
+        "codeium"
+      ],
+      "sourceAliases": [
+        "Acuity",
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "codex",
+      "label": "Codex",
+      "groupId": "ai-assisted",
+      "sourceCategory": "AI Tooling",
+      "yearsLabel": "2+",
+      "order": 6,
+      "relatedSkillIds": [
+        "github-copilot",
+        "cursor-ide"
+      ],
+      "sourceAliases": [
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "cursor-ide",
+      "label": "Cursor IDE",
+      "groupId": "ai-assisted",
+      "sourceCategory": "AI Tooling",
+      "yearsLabel": "2+",
+      "order": 7,
+      "relatedSkillIds": [
+        "github-copilot",
+        "codex"
+      ],
+      "sourceAliases": [
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "docs/profile/evandro-skills.csv",
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "spec-kit",
+      "label": "Spec-Kit",
+      "groupId": "ai-assisted",
+      "sourceCategory": "AI Tooling",
+      "yearsLabel": "2+",
+      "order": 8,
+      "relatedSkillIds": [
+        "codex",
+        "open-spec"
+      ],
+      "sourceAliases": [
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "open-spec",
+      "label": "Open-Spec",
+      "groupId": "ai-assisted",
+      "sourceCategory": "AI Tooling",
+      "yearsLabel": "2+",
+      "order": 9,
+      "relatedSkillIds": [
+        "spec-kit",
+        "codex"
+      ],
+      "sourceAliases": [
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "waterfall",
+      "label": "Waterfall",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "2+",
+      "order": 1,
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "pair-programming",
+      "label": "Pair Programming",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 2,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "scrum",
+      "label": "Scrum",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 3,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "technical-leadership",
+      "label": "Technical Leadership",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 4,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "problem-solving",
+      "label": "Problem Solving",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 5,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "technical-writing",
+      "label": "Technical Writing",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 6,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "technical-documentation",
+      "label": "Technical Documentation",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 7,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "technical-presentation",
+      "label": "Technical Presentation",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 8,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "technical-communication",
+      "label": "Technical Communication",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 9,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "technical-analysis",
+      "label": "Technical Analysis",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 10,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "technical-design",
+      "label": "Technical Design",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 11,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "technical-implementation",
+      "label": "Technical Implementation",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 12,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "adaptability",
+      "label": "Adaptability",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 13,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "teamwork",
+      "label": "Teamwork",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 14,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "debugging",
+      "label": "Debugging",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 15,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "quality-assurance",
+      "label": "Quality Assurance",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 16,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "resilience",
+      "label": "Resilience",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 17,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "learning-agility",
+      "label": "Learning Agility",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 18,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "continuous-improvement",
+      "label": "Continuous Improvement",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "10+",
+      "order": 19,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "structured-thinking",
+      "label": "Structured Thinking",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "2+",
+      "order": 20,
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "visual-studio-2008",
+      "label": "Visual Studio 2008",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "2+",
+      "order": 3,
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "visual-studio-2010",
+      "label": "Visual Studio 2010",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "2+",
+      "order": 4,
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "visual-studio-2012",
+      "label": "Visual Studio 2012",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "2+",
+      "order": 5,
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "netbeans",
+      "label": "NetBeans",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "2+",
+      "order": 6,
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "notepad-plus-plus",
+      "label": "Notepad++",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "2+",
+      "order": 7,
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "brackets",
+      "label": "Brackets",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "3+",
+      "order": 8,
+      "sourceAliases": [
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "eclipse",
+      "label": "Eclipse",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "4+",
+      "order": 9,
+      "sourceAliases": [
+        "MDFCommerce",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "jquery",
+      "label": "jQuery",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "5+",
+      "order": 8,
+      "sourceAliases": [
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "angularjs",
+      "label": "AngularJS",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "3+",
+      "order": 9,
+      "sourceAliases": [
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "html",
+      "label": "HTML",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "10+",
+      "order": 10,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "css",
+      "label": "CSS",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "10+",
+      "order": 11,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "bootstrap",
+      "label": "Bootstrap",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "5+",
+      "order": 12,
+      "sourceAliases": [
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "javascript",
+      "label": "JavaScript",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "10+",
+      "order": 13,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "python",
+      "label": "Python",
+      "groupId": "backend",
+      "sourceCategory": "Backend",
+      "yearsLabel": "4+",
+      "order": 9,
+      "sourceAliases": [
+        "OxDreams",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "java",
+      "label": "Java",
+      "groupId": "backend",
+      "sourceCategory": "Backend",
+      "yearsLabel": "4+",
+      "order": 10,
+      "sourceAliases": [
+        "MDFCommerce",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "sql",
+      "label": "SQL",
+      "groupId": "databases",
+      "sourceCategory": "Database",
+      "yearsLabel": "9+",
+      "order": 8,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "filezilla",
+      "label": "Filezilla",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "4+",
+      "order": 10,
+      "sourceAliases": [
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "winscp",
+      "label": "WinSCP",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "4+",
+      "order": 11,
+      "sourceAliases": [
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "cordova",
+      "label": "Cordova",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "2+",
+      "order": 14,
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "bitbucket",
+      "label": "Bitbucket",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "8+",
+      "order": 12,
+      "sourceAliases": [
+        "MDFCommerce",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "jira",
+      "label": "Jira",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "8+",
+      "order": 13,
+      "sourceAliases": [
+        "MDFCommerce",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "oracle",
+      "label": "Oracle",
+      "groupId": "databases",
+      "sourceCategory": "Database",
+      "yearsLabel": "4+",
+      "order": 9,
+      "sourceAliases": [
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "sql-server-management-studio",
+      "label": "SQL Server Management Studio",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "3+",
+      "order": 14,
+      "sourceAliases": [
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "dbeaver",
+      "label": "DBeaver",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "9+",
+      "order": 15,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "Saga",
+        "FDD",
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "ionic",
+      "label": "Ionic",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "2+",
+      "order": 15,
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "tortoisesvn",
+      "label": "TortoiseSVN",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "2+",
+      "order": 16,
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "razor",
+      "label": "Razor",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "2+",
+      "order": 16,
+      "sourceAliases": [
+        "AxysWeb"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "okr-method",
+      "label": "OKR Method",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "1+",
+      "order": 21,
+      "sourceAliases": [
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "analytical-thinking",
+      "label": "Analytical Thinking",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "8+",
+      "order": 22,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "business-oriented-thinking",
+      "label": "Business-oriented Thinking",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "8+",
+      "order": 23,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "prioritization",
+      "label": "Prioritization",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "8+",
+      "order": 24,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "technical-empathy",
+      "label": "Technical Empathy",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "8+",
+      "order": 25,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "initiative",
+      "label": "Initiative",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "8+",
+      "order": 26,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "code-review-maturity",
+      "label": "Code Review Maturity",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "8+",
+      "order": 27,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "collaboration-with-non-technical-teams",
+      "label": "Collaboration with Non-Technical Teams",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "8+",
+      "order": 28,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "delivery-focus",
+      "label": "Delivery Focus",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "8+",
+      "order": 29,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "product-mindset",
+      "label": "Product Mindset",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "8+",
+      "order": 30,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "knowledge-sharing",
+      "label": "Knowledge Sharing",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "8+",
+      "order": 31,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "gulp",
+      "label": "Gulp",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "2+",
+      "order": 17,
+      "sourceAliases": [
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "grunt",
+      "label": "Grunt",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "2+",
+      "order": 18,
+      "sourceAliases": [
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "bower",
+      "label": "Bower",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "1+",
+      "order": 19,
+      "sourceAliases": [
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "webpack",
+      "label": "Webpack",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "7+",
+      "order": 20,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "npm",
+      "label": "NPM",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "3+",
+      "order": 21,
+      "sourceAliases": [
+        "OxDreams",
+        "LogicTake",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "git",
+      "label": "Git",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "8+",
+      "order": 22,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "dotnet-framework",
+      "label": ".NET Framework",
+      "groupId": "backend",
+      "sourceCategory": "Backend",
+      "yearsLabel": "6+",
+      "order": 11,
+      "sourceAliases": [
+        "Acuity",
+        "FullSoft",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "apache-kafka",
+      "label": "Apache Kafka",
+      "groupId": "backend",
+      "sourceCategory": "Backend",
+      "yearsLabel": "1+",
+      "order": 12,
+      "sourceAliases": [
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "react-native",
+      "label": "React Native",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "2+",
+      "order": 17,
+      "sourceAliases": [
+        "OxDreams",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "mongodb",
+      "label": "MongoDB",
+      "groupId": "databases",
+      "sourceCategory": "Database",
+      "yearsLabel": "2+",
+      "order": 10,
+      "sourceAliases": [
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "git-flow",
+      "label": "Git Flow",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "8+",
+      "order": 23,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "visual-studio-code",
+      "label": "Visual Studio Code",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "8+",
+      "order": 24,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga",
+        "FDD"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "stakeholder-communication",
+      "label": "Stakeholder Communication",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "3+",
+      "order": 32,
+      "sourceAliases": [
+        "OxDreams",
+        "FullSoft",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "requirements-analysis",
+      "label": "Requirements Analysis",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "3+",
+      "order": 33,
+      "sourceAliases": [
+        "OxDreams",
+        "FullSoft",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "team-support",
+      "label": "Team Support",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "3+",
+      "order": 34,
+      "sourceAliases": [
+        "OxDreams",
+        "FullSoft",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "legacy-modernization-mindset",
+      "label": "Legacy modernization mindset",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "3+",
+      "order": 35,
+      "sourceAliases": [
+        "OxDreams",
+        "FullSoft",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "long-term-vision",
+      "label": "Long-term vision",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "3+",
+      "order": 36,
+      "sourceAliases": [
+        "OxDreams",
+        "FullSoft",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "long-term-maintenance-mindset",
+      "label": "Long-term maintenance mindset",
+      "groupId": "engineering-behaviors",
+      "sourceCategory": "Engineering Behavior",
+      "yearsLabel": "3+",
+      "order": 37,
+      "sourceAliases": [
+        "OxDreams",
+        "FullSoft",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "slim-framework",
+      "label": "Slim Framework",
+      "groupId": "backend",
+      "sourceCategory": "Backend",
+      "yearsLabel": "1+",
+      "order": 13,
+      "sourceAliases": [
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "materialize",
+      "label": "Materialize",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "1+",
+      "order": 18,
+      "sourceAliases": [
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "scss",
+      "label": "SCSS",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "5+",
+      "order": 19,
+      "sourceAliases": [
+        "Acuity",
+        "OxDreams",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "pl-sql",
+      "label": "PL/SQL",
+      "groupId": "databases",
+      "sourceCategory": "Database",
+      "yearsLabel": "1+",
+      "order": 11,
+      "sourceAliases": [
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "aws-ec2",
+      "label": "AWS EC2",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "5+",
+      "order": 7,
+      "sourceAliases": [
+        "MDFCommerce",
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "aws-rds",
+      "label": "AWS RDS",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 8,
+      "sourceAliases": [
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "aws-s3",
+      "label": "AWS S3",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 9,
+      "sourceAliases": [
+        "OxDreams",
+        "LogicTake",
+        "FullSoft",
+        "Saga"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "actionscript",
+      "label": "ActionScript",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "1+",
+      "order": 20,
+      "sourceAliases": [
+        "FullSoft"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "adobe-flash",
+      "label": "Adobe Flash",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "1+",
+      "order": 21,
+      "sourceAliases": [
+        "FullSoft"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "pkg",
+      "label": "PKG",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "1+",
+      "order": 25,
+      "sourceAliases": [
+        "FullSoft"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "electron",
+      "label": "Electron",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "1+",
+      "order": 22,
+      "sourceAliases": [
+        "FullSoft"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "redux",
+      "label": "Redux",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "5+",
+      "order": 23,
+      "sourceAliases": [
+        "Acuity",
+        "OxDreams",
+        "FullSoft"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "confluence",
+      "label": "Confluence",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "2+",
+      "order": 26,
+      "sourceAliases": [
+        "MDFCommerce",
+        "LogicTake"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "yarn",
+      "label": "Yarn",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "1+",
+      "order": 27,
+      "sourceAliases": [
+        "OxDreams",
+        "LogicTake"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "django",
+      "label": "Django",
+      "groupId": "backend",
+      "sourceCategory": "Backend",
+      "yearsLabel": "1+",
+      "order": 14,
+      "sourceAliases": [
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "android",
+      "label": "Android",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "1+",
+      "order": 24,
+      "sourceAliases": [
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "ios",
+      "label": "iOS",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "1+",
+      "order": 25,
+      "sourceAliases": [
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "expo",
+      "label": "Expo",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "1+",
+      "order": 26,
+      "sourceAliases": [
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "vue-js",
+      "label": "Vue.js",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "1+",
+      "order": 27,
+      "sourceAliases": [
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "prettier",
+      "label": "Prettier",
+      "groupId": "ci-cd",
+      "sourceCategory": "CI/CD",
+      "yearsLabel": "5+",
+      "order": 5,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "stylelint",
+      "label": "Stylelint",
+      "groupId": "ci-cd",
+      "sourceCategory": "CI/CD",
+      "yearsLabel": "5+",
+      "order": 6,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity",
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "aws-rekognition",
+      "label": "AWS Rekognition",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "1+",
+      "order": 10,
+      "sourceAliases": [
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "terraform",
+      "label": "Terraform",
+      "groupId": "devops",
+      "sourceCategory": "DevOps",
+      "yearsLabel": "1+",
+      "order": 8,
+      "sourceAliases": [
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "uxcam",
+      "label": "UXCam",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "1+",
+      "order": 28,
+      "sourceAliases": [
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "gitlab",
+      "label": "Gitlab",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "1+",
+      "order": 29,
+      "sourceAliases": [
+        "OxDreams"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "argo-cd",
+      "label": "Argo CD",
+      "groupId": "devops",
+      "sourceCategory": "DevOps",
+      "yearsLabel": "3+",
+      "order": 9,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "blackduck",
+      "label": "BlackDuck",
+      "groupId": "devops",
+      "sourceCategory": "DevOps",
+      "yearsLabel": "3+",
+      "order": 10,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "aqua-security",
+      "label": "Aqua Security",
+      "groupId": "devops",
+      "sourceCategory": "DevOps",
+      "yearsLabel": "3+",
+      "order": 11,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "snyk",
+      "label": "Snyk",
+      "groupId": "devops",
+      "sourceCategory": "DevOps",
+      "yearsLabel": "3+",
+      "order": 12,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "percy",
+      "label": "Percy",
+      "groupId": "ci-cd",
+      "sourceCategory": "CI/CD",
+      "yearsLabel": "3+",
+      "order": 7,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "cobertura",
+      "label": "Cobertura",
+      "groupId": "devops",
+      "sourceCategory": "DevOps",
+      "yearsLabel": "3+",
+      "order": 13,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure-pipelines",
+      "label": "Azure Pipelines",
+      "groupId": "ci-cd",
+      "sourceCategory": "CI/CD",
+      "yearsLabel": "3+",
+      "order": 8,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure-key-vault",
+      "label": "Azure Key Vault",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 11,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure-app-service",
+      "label": "Azure App Service",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 12,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure-functions",
+      "label": "Azure Functions",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 13,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure-storage",
+      "label": "Azure Storage",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 14,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure-sql-database",
+      "label": "Azure SQL Database",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 15,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure-cosmos-db",
+      "label": "Azure Cosmos DB",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 16,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure-active-directory",
+      "label": "Azure Active Directory",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 17,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure-monitor",
+      "label": "Azure Monitor",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 18,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "azure-application-insights",
+      "label": "Azure Application Insights",
+      "groupId": "cloud",
+      "sourceCategory": "Cloud",
+      "yearsLabel": "3+",
+      "order": 19,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "testing-library",
+      "label": "Testing Library",
+      "groupId": "testing-quality",
+      "sourceCategory": "Testing",
+      "yearsLabel": "3+",
+      "order": 8,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "supertest",
+      "label": "Supertest",
+      "groupId": "testing-quality",
+      "sourceCategory": "Testing",
+      "yearsLabel": "3+",
+      "order": 9,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "artillery",
+      "label": "Artillery",
+      "groupId": "testing-quality",
+      "sourceCategory": "Testing",
+      "yearsLabel": "3+",
+      "order": 10,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "husky",
+      "label": "Husky",
+      "groupId": "ci-cd",
+      "sourceCategory": "CI/CD",
+      "yearsLabel": "5+",
+      "order": 9,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "lint-staged",
+      "label": "Lint-staged",
+      "groupId": "ci-cd",
+      "sourceCategory": "CI/CD",
+      "yearsLabel": "5+",
+      "order": 10,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "commitlint",
+      "label": "Commitlint",
+      "groupId": "ci-cd",
+      "sourceCategory": "CI/CD",
+      "yearsLabel": "5+",
+      "order": 11,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "babel",
+      "label": "Babel",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "5+",
+      "order": 30,
+      "sourceAliases": [
+        "MDFCommerce",
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "redux-saga",
+      "label": "Redux Saga",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "3+",
+      "order": 28,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "redux-thunk",
+      "label": "Redux Thunk",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "3+",
+      "order": 29,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "redux-context",
+      "label": "Redux Context",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "3+",
+      "order": 30,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "material-ui",
+      "label": "Material UI",
+      "groupId": "frontend",
+      "sourceCategory": "Frontend",
+      "yearsLabel": "3+",
+      "order": 31,
+      "sourceAliases": [
+        "Acuity"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "jupyter-notebook",
+      "label": "Jupyter Notebook",
+      "groupId": "tooling",
+      "sourceCategory": "Tooling",
+      "yearsLabel": "2+",
+      "order": 31,
+      "sourceAliases": [
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "spring-boot",
+      "label": "Spring Boot",
+      "groupId": "backend",
+      "sourceCategory": "Backend",
+      "yearsLabel": "2+",
+      "order": 15,
+      "sourceAliases": [
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "spring-framework",
+      "label": "Spring Framework",
+      "groupId": "backend",
+      "sourceCategory": "Backend",
+      "yearsLabel": "2+",
+      "order": 16,
+      "sourceAliases": [
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    },
+    {
+      "id": "tslint",
+      "label": "TSLint",
+      "groupId": "ci-cd",
+      "sourceCategory": "CI/CD",
+      "yearsLabel": "2+",
+      "order": 12,
+      "sourceAliases": [
+        "MDFCommerce"
+      ],
+      "sourceRefs": [
+        "manual-company-skill-matrix-2026-06-24"
+      ]
+    }
+  ],
+  "groupSeeds": [
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "description": "Interface delivery, component systems, and modern web application foundations.",
+      "order": 1,
+      "sourceNotes": [
+        "Curated from approved frontend framework, styling, and tooling entries in the CSV."
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "description": "Application runtime, API delivery, and server-side modernization foundations.",
+      "order": 2,
+      "sourceNotes": [
+        "Language and framework skills are grouped for recruiter-readable backend breadth."
+      ]
+    },
+    {
+      "id": "apis",
+      "label": "APIs",
+      "description": "API styles, integration contracts, and service interface delivery.",
+      "order": 3,
+      "sourceNotes": [
+        "Separated from storage and tooling so API-facing skills can evolve as an independent group."
+      ]
+    },
+    {
+      "id": "api-tooling",
+      "label": "API Tooling",
+      "description": "Documentation, inspection, and validation tooling for integration work.",
+      "order": 4,
+      "sourceNotes": [
+        "Split out from API protocols to keep contract work and supporting tools distinct."
+      ]
+    },
+    {
+      "id": "databases",
+      "label": "Databases",
+      "description": "Persistence platforms, relational modeling, and query-heavy data work.",
+      "order": 5,
+      "sourceNotes": [
+        "Separated from API work so data-platform depth can be expanded independently."
+      ]
+    },
+    {
+      "id": "cloud",
+      "label": "Cloud",
+      "description": "Cloud vendor platforms and managed environment experience.",
+      "order": 6,
+      "sourceNotes": [
+        "Cloud platform knowledge is isolated from DevOps runtime and CI/CD workflow tooling."
+      ]
+    },
+    {
+      "id": "devops",
+      "label": "DevOps",
+      "description": "Containerization, orchestration, and operational delivery foundations.",
+      "order": 7,
+      "sourceNotes": [
+        "Runtime and operational skills are kept distinct from cloud vendor and pipeline categories."
+      ]
+    },
+    {
+      "id": "ci-cd",
+      "label": "CI/CD",
+      "description": "Pipeline automation, release workflows, and delivery orchestration tooling.",
+      "order": 8,
+      "sourceNotes": [
+        "Delivery automation is isolated to support future growth without mixing platform concerns."
+      ]
+    },
+    {
+      "id": "testing-quality",
+      "label": "Testing & Quality",
+      "description": "Automated quality practices that support delivery confidence across teams.",
+      "order": 9,
+      "sourceNotes": [
+        "Testing and code-quality practices are grouped to show engineering discipline, not only frameworks."
+      ]
+    },
+    {
+      "id": "tooling",
+      "label": "Tooling",
+      "description": "Reusable engineering tooling and architecture support for scalable delivery.",
+      "order": 10,
+      "sourceNotes": [
+        "Engineering tooling is separated from AI-assisted tools so each area can grow with clearer boundaries."
+      ]
+    },
+    {
+      "id": "ai-assisted",
+      "label": "AI-assisted",
+      "description": "AI-assisted development tools used to accelerate implementation workflows.",
+      "order": 11,
+      "sourceNotes": [
+        "AI-assisted tooling remains limited to approved source-backed skills with verified public context."
+      ]
+    },
+    {
+      "id": "engineering-behaviors",
+      "label": "Engineering Behaviors",
+      "description": "Delivery habits, collaboration patterns, and engineering behaviors that shape execution quality.",
+      "order": 12,
+      "sourceNotes": [
+        "Behavior-oriented skills are curated from the manually reviewed company-skill matrix supplied on 2026-06-24."
+      ]
+    }
+  ],
+  "sourceNotes": [
+    "Skill labels and visible experience values are curated from docs/profile/evandro-skills.csv.",
+    "Usage cards only show company and project context verified in the repository.",
+    "When a skill includes aliases not mapped to a verified public usage card, the interface should show only verified context and note that some mappings remain under review.",
+    "Engineering-behavior and expanded company-skill mappings were enriched from the manually reviewed company skill matrix on 2026-06-24."
+  ]
+}

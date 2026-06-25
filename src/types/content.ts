@@ -103,3 +103,12 @@ export interface ContactSectionContent {
   supportingText: string
   schedulingCta: SchedulingCta
 }
+
+export interface Testimonial {
+  id: string
+  recommender: string
+  recommendationDate: string
+  quote: string
+  imageSrc?: string
+  sourceRefs: string[]
+}
