@@ -1,16 +1,9 @@
 import { Link } from '@tanstack/react-router'
 import type { WritingPostPreview } from '../data/writing.types'
+import { formatPublishDate } from '../utils/publishDate'
 
 interface WritingPostCardProps {
   post: WritingPostPreview
-}
-
-function formatPublishDate(publishDate: string) {
-  return new Intl.DateTimeFormat('en', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  }).format(new Date(publishDate))
 }
 
 export function WritingPostCard({ post }: WritingPostCardProps) {
@@ -37,7 +30,11 @@ export function WritingPostCard({ post }: WritingPostCardProps) {
                 Published
               </p>
               <p className="font-mono text-[0.72rem] uppercase tracking-[0.14em] text-foreground-dim">
-                {formatPublishDate(post.publishDate)}
+                {formatPublishDate(post.publishDate, {
+                  year: 'numeric',
+                  month: 'short',
+                  day: 'numeric',
+                })}
               </p>
             </div>
 

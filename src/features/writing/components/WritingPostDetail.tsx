@@ -1,20 +1,22 @@
 import { Link } from '@tanstack/react-router'
 import type { WritingPost } from '../data/writing.types'
+import { formatPublishDate } from '../utils/publishDate'
+import { WritingEvidenceGallery } from './WritingEvidenceGallery'
+import { WritingRoleGraph } from './WritingRoleGraph'
+import { WritingRoleProfiles } from './WritingRoleProfiles'
 import { WritingShareActions } from './WritingShareActions'
 
 interface WritingPostDetailProps {
   post: WritingPost
 }
 
-function formatPublishDate(publishDate: string) {
-  return new Intl.DateTimeFormat('en', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  }).format(new Date(publishDate))
-}
-
 export function WritingPostDetail({ post }: WritingPostDetailProps) {
+  const roleProfileById = new Map(
+    (post.roleProfiles ?? []).map((roleProfile) => [roleProfile.id, roleProfile] as const),
+  )
+  const evidenceById = new Map(
+    (post.roleEvidence ?? []).map((entry) => [entry.id, entry] as const),
+  )
   const tableOfContentsItems = post.sections
     .filter((section) => section.includeInToc !== false)
     .map((section) => ({
@@ -65,7 +67,12 @@ export function WritingPostDetail({ post }: WritingPostDetailProps) {
         </Link>
 
         <p className="font-mono text-[0.72rem] uppercase tracking-[0.14em] text-foreground-dim">
-          Published {formatPublishDate(post.publishDate)}
+          Published{' '}
+          {formatPublishDate(post.publishDate, {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          })}
         </p>
       </div>
 
@@ -230,8 +237,60 @@ export function WritingPostDetail({ post }: WritingPostDetailProps) {
                       ) : null}
                     </div>
                   ) : null}
+
+                  {section.roleProfileIds?.length ? (
+                    <WritingRoleProfiles
+                      roleProfiles={section.roleProfileIds
+                        .map((roleProfileId) => roleProfileById.get(roleProfileId))
+                        .filter((roleProfile): roleProfile is NonNullable<typeof roleProfile> =>
+                          Boolean(roleProfile),
+                        )}
+                    />
+                  ) : null}
+
+                  {section.evidenceIds?.length ? (
+                    <WritingEvidenceGallery
+                      evidenceEntries={section.evidenceIds
+                        .map((evidenceId) => evidenceById.get(evidenceId))
+                        .filter((entry): entry is NonNullable<typeof entry> => Boolean(entry))}
+                    />
+                  ) : null}
+
+                  {section.renderRoleGraph && post.roleGraph ? (
+                    <WritingRoleGraph
+                      graph={post.roleGraph}
+                      roleProfiles={post.roleProfiles}
+                    />
+                  ) : null}
                 </div>
               ))}
+
+              {post.finalReflection ? (
+                <div className="space-y-5 border-t border-white/8 pt-10">
+                  <h2 className="font-display text-2xl font-semibold text-foreground">
+                    {post.finalReflection.heading}
+                  </h2>
+
+                  <div className="writing-detail-prose space-y-4">
+                    {post.finalReflection.paragraphs.map((paragraph) => (
+                      <p
+                        key={paragraph}
+                        className="text-sm leading-8 text-foreground-muted sm:text-base"
+                      >
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
+
+                  {post.finalReflection.callout ? (
+                    <div className="sketch-surface-muted rounded-card p-4">
+                      <p className="text-sm leading-7 text-foreground">
+                        {post.finalReflection.callout}
+                      </p>
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
             </div>
           </section>
         </div>

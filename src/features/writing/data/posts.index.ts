@@ -1,4 +1,6 @@
+import aiRolesPostData from './posts/ai-tools-software-engineering-role-confusion.json'
 import specDrivenDevelopmentPostData from './posts/spec-driven-development.json'
+import { comparePublishDateDescending } from '../utils/publishDate'
 import type { WritingPost, WritingPostPreview } from './writing.types'
 
 function resolveAssetPath(assetPath: string) {
@@ -19,18 +21,21 @@ function normalizePost(post: WritingPost): WritingPost {
         ? resolveAssetPath(post.coverImage.socialSrc)
         : undefined,
     },
+    roleEvidence: post.roleEvidence?.map((entry) => ({
+      ...entry,
+      imagePath: entry.imagePath ? resolveAssetPath(entry.imagePath) : undefined,
+    })),
   }
 }
 
 function sortPostsByPublishDateDescending(left: WritingPost, right: WritingPost) {
-  return (
-    new Date(right.publishDate).getTime() - new Date(left.publishDate).getTime()
-  )
+  return comparePublishDateDescending(left.publishDate, right.publishDate)
 }
 
-const posts = [normalizePost(specDrivenDevelopmentPostData as WritingPost)].sort(
-  sortPostsByPublishDateDescending,
-)
+const posts = [
+  normalizePost(aiRolesPostData as WritingPost),
+  normalizePost(specDrivenDevelopmentPostData as WritingPost),
+].sort(sortPostsByPublishDateDescending)
 
 export const writingPosts = posts
 

@@ -1,0 +1,96 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="90" x2="1440" y2="810" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11110F"/>
+      <stop offset="1" stop-color="#080807"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(803 431) rotate(90) scale(382 622)">
+      <stop stop-color="#C8A66B" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#C8A66B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="1600" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.04"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="32" fill="url(#bg)"/>
+  <rect width="1600" height="900" rx="32" fill="url(#halo)"/>
+  <rect width="1600" height="900" rx="32" filter="url(#grain)" opacity="0.32"/>
+
+  <g opacity="0.55" stroke="#3B382F" stroke-width="1.4">
+    <path d="M194 166H1407"/>
+    <path d="M194 736H1407"/>
+    <path d="M194 451H1407"/>
+  </g>
+
+  <g opacity="0.35" stroke="#C8A66B" stroke-width="1.6">
+    <path d="M339 258C458 258 466 326 597 326H799"/>
+    <path d="M339 451C458 451 478 451 597 451H799"/>
+    <path d="M339 644C458 644 466 576 597 576H799"/>
+    <path d="M801 451H1004C1108 451 1136 326 1243 326"/>
+    <path d="M801 451H1004C1108 451 1136 576 1243 576"/>
+    <path d="M801 451H1004C1130 451 1120 451 1243 451"/>
+  </g>
+
+  <g fill="#171614" stroke="#302D27" stroke-width="2">
+    <rect x="214" y="204" width="192" height="108" rx="18"/>
+    <rect x="214" y="397" width="192" height="108" rx="18"/>
+    <rect x="214" y="590" width="192" height="108" rx="18"/>
+    <rect x="564" y="268" width="192" height="108" rx="18"/>
+    <rect x="564" y="520" width="192" height="108" rx="18"/>
+    <rect x="704" y="345" width="192" height="212" rx="22" fill="#1F1E1B" stroke="#C8A66B"/>
+    <rect x="1194" y="268" width="192" height="108" rx="18"/>
+    <rect x="1194" y="397" width="192" height="108" rx="18"/>
+    <rect x="1194" y="526" width="192" height="108" rx="18"/>
+  </g>
+
+  <g fill="#F4F1EA" font-family="Inter, Arial, sans-serif">
+    <text x="248" y="236" font-size="20" font-weight="600">AI Engineer</text>
+    <text x="248" y="262" font-size="13" opacity="0.72">broad product + delivery title</text>
+
+    <text x="248" y="429" font-size="20" font-weight="600">LLM Engineer</text>
+    <text x="248" y="455" font-size="13" opacity="0.72">context, retrieval, evaluation</text>
+
+    <text x="248" y="622" font-size="20" font-weight="600">ML Engineer</text>
+    <text x="248" y="648" font-size="13" opacity="0.72">training, pipelines, MLOps</text>
+
+    <text x="598" y="300" font-size="19" font-weight="600">Prompt / context</text>
+    <text x="598" y="326" font-size="13" opacity="0.72">quality still matters</text>
+
+    <text x="598" y="552" font-size="19" font-weight="600">RAG + integration</text>
+    <text x="598" y="578" font-size="13" opacity="0.72">systems around the model</text>
+
+    <text x="737" y="390" font-size="16" letter-spacing="0.24em" fill="#C8A66B">ROLE MAP</text>
+    <text x="737" y="440" font-size="34" font-weight="700">Ambiguity</text>
+    <text x="737" y="484" font-size="34" font-weight="700">to clarity</text>
+    <text x="737" y="531" font-size="15" opacity="0.78">skills, delivery, judgment, trade-offs</text>
+
+    <text x="1228" y="300" font-size="19" font-weight="600">API integration</text>
+    <text x="1228" y="326" font-size="13" opacity="0.72">useful start, not the whole job</text>
+
+    <text x="1228" y="429" font-size="19" font-weight="600">Evaluation + monitoring</text>
+    <text x="1228" y="455" font-size="13" opacity="0.72">quality after the demo</text>
+
+    <text x="1228" y="558" font-size="19" font-weight="600">Product judgment</text>
+    <text x="1228" y="584" font-size="13" opacity="0.72">where the real decisions live</text>
+  </g>
+
+  <g fill="#C8A66B">
+    <circle cx="799" cy="451" r="6"/>
+    <circle cx="597" cy="326" r="5"/>
+    <circle cx="597" cy="576" r="5"/>
+    <circle cx="1243" cy="326" r="5"/>
+    <circle cx="1243" cy="451" r="5"/>
+    <circle cx="1243" cy="576" r="5"/>
+  </g>
+
+  <g opacity="0.78" fill="#F4F1EA" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="0.28em">
+    <text x="220" y="170">TITLES</text>
+    <text x="570" y="170">CAPABILITIES</text>
+    <text x="1220" y="170">DELIVERY PRESSURE</text>
+  </g>
+</svg>

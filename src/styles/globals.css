@@ -1049,6 +1049,165 @@
     gap: 0.75rem;
   }
 
+  .writing-role-profiles-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  @media (min-width: 80rem) {
+    .writing-role-profiles-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .writing-role-card,
+  .writing-evidence-card,
+  .writing-role-graph-detail,
+  .writing-role-graph-fallback {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.018), transparent 18%),
+      radial-gradient(circle at 88% 12%, rgba(200, 166, 107, 0.06), transparent 24%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.008), rgba(0, 0, 0, 0.08) 100%),
+      var(--ds-surface);
+  }
+
+  .writing-role-accordion-item {
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.018), transparent 20%),
+      rgba(14, 13, 12, 0.5);
+    overflow: hidden;
+  }
+
+  .writing-role-accordion-trigger {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.9rem 1rem;
+    text-align: left;
+    transition:
+      color 160ms ease,
+      background-color 160ms ease;
+  }
+
+  .writing-role-accordion-trigger:hover,
+  .writing-role-accordion-trigger:focus-visible {
+    background: rgba(255, 255, 255, 0.02);
+    outline: none;
+  }
+
+  .writing-role-accordion-icon {
+    display: inline-flex;
+    min-width: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--ds-accent);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    transition: transform 160ms ease;
+  }
+
+  .writing-role-accordion-icon.is-open {
+    transform: rotate(45deg);
+  }
+
+  .writing-role-accordion-panel {
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 0 1rem 1rem;
+  }
+
+  .writing-evidence-media {
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.022), transparent 20%),
+      radial-gradient(circle at 84% 14%, rgba(200, 166, 107, 0.06), transparent 22%),
+      var(--ds-surface-strong);
+  }
+
+  .writing-evidence-preview {
+    width: 100%;
+  }
+
+  .writing-evidence-preview-image {
+    transform: scale(1.02);
+  }
+
+  .writing-evidence-placeholder {
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.015);
+  }
+
+  .writing-evidence-viewer-backdrop {
+    background:
+      linear-gradient(180deg, rgba(8, 8, 8, 0.94), rgba(8, 8, 8, 0.98)),
+      radial-gradient(circle at top, rgba(200, 166, 107, 0.08), transparent 28%);
+    backdrop-filter: blur(14px);
+  }
+
+  .writing-evidence-viewer-frame {
+    border: 1px solid var(--ds-border-strong);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 12%),
+      var(--ds-surface);
+    box-shadow:
+      0 24px 70px rgba(0, 0, 0, 0.45),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.018);
+  }
+
+  .writing-evidence-viewer-image {
+    height: min(78dvh, 64rem);
+  }
+
+  .writing-role-graph-stage {
+    overflow: clip;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.018), transparent 16%),
+      radial-gradient(circle at 50% 14%, rgba(200, 166, 107, 0.08), transparent 28%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.12) 100%),
+      var(--ds-surface);
+  }
+
+  .writing-role-graph-button {
+    display: inline-flex;
+    min-height: 2.4rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: calc(var(--ds-radius-control) + 0.02rem);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 22%),
+      rgba(23, 22, 20, 0.88);
+    padding: 0.55rem 0.85rem;
+    color: var(--ds-foreground-muted);
+    font-size: 0.77rem;
+    font-weight: 600;
+    line-height: 1.3;
+    transition:
+      transform 160ms ease,
+      border-color 160ms ease,
+      color 160ms ease,
+      background-color 160ms ease;
+  }
+
+  .writing-role-graph-button:hover,
+  .writing-role-graph-button:focus-visible {
+    transform: translateY(-1px);
+    border-color: rgba(200, 166, 107, 0.36);
+    color: var(--ds-foreground);
+    outline: none;
+  }
+
+  .writing-role-graph-button-active {
+    border-color: rgba(200, 166, 107, 0.52);
+    background:
+      linear-gradient(180deg, rgba(200, 166, 107, 0.22), rgba(200, 166, 107, 0.08)),
+      rgba(23, 22, 20, 0.92);
+    color: var(--ds-foreground);
+  }
+
   @media (min-width: 40rem) {
     .writing-share-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));

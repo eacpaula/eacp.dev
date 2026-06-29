@@ -1,0 +1,759 @@
+{
+  "slug": "ai-tools-software-engineering-role-confusion",
+  "title": "What am I becoming in the AI era: AI Engineer, software engineer, or something in between?",
+  "shortDescription": "A grounded reflection on confusing AI titles, practical role overlap, and where strong software engineering still fits.",
+  "summary": "I keep asking myself where AI tools fit in my work and what companies actually expect from people building with them. This article breaks down common AI-related titles, where they overlap, where they differ, and why software engineering judgment still matters more than title inflation.",
+  "publishDate": "2026-06-29",
+  "tableOfContentsTitle": "Article map",
+  "tags": [
+    "AI Roles",
+    "Software Engineering",
+    "LLM Engineering",
+    "AI-Assisted Workflow",
+    "Career Reflection"
+  ],
+  "coverImage": {
+    "src": "blog/ai-tools-software-engineering-role-confusion-cover.svg",
+    "socialSrc": "blog/ai-tools-software-engineering-role-confusion-cover.png",
+    "alt": "Editorial technical illustration showing AI-related role labels, skills, and decision paths converging toward practical software engineering judgment."
+  },
+  "sections": [
+    {
+      "id": "opening-reflection",
+      "heading": "The question I keep coming back to",
+      "tocLabel": "Opening reflection",
+      "paragraphs": [
+        "I keep running into different interpretations of how AI should be used in software work, and not all of them seem aligned with what companies actually need. That makes me question what role I am expected to play in this scenario. Is what I have learned so far enough to move forward? Am I becoming an \"AI Engineer\", or am I a software engineer who knows how to use AI effectively?",
+        "That question matters to me because titles are starting to move faster than the work itself. The market uses ambitious language, companies compress very different expectations into the same label, and people can end up sounding more certain than they really should. I would rather stay precise: I care about building useful software, I use AI tools seriously, and I want the role language around that work to remain honest."
+      ],
+      "callout": "For me, the real question is not which label sounds newer. It is which combination of skills, delivery judgment, and responsibility the work actually demands."
+    },
+    {
+      "id": "why-titles-feel-confusing",
+      "heading": "Why AI role descriptions feel so confusing",
+      "tocLabel": "Why titles feel confusing",
+      "paragraphs": [
+        "Part of the confusion comes from overlap. A company can want prompt design, RAG, model evaluation, backend architecture, frontend delivery, observability, and product thinking in one role, then publish that bundle under whichever AI-flavored title feels strongest at the moment. Another company might use the same title for something much narrower.",
+        "The second problem is that the market often blurs adjacent disciplines. A role that mostly integrates an external model API into a product can be described next to roles that own data pipelines, training workflows, evaluation infrastructure, and MLOps. Those are not fake overlaps, but they are not identical jobs either."
+      ]
+    },
+    {
+      "id": "what-these-roles-usually-mean",
+      "heading": "What these roles usually mean in practice",
+      "tocLabel": "Role descriptions",
+      "paragraphs": [
+        "I do not think there is one universal definition for these titles. Still, there are recurring patterns. In practice, the roles below usually lean toward a recognizable combination of product integration, data work, model work, automation, or broader software engineering responsibility.",
+        "That is the framing I find more useful than title inflation: what the person is expected to build, what they must understand deeply, and which kinds of failure they are responsible for handling."
+      ],
+      "roleProfileIds": [
+        "ai-engineer",
+        "applied-ai-engineer",
+        "llm-engineer",
+        "ml-engineer",
+        "data-scientist",
+        "ai-product-engineer",
+        "prompt-engineer",
+        "automation-engineer",
+        "software-engineer-with-ai-tools",
+        "full-stack-engineer-building-ai-integrations"
+      ]
+    },
+    {
+      "id": "role-comparison",
+      "heading": "Where the overlap gets messy",
+      "tocLabel": "Role overlap",
+      "paragraphs": [
+        "The easiest mistake is to assume overlap means equivalence. A Full Stack Engineer building AI integrations might need strong prompt-context design, API integration, testing, and product judgment, but that does not automatically make the role identical to an ML Engineer who owns training pipelines and model lifecycle concerns.",
+        "I also think some companies use \"AI Engineer\" as a catch-all phrase for modern product delivery with model capabilities somewhere inside it. That can be partly true, but it hides whether the hard part is ML systems depth, product integration depth, or broad engineering coordination around reliability, monitoring, cost, privacy, and evaluation."
+      ],
+      "pros": [
+        "Overlap is normal when products combine software engineering, product design, and AI capabilities in one flow.",
+        "Broad engineering profiles can still be highly relevant in AI work when the product challenge is integration, reliability, and delivery.",
+        "Clearer role language helps candidates focus on what they actually need to learn."
+      ],
+      "cons": [
+        "The same title can hide completely different expectations from one company to another.",
+        "Broad titles can make API integration work sound deeper or narrower than it really is.",
+        "The label alone rarely tells you whether the role leans toward software engineering, ML systems, product, or automation."
+      ]
+    },
+    {
+      "id": "confusing-role-evidence",
+      "heading": "Examples that are worth collecting carefully",
+      "tocLabel": "Role evidence",
+      "paragraphs": [
+        "I do not want to fake evidence in this article. The three cases below are real captured listings I reviewed.",
+        "What makes these examples useful is not that they prove settled definitions. It is that they show different kinds of title compression. In one case, \"AI Engineer\" works like a broad umbrella for adjacent expectations. In another, a \"Machine Learning Engineer\" title ends up describing work that reads much closer to production-focused LLM or applied AI engineering. In the third, a plain \"Automation Engineer\" role expands into AI applications, AI agents, RAG-adjacent tooling, and AI-assisted workflow design."
+      ],
+      "evidenceIds": [
+        "placeholder-bundled-ai-engineer-role",
+        "placeholder-llm-integration-role",
+        "placeholder-automation-role"
+      ]
+    },
+    {
+      "id": "llm-integration-vs-ai-engineering",
+      "heading": "Is some AI engineering just API consumption?",
+      "tocLabel": "API integration nuance",
+      "paragraphs": [
+        "Sometimes, yes. A first version of an AI feature can absolutely begin as consuming an external model service through an API, adding prompt structure, wiring a UI, and shipping something useful. Pretending otherwise is not necessary.",
+        "The important nuance is what happens after that first integration. Reliable delivery usually expands the job into context design, evaluation, retrieval quality, failure handling, observability, cost control, security and privacy decisions, testing strategy, and product judgment. At that point the problem is no longer \"just call the API\". It becomes software engineering around probabilistic behavior."
+      ],
+      "callout": "Simple entry points do not make the later engineering trivial. They just mean the complexity often shows up after the first successful demo."
+    },
+    {
+      "id": "why-developers-should-not-panic",
+      "heading": "Why software developers should not panic",
+      "tocLabel": "Why developers should not panic",
+      "paragraphs": [
+        "I do not think developers should read every AI-heavy job title as proof that classic engineering skills suddenly stopped mattering. Good software still depends on understanding systems, trade-offs, debugging, interfaces, constraints, and how real users experience the product.",
+        "At the same time, I also do not think complacency makes sense. The market is clearly moving. Developers need to keep learning, follow the space frequently, and become effective with a focused set of AI-assisted workflows and product-level AI integrations instead of treating the subject as optional background noise."
+      ],
+      "pros": [
+        "Strong engineering fundamentals still transfer into AI-integrated product work.",
+        "Learning the right AI-era tools can expand a software engineer's leverage without forcing fake credentials.",
+        "Practical experimentation is more useful than title anxiety."
+      ]
+    },
+    {
+      "id": "why-fundamentals-still-matter",
+      "heading": "Why fundamentals still matter more than trend language",
+      "tocLabel": "Fundamentals still matter",
+      "paragraphs": [
+        "Even when AI capabilities are central, fundamentals stay close to the real risk: data quality, backend architecture, frontend integration, security, privacy, testing, monitoring, cost control, and whether the feature fits the product. Those are not side quests. They are the difference between an impressive demo and a dependable system.",
+        "This is also why I resist reducing the conversation to a single label. If a product depends on AI output, someone still has to design guardrails, choose evaluation signals, handle failure modes, and decide what the user should trust. That is engineering judgment, not just title styling."
+      ]
+    },
+    {
+      "id": "prompt-and-context-quality",
+      "heading": "Prompt quality, context quality, and the limits of vibe coding",
+      "tocLabel": "Prompt and context quality",
+      "paragraphs": [
+        "Pure vibe coding can help when the goal is loose and the cost of being slightly wrong is low. The problem shows up when people try to use the same approach for detailed goals without understanding what should or should not be used. Then the tool can produce something polished-looking that quietly drifts away from the real problem.",
+        "Prompt quality matters, but prompt quality alone is not enough. Context quality, domain understanding, and software engineering judgment all matter because the person using the tool is still responsible for choosing trade-offs, rejecting weak solutions, and deciding whether the output actually fits the system."
+      ],
+      "cons": [
+        "Vague prompts often shift speed into rework.",
+        "Strong-looking output can hide weak architecture or poor product fit.",
+        "The tool never removes the user's responsibility for evaluation."
+      ]
+    },
+    {
+      "id": "choosing-a-focused-toolset",
+      "heading": "Choosing a focused AI toolset instead of chasing every label",
+      "tocLabel": "Choosing a focused toolset",
+      "paragraphs": [
+        "I would rather build depth in a focused toolset than collect every new title as if that alone proved readiness. For many software engineers, that practical toolset might include prompt and context design, RAG patterns, evaluation habits, observability, cost awareness, and a disciplined way to use assistants inside real delivery workflows.",
+        "That approach feels more durable to me than trying to sound fully transformed by the market before the work justifies it. Learn continuously, yes. Adapt aggressively, yes. But stay anchored in what you can actually build, explain, and maintain."
+      ]
+    },
+    {
+      "id": "interactive-role-graph",
+      "heading": "A practical map of the overlap",
+      "tocLabel": "Interactive role map",
+      "paragraphs": [
+        "The map below is not a universal taxonomy. It is a practical way to visualize where these titles often connect to skills, responsibilities, and broader category emphasis. Select a node to inspect the overlap more directly."
+      ],
+      "renderRoleGraph": true
+    }
+  ],
+  "roleProfiles": [
+    {
+      "id": "ai-engineer",
+      "name": "AI Engineer",
+      "shortDescription": "In practice, this title usually points to someone expected to turn AI capabilities into product behavior, which can range from external model integration to broader ownership of evaluation, reliability, and delivery around that behavior.",
+      "typicalResponsibilities": [
+        "Design and ship AI-enabled product flows",
+        "Connect model capabilities to application logic and user-facing experiences",
+        "Own quality, failure handling, monitoring, and cost decisions around AI features"
+      ],
+      "commonSkills": [
+        "API integration",
+        "Prompt and context design",
+        "Evaluation",
+        "Monitoring",
+        "Security and privacy judgment"
+      ],
+      "confusionPoints": [
+        "Sometimes used as a broad umbrella title for almost any modern AI-related software role",
+        "Often overlaps with Applied AI Engineer, LLM Engineer, and AI Product Engineer",
+        "Can sound deeper in ML systems than the actual role really is"
+      ],
+      "proximity": "mixed",
+      "practiceNote": "The meaning shifts a lot by company size, product maturity, and how much model work stays external."
+    },
+    {
+      "id": "applied-ai-engineer",
+      "name": "Applied AI Engineer",
+      "shortDescription": "Usually focused on making AI useful in a product context by combining model capabilities, product constraints, system integration, and practical evaluation loops.",
+      "typicalResponsibilities": [
+        "Translate AI capabilities into concrete product behavior",
+        "Build retrieval, orchestration, or evaluation loops around model usage",
+        "Balance technical feasibility with product outcomes"
+      ],
+      "commonSkills": [
+        "Prompt and context design",
+        "RAG",
+        "Evaluation",
+        "Backend architecture",
+        "Product judgment"
+      ],
+      "confusionPoints": [
+        "Often overlaps with AI Engineer and AI Product Engineer",
+        "Sometimes described as if it includes full ML platform ownership even when it does not",
+        "Can hide how product-heavy the work really is"
+      ],
+      "proximity": "product",
+      "practiceNote": "This usually feels closer to product delivery than pure research or model-training depth."
+    },
+    {
+      "id": "llm-engineer",
+      "name": "LLM Engineer",
+      "shortDescription": "Usually centered on large-language-model behavior in production: prompts, context assembly, retrieval, evaluation, latency, cost, and reliability.",
+      "typicalResponsibilities": [
+        "Build and refine LLM-powered user flows",
+        "Improve retrieval, context quality, and response reliability",
+        "Measure quality and control failure modes in production"
+      ],
+      "commonSkills": [
+        "Prompt and context design",
+        "RAG",
+        "Embeddings",
+        "Vector search",
+        "Evaluation"
+      ],
+      "confusionPoints": [
+        "Can be mistaken for a role that always requires deep model-training expertise",
+        "Sometimes described as if prompt work alone defines the entire job",
+        "Often overlaps with Applied AI Engineer and product-focused AI engineering roles"
+      ],
+      "proximity": "software-engineering",
+      "practiceNote": "A lot depends on whether the role owns product integration around external models or deeper model lifecycle concerns."
+    },
+    {
+      "id": "ml-engineer",
+      "name": "ML Engineer",
+      "shortDescription": "Usually leans more clearly toward model lifecycle, data pipelines, training workflows, evaluation infrastructure, and production ML systems.",
+      "typicalResponsibilities": [
+        "Prepare and move data through training and inference pipelines",
+        "Support or own model training, deployment, and lifecycle operations",
+        "Improve evaluation and production reliability for ML systems"
+      ],
+      "commonSkills": [
+        "Data pipelines",
+        "Model training",
+        "MLOps",
+        "Evaluation",
+        "Monitoring"
+      ],
+      "confusionPoints": [
+        "Sometimes merged with AI Engineer even when the ML systems depth is very different",
+        "Can be confused with Data Scientist when the company blurs experimentation and production ownership",
+        "Not every LLM integration role truly maps to ML engineering"
+      ],
+      "proximity": "ml-data",
+      "practiceNote": "This role usually carries more explicit model and pipeline ownership than product-integration-heavy AI titles."
+    },
+    {
+      "id": "data-scientist",
+      "name": "Data Scientist",
+      "shortDescription": "Usually focused on extracting signal from data, building analytical understanding, and informing decisions through modeling, experimentation, or statistical reasoning.",
+      "typicalResponsibilities": [
+        "Explore data and frame analytical questions",
+        "Build or evaluate models for insight or prediction",
+        "Support decision-making with experiments and evidence"
+      ],
+      "commonSkills": [
+        "Data pipelines",
+        "Model training",
+        "Evaluation",
+        "Product judgment"
+      ],
+      "confusionPoints": [
+        "Sometimes described as if it includes the same production-system ownership as ML engineering",
+        "Can be grouped under AI titles even when the actual work is more analytical than product-integrative",
+        "Title meaning varies heavily between experimentation-heavy and product-heavy teams"
+      ],
+      "proximity": "ml-data",
+      "practiceNote": "This often leans more toward analysis and modeling decisions than end-to-end application delivery."
+    },
+    {
+      "id": "ai-product-engineer",
+      "name": "AI Product Engineer",
+      "shortDescription": "Usually a product delivery role that treats AI as one capability inside a broader user experience, with strong emphasis on shipping, iteration, and business usefulness.",
+      "typicalResponsibilities": [
+        "Ship customer-facing features that rely on AI behavior",
+        "Blend frontend, backend, and prompt-context work around a product goal",
+        "Make trade-offs between speed, reliability, and user value"
+      ],
+      "commonSkills": [
+        "API integration",
+        "Frontend product integration",
+        "Backend architecture",
+        "Prompt and context design",
+        "Product judgment"
+      ],
+      "confusionPoints": [
+        "Often overlaps with Applied AI Engineer and Full Stack Engineer building AI integrations",
+        "Can be mistaken for a purely prompt-focused role when the real work is broader product engineering",
+        "Sometimes labeled as AI Engineer even when the product focus is the clearest signal"
+      ],
+      "proximity": "product",
+      "practiceNote": "This title often makes the most sense when the product and delivery loop matters as much as the model capability itself."
+    },
+    {
+      "id": "prompt-engineer",
+      "name": "Prompt Engineer",
+      "shortDescription": "Usually focused on prompt and context design, instruction quality, and response shaping, although in serious products that work still needs evaluation and system context around it.",
+      "typicalResponsibilities": [
+        "Design prompts, instructions, and context patterns",
+        "Iterate on quality for specific output behaviors",
+        "Document patterns that improve repeatability"
+      ],
+      "commonSkills": [
+        "Prompt and context design",
+        "Evaluation",
+        "Product judgment",
+        "AI-assisted workflow"
+      ],
+      "confusionPoints": [
+        "Sometimes presented as if prompt crafting alone is enough for reliable product delivery",
+        "Can be overstated as a complete AI role when system integration is still owned elsewhere",
+        "Often overlaps with broader product or LLM engineering work"
+      ],
+      "proximity": "product",
+      "practiceNote": "Useful as a capability label, but rarely sufficient on its own for a production system."
+    },
+    {
+      "id": "automation-engineer",
+      "name": "Automation Engineer",
+      "shortDescription": "Usually focused on orchestrating workflows, integrations, and repeatable task execution, sometimes with AI used as one component inside a broader automation chain.",
+      "typicalResponsibilities": [
+        "Design multi-step operational or product workflows",
+        "Integrate services and trigger-based processes",
+        "Improve repeatability, guardrails, and operational efficiency"
+      ],
+      "commonSkills": [
+        "API integration",
+        "AI-assisted workflow",
+        "Testing",
+        "Monitoring",
+        "Cost control"
+      ],
+      "confusionPoints": [
+        "Can be labeled with AI titles even when the hard part is orchestration rather than model depth",
+        "May overlap with internal tooling and platform work more than product-facing AI delivery",
+        "Often sounds broader or more model-centric than the role actually is"
+      ],
+      "proximity": "automation",
+      "practiceNote": "The core signal here is workflow orchestration and reliability, not necessarily advanced model ownership."
+    },
+    {
+      "id": "software-engineer-with-ai-tools",
+      "name": "Software Engineer with AI Tools",
+      "shortDescription": "Usually still a software engineer first, but one who actively uses AI tools to improve implementation speed, exploration, specification quality, or certain product capabilities.",
+      "typicalResponsibilities": [
+        "Build software systems with normal engineering ownership",
+        "Use AI tools to speed up analysis, drafting, prototyping, or implementation support",
+        "Evaluate AI output instead of accepting it blindly"
+      ],
+      "commonSkills": [
+        "Software engineering fundamentals",
+        "Backend architecture",
+        "Testing",
+        "Product judgment",
+        "AI-assisted workflow"
+      ],
+      "confusionPoints": [
+        "Can be underestimated because the title sounds less fashionable than AI Engineer",
+        "Sometimes confused with narrow assistant usage rather than disciplined AI-enabled delivery",
+        "May overlap with AI Product Engineer when the engineer also ships AI-facing features"
+      ],
+      "proximity": "software-engineering",
+      "practiceNote": "This is the positioning that currently feels most honest to me in many situations."
+    },
+    {
+      "id": "full-stack-engineer-building-ai-integrations",
+      "name": "Full Stack Engineer building AI integrations",
+      "shortDescription": "Usually responsible for connecting AI capabilities to real product surfaces across backend, frontend, security, testing, and operational constraints.",
+      "typicalResponsibilities": [
+        "Integrate AI behavior into backend services and frontend product flows",
+        "Handle retrieval, context wiring, user interaction, and reliability concerns",
+        "Ship complete product features instead of isolated AI demos"
+      ],
+      "commonSkills": [
+        "API integration",
+        "Backend architecture",
+        "Frontend product integration",
+        "RAG",
+        "Testing"
+      ],
+      "confusionPoints": [
+        "Can be relabeled as AI Engineer even when the work still clearly looks like full stack delivery",
+        "Sometimes expected to cover both product integration and deeper ML concerns without role clarity",
+        "Often overlaps with AI Product Engineer and LLM Engineer"
+      ],
+      "proximity": "software-engineering",
+      "practiceNote": "This is one of the clearest examples of where AI work still looks strongly like software engineering."
+    }
+  ],
+  "roleEvidence": [
+    {
+      "id": "placeholder-bundled-ai-engineer-role",
+      "imagePath": "blog/ai-engineer-role-linkedin-example.png",
+      "altText": "Screenshot of an AI Engineer job listing showing key responsibilities, candidate profile expectations, and bonus experience spanning agentic systems, production software delivery, LLMOps or cloud familiarity, and autonomous-vehicle domain knowledge.",
+      "caption": "Real captured case: an \"AI Engineer\" listing that bundles AI product delivery, agentic-systems language, production-grade software expectations, cloud or LLMOps familiarity, and autonomy-domain knowledge under one title.",
+      "sourceLabel": "Captured AI Engineer listing",
+      "note": "This is more defensible as evidence of role compression than as a strict definition of \"AI Engineer\". The listing mixes adjacent expectations such as AI-enabled product building, agentic architecture language, production software delivery, cloud or LLMOps familiarity, and deep autonomy-domain curiosity under one label. That is exactly why the title can function like a broad umbrella.",
+      "isPlaceholder": false
+    },
+    {
+      "id": "placeholder-llm-integration-role",
+      "imagePath": "blog/llm-engineer-role-linkedin.png",
+      "altText": "Screenshot of a Machine Learning Engineer job listing describing voice and browser agents, OCR pipelines, LLM-powered workflows, prompt design, evaluation, deployment, monitoring, and production collaboration.",
+      "caption": "Real captured case: a \"Machine Learning Engineer\" listing whose responsibilities read much closer to production-focused LLM Engineer or Applied AI Engineer work.",
+      "sourceLabel": "Captured ML Engineer listing",
+      "note": "This is not the strongest example of an incoherent role. The listed work is fairly coherent for applied AI in production. The more defensible critique is that the title compresses boundaries between Machine Learning Engineer, LLM Engineer, and Applied AI Engineer by emphasizing agents, prompt design, evaluation loops, deployment, monitoring, and product-facing AI workflows more than classic ML-engineering depth.",
+      "isPlaceholder": false
+    },
+    {
+      "id": "placeholder-automation-role",
+      "imagePath": "blog/automation-engineer-sample-linkedin.png",
+      "altText": "Screenshot of an Automation Engineer job listing describing workflow optimization, AI applications, AI agents, system integrations, internal tooling, RAG, vector databases, and AI-assisted development.",
+      "caption": "Real captured case: an \"Automation Engineer\" listing that expands beyond classic automation into AI applications, AI agents, RAG-adjacent tooling, and AI-assisted workflow building.",
+      "sourceLabel": "Captured Automation Engineer listing",
+      "note": "This is a stronger example of role expansion than the earlier automation case. The core still includes workflow optimization and system integration, but the title starts to look too narrow for the listed expectations once AI applications, AI agents, RAG, vector databases, and AI-assisted development are folded into the same role. The more defensible point is not that this secretly becomes an LLM Engineer role, but that \"Automation Engineer\" no longer describes the full scope cleanly.",
+      "isPlaceholder": false
+    }
+  ],
+  "roleGraph": {
+    "intro": "This map is intentionally practical. It shows where titles tend to connect to skills, responsibilities, and broader emphasis areas, without pretending those connections are universal.",
+    "defaultNodeId": "software-engineer-with-ai-tools",
+    "nodes": [
+      {
+        "id": "ai-engineer",
+        "label": "AI Engineer",
+        "type": "role",
+        "description": "Often a broad umbrella title for shipping AI-enabled product behavior, but the real scope can range from API integration to much wider quality and systems ownership.",
+        "laneOrder": 1
+      },
+      {
+        "id": "applied-ai-engineer",
+        "label": "Applied AI Engineer",
+        "type": "role",
+        "description": "Usually focused on making AI useful inside a product with practical evaluation and integration loops.",
+        "laneOrder": 2
+      },
+      {
+        "id": "llm-engineer",
+        "label": "LLM Engineer",
+        "type": "role",
+        "description": "Usually centered on LLM behavior in production: context, retrieval, evaluation, latency, and reliability.",
+        "laneOrder": 3
+      },
+      {
+        "id": "ml-engineer",
+        "label": "ML Engineer",
+        "type": "role",
+        "description": "Usually leans more clearly into training workflows, production ML systems, and model lifecycle ownership.",
+        "laneOrder": 4
+      },
+      {
+        "id": "data-scientist",
+        "label": "Data Scientist",
+        "type": "role",
+        "description": "Often closer to analysis, experimentation, and modeling for insight than end-to-end product integration.",
+        "laneOrder": 5
+      },
+      {
+        "id": "ai-product-engineer",
+        "label": "AI Product Engineer",
+        "type": "role",
+        "description": "A product-delivery role where AI is one important capability inside a broader user experience.",
+        "laneOrder": 6
+      },
+      {
+        "id": "prompt-engineer",
+        "label": "Prompt Engineer",
+        "type": "role",
+        "description": "Strongest where prompt and context quality matter, but not enough on its own for full system reliability.",
+        "laneOrder": 7
+      },
+      {
+        "id": "automation-engineer",
+        "label": "Automation Engineer",
+        "type": "role",
+        "description": "Usually focused on orchestrated workflows, integrations, and repeatable task execution, sometimes with AI inside the flow.",
+        "laneOrder": 8
+      },
+      {
+        "id": "software-engineer-with-ai-tools",
+        "label": "Software Engineer with AI Tools",
+        "type": "role",
+        "description": "Still a software engineer first, but one who uses AI tools intentionally for delivery, analysis, or selective product capabilities.",
+        "laneOrder": 9
+      },
+      {
+        "id": "full-stack-engineer-building-ai-integrations",
+        "label": "Full Stack Engineer building AI integrations",
+        "type": "role",
+        "description": "Connects AI capabilities to backend systems, frontend product flows, testing, security, and operational constraints.",
+        "laneOrder": 10
+      },
+      {
+        "id": "api-integration",
+        "label": "API integration",
+        "type": "skill",
+        "description": "Connecting external AI capabilities or internal services into a working product flow.",
+        "laneOrder": 1
+      },
+      {
+        "id": "prompt-context-design",
+        "label": "Prompt / context design",
+        "type": "skill",
+        "description": "Structuring instructions and context so model behavior is useful, constrained, and aligned with the task.",
+        "laneOrder": 2
+      },
+      {
+        "id": "rag",
+        "label": "RAG",
+        "type": "skill",
+        "description": "Retrieval-augmented workflows that connect model output to curated knowledge sources.",
+        "laneOrder": 3
+      },
+      {
+        "id": "embeddings",
+        "label": "Embeddings",
+        "type": "skill",
+        "description": "Representing content for semantic retrieval, grouping, or similarity use cases.",
+        "laneOrder": 4
+      },
+      {
+        "id": "vector-search",
+        "label": "Vector search",
+        "type": "skill",
+        "description": "Querying embedding-backed stores to recover useful context at runtime.",
+        "laneOrder": 5
+      },
+      {
+        "id": "backend-architecture",
+        "label": "Backend architecture",
+        "type": "skill",
+        "description": "Designing services, workflows, data boundaries, and failure handling around AI features.",
+        "laneOrder": 6
+      },
+      {
+        "id": "frontend-product-integration",
+        "label": "Frontend product integration",
+        "type": "skill",
+        "description": "Turning AI behavior into usable interfaces, states, and user-facing product experiences.",
+        "laneOrder": 7
+      },
+      {
+        "id": "data-pipelines",
+        "label": "Data pipelines",
+        "type": "skill",
+        "description": "Moving, cleaning, and preparing data for training, evaluation, or operational use.",
+        "laneOrder": 8
+      },
+      {
+        "id": "model-training",
+        "label": "Model training",
+        "type": "skill",
+        "description": "Training or fine-tuning models rather than only consuming them as external services.",
+        "laneOrder": 9
+      },
+      {
+        "id": "mlops",
+        "label": "MLOps",
+        "type": "skill",
+        "description": "Managing deployment, reproducibility, lifecycle operations, and production ML reliability.",
+        "laneOrder": 10
+      },
+      {
+        "id": "evaluation",
+        "label": "Evaluation",
+        "type": "responsibility",
+        "description": "Defining whether AI behavior is actually good enough for the task instead of relying on impressions alone.",
+        "laneOrder": 1
+      },
+      {
+        "id": "monitoring",
+        "label": "Monitoring",
+        "type": "responsibility",
+        "description": "Tracking quality, latency, drift, and operational health after release.",
+        "laneOrder": 2
+      },
+      {
+        "id": "security-privacy",
+        "label": "Security / privacy",
+        "type": "responsibility",
+        "description": "Handling sensitive data, access boundaries, and model-driven risk responsibly.",
+        "laneOrder": 3
+      },
+      {
+        "id": "cost-control",
+        "label": "Cost control",
+        "type": "responsibility",
+        "description": "Keeping token, infrastructure, and workflow costs aligned with product value.",
+        "laneOrder": 4
+      },
+      {
+        "id": "testing",
+        "label": "Testing",
+        "type": "responsibility",
+        "description": "Building confidence in system behavior across deterministic and probabilistic parts of the stack.",
+        "laneOrder": 5
+      },
+      {
+        "id": "product-judgment",
+        "label": "Product judgment",
+        "type": "responsibility",
+        "description": "Choosing what should be automated, what the user should see, and which trade-offs are acceptable.",
+        "laneOrder": 6
+      },
+      {
+        "id": "software-engineering-fundamentals",
+        "label": "Software engineering fundamentals",
+        "type": "responsibility",
+        "description": "Architecture, debugging, interfaces, constraints, and disciplined delivery still matter even when AI is involved.",
+        "laneOrder": 7
+      },
+      {
+        "id": "ai-assisted-workflow",
+        "label": "AI-assisted workflow",
+        "type": "responsibility",
+        "description": "Using assistants and modern tooling effectively without outsourcing judgment.",
+        "laneOrder": 8
+      },
+      {
+        "id": "software-engineering",
+        "label": "Software engineering",
+        "type": "category",
+        "description": "The role leans strongly toward system delivery, integration, reliability, and application-level engineering.",
+        "laneOrder": 1
+      },
+      {
+        "id": "ml-data",
+        "label": "ML / data",
+        "type": "category",
+        "description": "The role leans more clearly toward data preparation, training workflows, or ML systems depth.",
+        "laneOrder": 2
+      },
+      {
+        "id": "product",
+        "label": "Product",
+        "type": "category",
+        "description": "The role is strongly shaped by user-facing outcomes, iteration loops, and delivery trade-offs.",
+        "laneOrder": 3
+      },
+      {
+        "id": "automation",
+        "label": "Automation",
+        "type": "category",
+        "description": "The role is centered on orchestration, repeatability, and workflow execution.",
+        "laneOrder": 4
+      }
+    ],
+    "links": [
+      { "source": "ai-engineer", "target": "api-integration", "strength": 0.8 },
+      { "source": "ai-engineer", "target": "prompt-context-design", "strength": 0.9 },
+      { "source": "ai-engineer", "target": "evaluation", "strength": 0.9 },
+      { "source": "ai-engineer", "target": "monitoring", "strength": 0.8 },
+      { "source": "ai-engineer", "target": "security-privacy", "strength": 0.7 },
+      { "source": "ai-engineer", "target": "cost-control", "strength": 0.7 },
+      { "source": "ai-engineer", "target": "product-judgment", "strength": 0.8 },
+      { "source": "ai-engineer", "target": "software-engineering", "strength": 0.8 },
+      { "source": "ai-engineer", "target": "product", "strength": 0.8 },
+
+      { "source": "applied-ai-engineer", "target": "prompt-context-design", "strength": 0.9 },
+      { "source": "applied-ai-engineer", "target": "rag", "strength": 0.8 },
+      { "source": "applied-ai-engineer", "target": "backend-architecture", "strength": 0.7 },
+      { "source": "applied-ai-engineer", "target": "evaluation", "strength": 0.9 },
+      { "source": "applied-ai-engineer", "target": "product-judgment", "strength": 0.9 },
+      { "source": "applied-ai-engineer", "target": "monitoring", "strength": 0.7 },
+      { "source": "applied-ai-engineer", "target": "product", "strength": 0.9 },
+
+      { "source": "llm-engineer", "target": "prompt-context-design", "strength": 1 },
+      { "source": "llm-engineer", "target": "rag", "strength": 0.9 },
+      { "source": "llm-engineer", "target": "embeddings", "strength": 0.8 },
+      { "source": "llm-engineer", "target": "vector-search", "strength": 0.8 },
+      { "source": "llm-engineer", "target": "evaluation", "strength": 0.9 },
+      { "source": "llm-engineer", "target": "monitoring", "strength": 0.7 },
+      { "source": "llm-engineer", "target": "cost-control", "strength": 0.7 },
+      { "source": "llm-engineer", "target": "testing", "strength": 0.7 },
+      { "source": "llm-engineer", "target": "software-engineering", "strength": 0.8 },
+
+      { "source": "ml-engineer", "target": "data-pipelines", "strength": 0.9 },
+      { "source": "ml-engineer", "target": "model-training", "strength": 1 },
+      { "source": "ml-engineer", "target": "mlops", "strength": 0.9 },
+      { "source": "ml-engineer", "target": "evaluation", "strength": 0.8 },
+      { "source": "ml-engineer", "target": "monitoring", "strength": 0.8 },
+      { "source": "ml-engineer", "target": "testing", "strength": 0.7 },
+      { "source": "ml-engineer", "target": "ml-data", "strength": 1 },
+
+      { "source": "data-scientist", "target": "data-pipelines", "strength": 0.7 },
+      { "source": "data-scientist", "target": "model-training", "strength": 0.8 },
+      { "source": "data-scientist", "target": "evaluation", "strength": 0.8 },
+      { "source": "data-scientist", "target": "product-judgment", "strength": 0.6 },
+      { "source": "data-scientist", "target": "ml-data", "strength": 0.9 },
+
+      { "source": "ai-product-engineer", "target": "api-integration", "strength": 0.8 },
+      { "source": "ai-product-engineer", "target": "frontend-product-integration", "strength": 0.9 },
+      { "source": "ai-product-engineer", "target": "backend-architecture", "strength": 0.7 },
+      { "source": "ai-product-engineer", "target": "prompt-context-design", "strength": 0.8 },
+      { "source": "ai-product-engineer", "target": "testing", "strength": 0.7 },
+      { "source": "ai-product-engineer", "target": "product-judgment", "strength": 1 },
+      { "source": "ai-product-engineer", "target": "product", "strength": 1 },
+
+      { "source": "prompt-engineer", "target": "prompt-context-design", "strength": 1 },
+      { "source": "prompt-engineer", "target": "evaluation", "strength": 0.7 },
+      { "source": "prompt-engineer", "target": "product-judgment", "strength": 0.7 },
+      { "source": "prompt-engineer", "target": "ai-assisted-workflow", "strength": 0.6 },
+      { "source": "prompt-engineer", "target": "product", "strength": 0.7 },
+
+      { "source": "automation-engineer", "target": "api-integration", "strength": 0.8 },
+      { "source": "automation-engineer", "target": "ai-assisted-workflow", "strength": 0.8 },
+      { "source": "automation-engineer", "target": "testing", "strength": 0.7 },
+      { "source": "automation-engineer", "target": "monitoring", "strength": 0.7 },
+      { "source": "automation-engineer", "target": "cost-control", "strength": 0.6 },
+      { "source": "automation-engineer", "target": "automation", "strength": 1 },
+
+      { "source": "software-engineer-with-ai-tools", "target": "software-engineering-fundamentals", "strength": 1 },
+      { "source": "software-engineer-with-ai-tools", "target": "backend-architecture", "strength": 0.8 },
+      { "source": "software-engineer-with-ai-tools", "target": "testing", "strength": 0.9 },
+      { "source": "software-engineer-with-ai-tools", "target": "product-judgment", "strength": 0.8 },
+      { "source": "software-engineer-with-ai-tools", "target": "ai-assisted-workflow", "strength": 0.9 },
+      { "source": "software-engineer-with-ai-tools", "target": "software-engineering", "strength": 1 },
+
+      { "source": "full-stack-engineer-building-ai-integrations", "target": "api-integration", "strength": 1 },
+      { "source": "full-stack-engineer-building-ai-integrations", "target": "backend-architecture", "strength": 0.9 },
+      { "source": "full-stack-engineer-building-ai-integrations", "target": "frontend-product-integration", "strength": 0.9 },
+      { "source": "full-stack-engineer-building-ai-integrations", "target": "rag", "strength": 0.7 },
+      { "source": "full-stack-engineer-building-ai-integrations", "target": "security-privacy", "strength": 0.7 },
+      { "source": "full-stack-engineer-building-ai-integrations", "target": "testing", "strength": 0.9 },
+      { "source": "full-stack-engineer-building-ai-integrations", "target": "monitoring", "strength": 0.7 },
+      { "source": "full-stack-engineer-building-ai-integrations", "target": "software-engineering", "strength": 1 },
+      { "source": "full-stack-engineer-building-ai-integrations", "target": "product", "strength": 0.8 }
+    ]
+  },
+  "finalReflection": {
+    "heading": "The title matters less than the work you can really carry",
+    "paragraphs": [
+      "I do not think the market confusion around AI titles will disappear soon. New labels will keep appearing, broad expectations will keep being compressed into fashionable names, and some roles will remain genuinely hard to classify because modern products now mix software engineering, product work, automation, and AI capabilities in the same delivery path.",
+      "What I find more useful is a harder question: when the title is removed, what can the person actually design, integrate, evaluate, defend, and maintain? That is where the real signal still lives."
+    ],
+    "callout": "If the work is real, the title should clarify responsibility. If the title does all the work by itself, something is probably missing."
+  },
+  "keyTakeaways": [
+    "AI-related titles overlap a lot, but overlap does not make the roles identical.",
+    "A first AI integration can begin as API consumption, yet dependable delivery quickly expands into broader engineering responsibility.",
+    "Software engineering fundamentals still matter because AI features still live inside systems, products, and operational constraints.",
+    "Prompt quality matters, but context quality, domain understanding, and engineering judgment matter just as much.",
+    "A focused AI toolset is more durable than trying to claim a bigger identity than the work really supports."
+  ],
+  "shareMetadata": {
+    "title": "What am I becoming in the AI era: AI Engineer, software engineer, or something in between?",
+    "text": "A grounded reflection on confusing AI roles, practical overlaps, and why software engineering judgment still matters."
+  }
+}
